@@ -1,4 +1,5 @@
 # Ignore configuration files that may contain sensitive information.
+docroot
 *.local.*
 local.settings.php
 local.drushrc.php

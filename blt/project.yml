@@ -10,7 +10,7 @@ project:
 git:
   default_branch: develop
   remotes:
-    - stanfordmrc@svn-6886.devcloud.hosting.acquia.com:stanfordmrc.git
+    - 'stanfordmrc@svn-6886.devcloud.hosting.acquia.com:stanfordmrc.git'
 drush:
   aliases:
     remote: '${project.machine_name}.test'
