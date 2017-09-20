@@ -6,6 +6,10 @@
     "prefer-stable": true,
     "repositories": [
         {
+            "type": "vcs",
+            "url": "https://github.com/SU-SWS/stanford_basic"
+        },
+        {
             "type": "package",
             "package": {
                 "name": "harvesthq/chosen",
@@ -33,7 +37,8 @@
         "drupal/redirect": "1.0-beta1",
         "drupal/linkit": "5.0-beta6",
         "drupal/chosen": "2.4",
-        "drupal/color_field": "2.0-rc2"
+        "drupal/color_field": "2.0-rc2",
+        "su-sws/stanford_basic": "dev-8.x-1.x"
     },
     "require-dev": {},
     "extra": {

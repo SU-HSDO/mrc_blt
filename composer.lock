@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "32227ff80b7407f9fca709652154a6df",
+    "content-hash": "aab53e354cbe7d43137df91fb991579f",
     "packages": [
         {
             "name": "acquia/blt",
@@ -4922,6 +4922,32 @@
             "time": "2016-06-02T06:58:42+00:00"
         },
         {
+            "name": "su-sws/stanford_basic",
+            "version": "dev-8.x-1.x",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:SU-SWS/stanford_basic.git",
+                "reference": "3bf00af3923c29c6344686fe9dc3240e6b166662"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SU-SWS/stanford_basic/zipball/3bf00af3923c29c6344686fe9dc3240e6b166662",
+                "reference": "3bf00af3923c29c6344686fe9dc3240e6b166662",
+                "shasum": ""
+            },
+            "type": "stanford-theme",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Stanford Basic Branding Theme.",
+            "homepage": "https://github.com/SU-SWS/stanford_basic",
+            "support": {
+                "source": "https://github.com/SU-SWS/stanford_basic/tree/EARTH-216",
+                "issues": "https://github.com/SU-SWS/stanford_basic/issues"
+            },
+            "time": "2017-08-23 15:17:44"
+        },
+        {
             "name": "symfony-cmf/routing",
             "version": "1.4.1",
             "source": {
@@ -8084,7 +8110,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "su-sws/stanford_basic": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
