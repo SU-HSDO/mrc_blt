@@ -3,7 +3,7 @@ project:
   prefix: MRCD8
   human_name: 'BLTed 8'
   profile:
-    name: minimal
+    name: stanford_mrc
   local:
     protocol: http
     hostname: 'local.${project.machine_name}.com'
