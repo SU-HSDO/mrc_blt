@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "aab53e354cbe7d43137df91fb991579f",
+    "content-hash": "3bf6b0a37cb06d76b495133b0081f81c",
     "packages": [
         {
             "name": "acquia/blt",
@@ -2454,7 +2454,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.2",
-                    "datestamp": "1505802544",
+                    "datestamp": "1505802867",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4920,6 +4920,34 @@
                 "stack"
             ],
             "time": "2016-06-02T06:58:42+00:00"
+        },
+        {
+            "name": "su-hsdo/stanford_mrc",
+            "version": "dev-8.x-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SU-HSDO/stanford_mrc.git",
+                "reference": "04e5493e638faf52c9c4a03d218a4f2c8b158346"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/04e5493e638faf52c9c4a03d218a4f2c8b158346",
+                "reference": "04e5493e638faf52c9c4a03d218a4f2c8b158346",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.2"
+            },
+            "type": "stanford-profile",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Installation Profile for the Stanford MRC.",
+            "support": {
+                "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
+                "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
+            },
+            "time": "2017-09-20 21:42:49"
         },
         {
             "name": "su-sws/stanford_basic",
@@ -8111,7 +8139,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "su-sws/stanford_basic": 20
+        "su-sws/stanford_basic": 20,
+        "su-hsdo/stanford_mrc": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

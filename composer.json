@@ -1,6 +1,6 @@
 {
-    "name": "acquia/blt-project",
-    "description": "Project template for Drupal 8 sites built with BLT.",
+    "name": "su-hsdo/mrc_blt",
+    "description": "HSDO MRC Project.",
     "type": "project",
     "minimum-stability": "dev",
     "prefer-stable": true,
@@ -8,6 +8,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/SU-SWS/stanford_basic"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/SU-HSDO/stanford_mrc"
         },
         {
             "type": "package",
@@ -38,7 +42,8 @@
         "drupal/linkit": "5.0-beta6",
         "drupal/chosen": "2.4",
         "drupal/color_field": "2.0-rc2",
-        "su-sws/stanford_basic": "dev-8.x-1.x"
+        "su-sws/stanford_basic": "dev-8.x-1.x",
+        "su-hsdo/stanford_mrc": "dev-8.x-1.x"
     },
     "require-dev": {},
     "extra": {
