@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "132be37ecc507a4542193a58864dce24",
+    "content-hash": "32227ff80b7407f9fca709652154a6df",
     "packages": [
         {
             "name": "acquia/blt",

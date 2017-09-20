@@ -24,6 +24,7 @@
     "require": {
         "acquia/blt": "^8.3",
         "drupal/core": "8.4.0-rc1",
+        "harvesthq/chosen": "^1.8",
         "drupal/pathauto": "1.0",
         "drupal/admin_toolbar": "1.20",
         "drupal/paragraphs": "1.2",
@@ -32,7 +33,6 @@
         "drupal/redirect": "1.0-beta1",
         "drupal/linkit": "5.0-beta6",
         "drupal/chosen": "2.4",
-        "harvesthq/chosen": "^1.8",
         "drupal/module_filter": "3.0",
         "drupal/color_field": "2.0-rc2"
     },
