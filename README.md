@@ -1,6 +1,6 @@
-# My Project
+# H&S MRC
 
-A brief description of My Project.
+Acquia build tool for MRC.
 
 ## Getting Started
 
@@ -8,13 +8,11 @@ This project is based on BLT, an open-source project template and tool that enab
 
 To set up your local environment and begin developing for this project, refer to the [BLT onboarding documentation](http://blt.readthedocs.io/en/latest/readme/onboarding/). Note the following properties of this project:
 * Primary development branch: develop
-* Local environment: DrupalVM
-* Local drush alias: @my-project.local
-* Local site URL: http://local.my-project.com
+
+
 
 ## Resources
 
-* JIRA - link me!
-* GitHub - link me!
-* Acquia Cloud subscription - link me!
-* TravisCI - link me!
+* [JIRA](https://stanfordits.atlassian.net/projects/HSDO/summary)
+* [GitHub](https://github.com/SU-HSDO)
+* [Acquia Cloud subscription](https://cloud.acquia.com/app/develop/applications/da258bdd-13f9-40de-bce9-ebd55e5060dc)
