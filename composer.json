@@ -6,6 +6,10 @@
     "prefer-stable": true,
     "repositories": [
         {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
             "type": "vcs",
             "url": "https://github.com/SU-SWS/stanford_basic"
         },
@@ -31,8 +35,11 @@
     ],
     "require": {
         "acquia/blt": "^8.3",
-        "drupal/core": "8.4.0-rc1",
+        "composer/installers": "^1.4",
+        "davidbarratt/custom-installer": "~1.0",
         "harvesthq/chosen": "^1.8",
+        "drupal-composer/drupal-scaffold": "^2.2",
+        "drupal/core": "8.4.0-rc1",
         "drupal/pathauto": "1.0",
         "drupal/admin_toolbar": "1.20",
         "drupal/paragraphs": "1.2",
@@ -81,6 +88,26 @@
             ],
             "drush/contrib/{$name}": [
                 "type:drupal-drush"
+            ]
+        },
+        "custom-installer": {
+            "docroot/modules/stanford/{$name}/": [
+                "type:stanford-module"
+            ],
+            "docroot/themes/stanford/{$name}/": [
+                "type:stanford-theme"
+            ],
+            "docroot/libraries/{$name}/": [
+                "type:component",
+                "ckeditor/ckeditor",
+                "enyo/dropzone",
+                "components/jquery"
+            ],
+            "vendor/{$vendor}/{$name}/": [
+                "type:library"
+            ],
+            "docroot/profiles/{$name}/": [
+                "type:stanford-profile"
             ]
         },
         "merge-plugin": {
