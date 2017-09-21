@@ -2062,6 +2062,11 @@
                 "symfony/phpunit-bridge": "~3.2.8"
             },
             "type": "drupal-core",
+            "extra": {
+                "patches_applied": {
+                    "Clear Twig caches on deploys": "https://www.drupal.org/files/issues/2752961-90.patch"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Drupal\\Core\\": "lib/Drupal/Core",
@@ -5002,12 +5007,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "04e5493e638faf52c9c4a03d218a4f2c8b158346"
+                "reference": "0f4eb20e6405405e0bedb65958ce029a84dad3c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/04e5493e638faf52c9c4a03d218a4f2c8b158346",
-                "reference": "04e5493e638faf52c9c4a03d218a4f2c8b158346",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/0f4eb20e6405405e0bedb65958ce029a84dad3c7",
+                "reference": "0f4eb20e6405405e0bedb65958ce029a84dad3c7",
                 "shasum": ""
             },
             "require": {
@@ -5022,7 +5027,7 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2017-09-20 21:42:49"
+            "time": "2017-09-21 02:06:33"
         },
         {
             "name": "su-sws/stanford_basic",
