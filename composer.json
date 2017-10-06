@@ -1,127 +1,132 @@
 {
-    "name": "su-hsdo/mrc_blt",
-    "description": "HSDO MRC Project.",
-    "type": "project",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/SU-SWS/stanford_basic"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/SU-HSDO/stanford_mrc"
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "harvesthq/chosen",
-                "version": "1.8.2",
-                "type": "drupal-library",
-                "dist": {
-                "url": "https://github.com/harvesthq/chosen/releases/download/v1.8.2/chosen_v1.8.2.zip",
-                    "type": "zip"
-                },
-                "require": {
-                    "composer/installers": "^1.2.0"
-                }
-            }
-        }
-    ],
-    "require": {
-        "acquia/blt": "^8.3",
-        "composer/installers": "^1.4",
-        "davidbarratt/custom-installer": "~1.0",
-        "harvesthq/chosen": "^1.8",
-        "drupal-composer/drupal-scaffold": "^2.2",
-        "drupal/core": "8.4.0-rc1",
-        "drupal/pathauto": "1.0",
-        "drupal/admin_toolbar": "1.20",
-        "drupal/paragraphs": "1.2",
-        "drupal/google_analytics": "2.1",
-        "drupal/webform": "5.0-beta18",
-        "drupal/redirect": "1.0-beta1",
-        "drupal/linkit": "5.0-beta6",
-        "drupal/chosen": "2.4",
-        "drupal/color_field": "2.0-rc2",
-        "su-sws/stanford_basic": "dev-8.x-1.x",
-        "su-hsdo/stanford_mrc": "dev-8.x-1.x"
+  "name": "su-hsdo/mrc_blt",
+  "description": "HSDO MRC Project.",
+  "type": "project",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
     },
-    "require-dev": {},
-    "extra": {
-        "enable-patching": true,
-        "installer-types": [
-            "bower-asset",
-            "npm-asset"
-        ],
-        "installer-paths": {
-            "docroot/core": [
-                "type:drupal-core"
-            ],
-            "docroot/modules/contrib/{$name}": [
-                "type:drupal-module"
-            ],
-            "docroot/modules/custom/{$name}": [
-                "type:drupal-custom-module"
-            ],
-            "docroot/profiles/contrib/{$name}": [
-                "type:drupal-profile"
-            ],
-            "docroot/profiles/custom/{$name}": [
-                "type:drupal-custom-profile"
-            ],
-            "docroot/themes/contrib/{$name}": [
-                "type:drupal-theme"
-            ],
-            "docroot/themes/custom/{$name}": [
-                "type:drupal-custom-theme"
-            ],
-            "docroot/libraries/{$name}": [
-                "type:drupal-library",
-                "type:bower-asset",
-                "type:npm-asset"
-            ],
-            "drush/contrib/{$name}": [
-                "type:drupal-drush"
-            ]
+    {
+      "type": "vcs",
+      "url": "https://github.com/SU-SWS/stanford_basic"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/SU-HSDO/stanford_mrc"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "harvesthq/chosen",
+        "version": "1.8.2",
+        "type": "drupal-library",
+        "dist": {
+          "url": "https://github.com/harvesthq/chosen/releases/download/v1.8.2/chosen_v1.8.2.zip",
+          "type": "zip"
         },
-        "custom-installer": {
-            "docroot/modules/stanford/{$name}/": [
-                "type:stanford-module"
-            ],
-            "docroot/themes/stanford/{$name}/": [
-                "type:stanford-theme"
-            ],
-            "docroot/libraries/{$name}/": [
-                "type:component",
-                "ckeditor/ckeditor",
-                "enyo/dropzone",
-                "components/jquery"
-            ],
-            "vendor/{$vendor}/{$name}/": [
-                "type:library"
-            ],
-            "docroot/profiles/{$name}/": [
-                "type:stanford-profile"
-            ]
-        },
-        "merge-plugin": {
-            "require": [
-                "vendor/acquia/blt/composer.required.json"
-            ],
-            "include": [
-                "blt/composer.overrides.json"
-            ],
-            "merge-extra": true,
-            "merge-extra-deep": true,
-            "merge-scripts": true,
-            "replace": false,
-            "ignore-duplicates": true
+        "require": {
+          "composer/installers": "^1.2.0"
         }
+      }
     }
+  ],
+  "require": {
+    "acquia/blt": "^8.3",
+    "composer/installers": "^1.4",
+    "davidbarratt/custom-installer": "~1.0",
+    "harvesthq/chosen": "^1.8",
+    "drupal-composer/drupal-scaffold": "^2.2",
+    "drupal/core": "8.4.0-rc1",
+    "drupal/pathauto": "1.0",
+    "drupal/admin_toolbar": "1.20",
+    "drupal/paragraphs": "1.2",
+    "drupal/google_analytics": "2.1",
+    "drupal/webform": "5.0-beta18",
+    "drupal/redirect": "1.0-beta1",
+    "drupal/linkit": "5.0-beta6",
+    "drupal/chosen": "2.4",
+    "drupal/color_field": "2.0-rc2",
+    "su-sws/stanford_basic": "dev-8.x-1.x",
+    "su-hsdo/stanford_mrc": "dev-8.x-1.x"
+  },
+  "require-dev": {},
+  "extra": {
+    "enable-patching": true,
+    "installer-types": [
+      "bower-asset",
+      "npm-asset"
+    ],
+    "installer-paths": {
+      "docroot/core": [
+        "type:drupal-core"
+      ],
+      "docroot/modules/contrib/{$name}": [
+        "type:drupal-module"
+      ],
+      "docroot/modules/custom/{$name}": [
+        "type:drupal-custom-module"
+      ],
+      "docroot/profiles/contrib/{$name}": [
+        "type:drupal-profile"
+      ],
+      "docroot/profiles/custom/{$name}": [
+        "type:drupal-custom-profile"
+      ],
+      "docroot/themes/contrib/{$name}": [
+        "type:drupal-theme"
+      ],
+      "docroot/themes/custom/{$name}": [
+        "type:drupal-custom-theme"
+      ],
+      "docroot/libraries/{$name}": [
+        "type:drupal-library",
+        "type:bower-asset",
+        "type:npm-asset"
+      ],
+      "drush/contrib/{$name}": [
+        "type:drupal-drush"
+      ]
+    },
+    "custom-installer": {
+      "docroot/modules/stanford/{$name}/": [
+        "type:stanford-module"
+      ],
+      "docroot/themes/stanford/{$name}/": [
+        "type:stanford-theme"
+      ],
+      "docroot/libraries/{$name}/": [
+        "type:component",
+        "ckeditor/ckeditor",
+        "enyo/dropzone",
+        "components/jquery"
+      ],
+      "vendor/{$vendor}/{$name}/": [
+        "type:library"
+      ],
+      "docroot/profiles/{$name}/": [
+        "type:stanford-profile"
+      ]
+    },
+    "merge-plugin": {
+      "require": [
+        "vendor/acquia/blt/composer.required.json"
+      ],
+      "include": [
+        "blt/composer.overrides.json"
+      ],
+      "merge-extra": true,
+      "merge-extra-deep": true,
+      "merge-scripts": true,
+      "replace": false,
+      "ignore-duplicates": true
+    }
+  },
+  "scripts": {
+    "drupal-scaffold": [
+      "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
+    ]
+  }
 }
