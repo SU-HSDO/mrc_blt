@@ -39,7 +39,7 @@
     "davidbarratt/custom-installer": "~1.0",
     "harvesthq/chosen": "^1.8",
     "drupal-composer/drupal-scaffold": "^2.2",
-    "drupal/core": "8.4.0-rc1",
+    "drupal/core": "8.4.0",
     "drupal/pathauto": "1.0",
     "drupal/admin_toolbar": "1.20",
     "drupal/paragraphs": "1.2",
@@ -50,7 +50,11 @@
     "drupal/chosen": "2.4",
     "drupal/color_field": "2.0-rc2",
     "su-sws/stanford_basic": "dev-8.x-1.x",
-    "su-hsdo/stanford_mrc": "dev-8.x-1.x"
+    "su-hsdo/stanford_mrc": "dev-8.x-1.x",
+    "drupal/acquia_connector": "^1.13",
+    "drush/drush": "^9",
+    "drupal/migrate_plus": "~4.0",
+    "drupal/migrate_tools": "~4.0"
   },
   "require-dev": {},
   "extra": {
