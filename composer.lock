@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e575c4a7e353b1b12f9d06c64ef8000",
+    "content-hash": "37639556ef7523b484ff3c331099fade",
     "packages": [
         {
             "name": "acquia/blt",
@@ -1819,6 +1819,64 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/allowed_formats"
             }
+        },
+        {
+            "name": "drupal/auto_entitylabel",
+            "version": "dev-2.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/auto_entitylabel",
+                "reference": "d23ef92f94de46b593ca66e78862197343aec66c"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.0-beta1+20-dev",
+                    "datestamp": "1501690143",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                },
+                "patches_applied": {
+                    "https://www.drupal.org/node/2876280": "https://www.drupal.org/files/issues/auto_entitylabel-split_configs-2876280-4.patch"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Pravin Ajaaz",
+                    "homepage": "https://www.drupal.org/user/2910049"
+                },
+                {
+                    "name": "RenatoG",
+                    "homepage": "https://www.drupal.org/user/3326031"
+                },
+                {
+                    "name": "bforchhammer",
+                    "homepage": "https://www.drupal.org/user/216396"
+                },
+                {
+                    "name": "purushotam.rai",
+                    "homepage": "https://www.drupal.org/user/3193859"
+                }
+            ],
+            "description": "Allows hiding of entity label fields and automatic label creation.",
+            "homepage": "https://www.drupal.org/project/auto_entitylabel",
+            "support": {
+                "source": "http://cgit.drupalcode.org/auto_entitylabel",
+                "issues": "https://www.drupal.org/project/issues/auto_entitylabel"
+            },
+            "time": "2017-08-02 16:08:09"
         },
         {
             "name": "drupal/chosen",
@@ -8712,7 +8770,8 @@
     "stability-flags": {
         "su-sws/stanford_basic": 20,
         "su-hsdo/stanford_mrc": 20,
-        "drupal/field_group": 5
+        "drupal/field_group": 5,
+        "drupal/auto_entitylabel": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

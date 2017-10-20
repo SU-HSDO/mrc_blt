@@ -57,7 +57,8 @@
     "drupal/migrate_tools": "~4.0",
     "drupal/allowed_formats": "^1.1",
     "drupal/address": "^1.2",
-    "drupal/field_group": "^1.0@RC"
+    "drupal/field_group": "^1.0@RC",
+    "drupal/auto_entitylabel": "2.x-dev"
   },
   "require-dev": {},
   "extra": {
@@ -116,6 +117,11 @@
       "docroot/profiles/{$name}/": [
         "type:stanford-profile"
       ]
+    },
+    "patches": {
+      "drupal/auto_entitylabel": {
+        "https://www.drupal.org/node/2876280": "https://www.drupal.org/files/issues/auto_entitylabel-split_configs-2876280-4.patch"
+      }
     },
     "merge-plugin": {
       "require": [
