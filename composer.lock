@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "37639556ef7523b484ff3c331099fade",
+    "content-hash": "78ed7270e4a46a97d1c72bed53bd2f12",
     "packages": [
         {
             "name": "acquia/blt",
@@ -194,16 +194,16 @@
         },
         {
             "name": "chi-teck/drupal-code-generator",
-            "version": "1.19.0",
+            "version": "1.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Chi-teck/drupal-code-generator.git",
-                "reference": "42e93161e72ab1a958ad464bf15977e3ed7dc9fe"
+                "reference": "492e511a8284607ed9c2321d30596c7bfdb28b93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/42e93161e72ab1a958ad464bf15977e3ed7dc9fe",
-                "reference": "42e93161e72ab1a958ad464bf15977e3ed7dc9fe",
+                "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/492e511a8284607ed9c2321d30596c7bfdb28b93",
+                "reference": "492e511a8284607ed9c2321d30596c7bfdb28b93",
                 "shasum": ""
             },
             "require": {
@@ -229,7 +229,7 @@
                 "GPL2"
             ],
             "description": "Drupal code generator",
-            "time": "2017-08-04T10:50:23+00:00"
+            "time": "2017-10-22T14:18:04+00:00"
         },
         {
             "name": "commerceguys/addressing",
@@ -2664,6 +2664,82 @@
                 "source": "http://cgit.drupalcode.org/devel",
                 "issues": "http://drupal.org/project/devel",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/eck",
+            "version": "1.0.0-alpha3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/eck",
+                "reference": "8.x-1.0-alpha3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/eck-8.x-1.0-alpha3.zip",
+                "reference": "8.x-1.0-alpha3",
+                "shasum": "584f0867487608792ebcf46b2b79b27168be558f"
+            },
+            "require": {
+                "drupal/core": "^8"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha3",
+                    "datestamp": "1483437543",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "See contributors",
+                    "homepage": "https://www.drupal.org/node/1155832/committers"
+                },
+                {
+                    "name": "dpopdan",
+                    "homepage": "https://www.drupal.org/user/2759811"
+                },
+                {
+                    "name": "eric.napier",
+                    "homepage": "https://www.drupal.org/user/501688"
+                },
+                {
+                    "name": "fmizzell",
+                    "homepage": "https://www.drupal.org/user/1312210"
+                },
+                {
+                    "name": "legolasbo",
+                    "homepage": "https://www.drupal.org/user/2480548"
+                },
+                {
+                    "name": "mducharme",
+                    "homepage": "https://www.drupal.org/user/616996"
+                },
+                {
+                    "name": "mihai_brb",
+                    "homepage": "https://www.drupal.org/user/2065978"
+                },
+                {
+                    "name": "wjaspers",
+                    "homepage": "https://www.drupal.org/user/813890"
+                }
+            ],
+            "description": "ECK (Entity Contruction Kit) allows users to create and administer entity types, bundles and entities from the UI.",
+            "homepage": "https://www.drupal.org/project/eck",
+            "support": {
+                "source": "http://git.drupal.org/project/eck.git",
+                "issues": "https://www.drupal.org/project/issues/eck"
             }
         },
         {
@@ -5597,12 +5673,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "779f1599ac2e6cb757e4873584712c79c5de3ba5"
+                "reference": "7b35423be02d4be19db65e69095b72d6e17117d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/779f1599ac2e6cb757e4873584712c79c5de3ba5",
-                "reference": "779f1599ac2e6cb757e4873584712c79c5de3ba5",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/7b35423be02d4be19db65e69095b72d6e17117d6",
+                "reference": "7b35423be02d4be19db65e69095b72d6e17117d6",
                 "shasum": ""
             },
             "require": {
@@ -5617,7 +5693,7 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2017-10-18 21:28:01"
+            "time": "2017-10-23 16:51:10"
         },
         {
             "name": "su-sws/stanford_basic",
@@ -6934,16 +7010,16 @@
         },
         {
             "name": "tivie/php-os-detector",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tivie/php-os-detector.git",
-                "reference": "58226a9068323ee0d104f615c99fb97adeb136ae"
+                "reference": "9461dcd85c00e03842264f2fc8ccdc8d46867321"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tivie/php-os-detector/zipball/58226a9068323ee0d104f615c99fb97adeb136ae",
-                "reference": "58226a9068323ee0d104f615c99fb97adeb136ae",
+                "url": "https://api.github.com/repos/tivie/php-os-detector/zipball/9461dcd85c00e03842264f2fc8ccdc8d46867321",
+                "reference": "9461dcd85c00e03842264f2fc8ccdc8d46867321",
                 "shasum": ""
             },
             "require": {
@@ -6978,7 +7054,7 @@
                 "os",
                 "os detection"
             ],
-            "time": "2014-12-19T01:17:49+00:00"
+            "time": "2017-10-21T03:33:59+00:00"
         },
         {
             "name": "twig/twig",
@@ -8771,7 +8847,8 @@
         "su-sws/stanford_basic": 20,
         "su-hsdo/stanford_mrc": 20,
         "drupal/field_group": 5,
-        "drupal/auto_entitylabel": 20
+        "drupal/auto_entitylabel": 20,
+        "drupal/eck": 15
     },
     "prefer-stable": true,
     "prefer-lowest": false,
