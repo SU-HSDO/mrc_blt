@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e30374fc8e3976cdd397e4830f2483a6",
+    "content-hash": "4638cd24d281b81d95a24461d5ea157e",
     "packages": [
         {
             "name": "acquia/blt",
-            "version": "8.9.9",
+            "version": "8.9.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/blt.git",
-                "reference": "b19c3d8e52ede749362454fac9b5f112eb5b56bd"
+                "reference": "8bf4845e778ca52c95e38cb1a68c63c1612b1e9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/blt/zipball/b19c3d8e52ede749362454fac9b5f112eb5b56bd",
-                "reference": "b19c3d8e52ede749362454fac9b5f112eb5b56bd",
+                "url": "https://api.github.com/repos/acquia/blt/zipball/8bf4845e778ca52c95e38cb1a68c63c1612b1e9f",
+                "reference": "8bf4845e778ca52c95e38cb1a68c63c1612b1e9f",
                 "shasum": ""
             },
             "require": {
@@ -40,8 +40,8 @@
                 "php": ">=5.6",
                 "phpunit/phpunit": "^4.8",
                 "squizlabs/php_codesniffer": "^2.7",
-                "symfony/console": "^2.7|^3.2",
-                "symfony/yaml": "^2.7|^3.2",
+                "symfony/console": "^2.7|~3.2.8",
+                "symfony/yaml": "^2.7|~3.2.8",
                 "tivie/php-os-detector": "^1.0",
                 "wikimedia/composer-merge-plugin": "^1.4.1"
             },
@@ -87,7 +87,7 @@
                 "template",
                 "testing"
             ],
-            "time": "2017-10-16T20:21:48+00:00"
+            "time": "2017-10-26T00:06:55+00:00"
         },
         {
             "name": "asm89/stack-cors",
@@ -608,16 +608,16 @@
         },
         {
             "name": "consolidation/config",
-            "version": "1.0.6",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/config.git",
-                "reference": "a57ff3a302aac6f7e6fc0d81fe0778550a0fe9aa"
+                "reference": "b59a3b9ea750c21397f26a68fd2e04d9580af42e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/config/zipball/a57ff3a302aac6f7e6fc0d81fe0778550a0fe9aa",
-                "reference": "a57ff3a302aac6f7e6fc0d81fe0778550a0fe9aa",
+                "url": "https://api.github.com/repos/consolidation/config/zipball/b59a3b9ea750c21397f26a68fd2e04d9580af42e",
+                "reference": "b59a3b9ea750c21397f26a68fd2e04d9580af42e",
                 "shasum": ""
             },
             "require": {
@@ -653,7 +653,7 @@
                 }
             ],
             "description": "Provide configuration services for a commandline tool.",
-            "time": "2017-10-17T17:09:36+00:00"
+            "time": "2017-10-25T05:50:10+00:00"
         },
         {
             "name": "consolidation/log",
@@ -753,16 +753,16 @@
         },
         {
             "name": "consolidation/robo",
-            "version": "1.1.4",
+            "version": "1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/Robo.git",
-                "reference": "ce11f3f842298ce6215c68c631af5b0420b18f53"
+                "reference": "aea695cebff81d54ed6daf14894738d5dac1c15c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/Robo/zipball/ce11f3f842298ce6215c68c631af5b0420b18f53",
-                "reference": "ce11f3f842298ce6215c68c631af5b0420b18f53",
+                "url": "https://api.github.com/repos/consolidation/Robo/zipball/aea695cebff81d54ed6daf14894738d5dac1c15c",
+                "reference": "aea695cebff81d54ed6daf14894738d5dac1c15c",
                 "shasum": ""
             },
             "require": {
@@ -786,7 +786,7 @@
                 "codeception/base": "^2.2.6",
                 "codeception/verify": "^0.3.2",
                 "henrikbjorn/lurker": "~1",
-                "natxet/cssmin": "~3",
+                "natxet/cssmin": "3.0.4",
                 "patchwork/jsqueeze": "~2",
                 "pear/archive_tar": "^1.4.2",
                 "phpunit/php-code-coverage": "~2|~4",
@@ -828,7 +828,7 @@
                 }
             ],
             "description": "Modern task runner",
-            "time": "2017-10-17T01:59:38+00:00"
+            "time": "2017-10-25T20:41:21+00:00"
         },
         {
             "name": "container-interop/container-interop",
@@ -1889,7 +1889,7 @@
                     }
                 },
                 "patches_applied": {
-                    "https://www.drupal.org/node/2876280": "https://www.drupal.org/files/issues/auto_entitylabel-split_configs-2876280-4.patch"
+                    "https://www.drupal.org/node/2876280": "https://www.drupal.org/files/issues/auto_entitylabel-split_configs-2876280-5.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -2081,7 +2081,7 @@
             "version": "8.2.12",
             "source": {
                 "type": "git",
-                "url": "https://github.com/klausi/coder.git",
+                "url": "https://git.drupal.org/project/coder.git",
                 "reference": "984c54a7b1e8f27ff1c32348df69712afd86b17f"
             },
             "dist": {
@@ -2708,82 +2708,6 @@
                 "source": "http://cgit.drupalcode.org/devel",
                 "issues": "http://drupal.org/project/devel",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
-            }
-        },
-        {
-            "name": "drupal/eck",
-            "version": "1.0.0-alpha3",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/eck",
-                "reference": "8.x-1.0-alpha3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/eck-8.x-1.0-alpha3.zip",
-                "reference": "8.x-1.0-alpha3",
-                "shasum": "584f0867487608792ebcf46b2b79b27168be558f"
-            },
-            "require": {
-                "drupal/core": "^8"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0-alpha3",
-                    "datestamp": "1483437543",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "See contributors",
-                    "homepage": "https://www.drupal.org/node/1155832/committers"
-                },
-                {
-                    "name": "dpopdan",
-                    "homepage": "https://www.drupal.org/user/2759811"
-                },
-                {
-                    "name": "eric.napier",
-                    "homepage": "https://www.drupal.org/user/501688"
-                },
-                {
-                    "name": "fmizzell",
-                    "homepage": "https://www.drupal.org/user/1312210"
-                },
-                {
-                    "name": "legolasbo",
-                    "homepage": "https://www.drupal.org/user/2480548"
-                },
-                {
-                    "name": "mducharme",
-                    "homepage": "https://www.drupal.org/user/616996"
-                },
-                {
-                    "name": "mihai_brb",
-                    "homepage": "https://www.drupal.org/user/2065978"
-                },
-                {
-                    "name": "wjaspers",
-                    "homepage": "https://www.drupal.org/user/813890"
-                }
-            ],
-            "description": "ECK (Entity Contruction Kit) allows users to create and administer entity types, bundles and entities from the UI.",
-            "homepage": "https://www.drupal.org/project/eck",
-            "support": {
-                "source": "http://git.drupal.org/project/eck.git",
-                "issues": "https://www.drupal.org/project/issues/eck"
             }
         },
         {
@@ -5717,12 +5641,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "648fbca7621c6211ad1a1141e5b5e4e540e5096b"
+                "reference": "f6eb37ebf1a94df98c4b98164a59e060b3911c77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/648fbca7621c6211ad1a1141e5b5e4e540e5096b",
-                "reference": "648fbca7621c6211ad1a1141e5b5e4e540e5096b",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/f6eb37ebf1a94df98c4b98164a59e060b3911c77",
+                "reference": "f6eb37ebf1a94df98c4b98164a59e060b3911c77",
                 "shasum": ""
             },
             "require": {
@@ -5737,7 +5661,7 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2017-10-24 17:03:51"
+            "time": "2017-10-30 22:28:26"
         },
         {
             "name": "su-sws/stanford_basic",
@@ -5745,12 +5669,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:SU-SWS/stanford_basic.git",
-                "reference": "021cd8aba709840bc66c8c5046b07f27b4780622"
+                "reference": "3aa581fb2b5fe5afe0fd0a6d66e7f4e022515e0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-SWS/stanford_basic/zipball/021cd8aba709840bc66c8c5046b07f27b4780622",
-                "reference": "021cd8aba709840bc66c8c5046b07f27b4780622",
+                "url": "https://api.github.com/repos/SU-SWS/stanford_basic/zipball/3aa581fb2b5fe5afe0fd0a6d66e7f4e022515e0d",
+                "reference": "3aa581fb2b5fe5afe0fd0a6d66e7f4e022515e0d",
                 "shasum": ""
             },
             "type": "stanford-theme",
@@ -5763,7 +5687,7 @@
                 "source": "https://github.com/SU-SWS/stanford_basic/tree/8.x-1.x",
                 "issues": "https://github.com/SU-SWS/stanford_basic/issues"
             },
-            "time": "2017-09-29 18:08:56"
+            "time": "2017-10-30 18:55:26"
         },
         {
             "name": "symfony-cmf/routing",
@@ -7167,16 +7091,16 @@
         },
         {
             "name": "webflo/drupal-finder",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webflo/drupal-finder.git",
-                "reference": "3216448cc347bc77127fa3bf6497ba9b3c296e9c"
+                "reference": "8a7886c575d6eaa67a425dceccc84e735c0b9637"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webflo/drupal-finder/zipball/3216448cc347bc77127fa3bf6497ba9b3c296e9c",
-                "reference": "3216448cc347bc77127fa3bf6497ba9b3c296e9c",
+                "url": "https://api.github.com/repos/webflo/drupal-finder/zipball/8a7886c575d6eaa67a425dceccc84e735c0b9637",
+                "reference": "8a7886c575d6eaa67a425dceccc84e735c0b9637",
                 "shasum": ""
             },
             "require-dev": {
@@ -7200,7 +7124,7 @@
                 }
             ],
             "description": "Helper class to locate a Drupal installation from a given path.",
-            "time": "2017-08-08T08:31:26+00:00"
+            "time": "2017-10-24T08:12:11+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -8143,21 +8067,22 @@
         },
         {
             "name": "dmore/behat-chrome-extension",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/DMore/behat-chrome-extension.git",
-                "reference": "debefbc271037e6f7da2d7d2cb7fe47419d836f8"
+                "reference": "ed71e19fc12e0c6af5920e569c4699d4294f44b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v3/projects/DMore%2Fbehat-chrome-extension/repository/archive.zip?sha=debefbc271037e6f7da2d7d2cb7fe47419d836f8",
-                "reference": "debefbc271037e6f7da2d7d2cb7fe47419d836f8",
+                "url": "https://gitlab.com/api/v4/projects/DMore%2Fbehat-chrome-extension/repository/archive.zip?sha=ed71e19fc12e0c6af5920e569c4699d4294f44b7",
+                "reference": "ed71e19fc12e0c6af5920e569c4699d4294f44b7",
                 "shasum": ""
             },
             "require": {
-                "behat/behat": "~3.0,>=3.0.4",
-                "dmore/chrome-mink-driver": "^2.0",
+                "behat/behat": "^3.0.4",
+                "behat/mink-extension": "^2.0",
+                "dmore/chrome-mink-driver": "^2.4.1",
                 "php": ">=5.6"
             },
             "require-dev": {
@@ -8186,20 +8111,20 @@
                 "driver",
                 "headless"
             ],
-            "time": "2017-05-18T13:45:30+00:00"
+            "time": "2017-10-15T08:47:55+00:00"
         },
         {
             "name": "dmore/chrome-mink-driver",
-            "version": "2.4.0",
+            "version": "2.4.2",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/DMore/chrome-mink-driver.git",
-                "reference": "436b203512864b96b90a2abb1ca796d860647163"
+                "reference": "3ee4d2d3391e557c9496d7b0ae0026353f24997d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/DMore%2Fchrome-mink-driver/repository/archive.zip?sha=436b203512864b96b90a2abb1ca796d860647163",
-                "reference": "436b203512864b96b90a2abb1ca796d860647163",
+                "url": "https://gitlab.com/api/v4/projects/DMore%2Fchrome-mink-driver/repository/archive.zip?sha=3ee4d2d3391e557c9496d7b0ae0026353f24997d",
+                "reference": "3ee4d2d3391e557c9496d7b0ae0026353f24997d",
                 "shasum": ""
             },
             "require": {
@@ -8233,7 +8158,7 @@
                 }
             ],
             "description": "Mink driver for controlling chrome without selenium",
-            "time": "2017-09-08T15:03:36+00:00"
+            "time": "2017-10-15T09:00:55+00:00"
         },
         {
             "name": "drupal/drupal-driver",
@@ -8847,8 +8772,7 @@
         "su-sws/stanford_basic": 20,
         "su-hsdo/stanford_mrc": 20,
         "drupal/field_group": 5,
-        "drupal/auto_entitylabel": 20,
-        "drupal/eck": 15
+        "drupal/auto_entitylabel": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
