@@ -5641,12 +5641,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "f6eb37ebf1a94df98c4b98164a59e060b3911c77"
+                "reference": "e978b4aa21886a75d04077ac34c9a39dc3ae69b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/f6eb37ebf1a94df98c4b98164a59e060b3911c77",
-                "reference": "f6eb37ebf1a94df98c4b98164a59e060b3911c77",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/e978b4aa21886a75d04077ac34c9a39dc3ae69b1",
+                "reference": "e978b4aa21886a75d04077ac34c9a39dc3ae69b1",
                 "shasum": ""
             },
             "require": {
@@ -5661,7 +5661,7 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2017-10-30 22:28:26"
+            "time": "2017-10-31 23:07:12"
         },
         {
             "name": "su-sws/stanford_basic",
@@ -8067,22 +8067,21 @@
         },
         {
             "name": "dmore/behat-chrome-extension",
-            "version": "1.1.0",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/DMore/behat-chrome-extension.git",
-                "reference": "ed71e19fc12e0c6af5920e569c4699d4294f44b7"
+                "reference": "debefbc271037e6f7da2d7d2cb7fe47419d836f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/DMore%2Fbehat-chrome-extension/repository/archive.zip?sha=ed71e19fc12e0c6af5920e569c4699d4294f44b7",
-                "reference": "ed71e19fc12e0c6af5920e569c4699d4294f44b7",
+                "url": "https://gitlab.com/api/v3/projects/DMore%2Fbehat-chrome-extension/repository/archive.zip?sha=debefbc271037e6f7da2d7d2cb7fe47419d836f8",
+                "reference": "debefbc271037e6f7da2d7d2cb7fe47419d836f8",
                 "shasum": ""
             },
             "require": {
-                "behat/behat": "^3.0.4",
-                "behat/mink-extension": "^2.0",
-                "dmore/chrome-mink-driver": "^2.4.1",
+                "behat/behat": "~3.0,>=3.0.4",
+                "dmore/chrome-mink-driver": "^2.0",
                 "php": ">=5.6"
             },
             "require-dev": {
@@ -8111,20 +8110,20 @@
                 "driver",
                 "headless"
             ],
-            "time": "2017-10-15T08:47:55+00:00"
+            "time": "2017-05-18T13:45:30+00:00"
         },
         {
             "name": "dmore/chrome-mink-driver",
-            "version": "2.4.2",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/DMore/chrome-mink-driver.git",
-                "reference": "3ee4d2d3391e557c9496d7b0ae0026353f24997d"
+                "reference": "436b203512864b96b90a2abb1ca796d860647163"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/DMore%2Fchrome-mink-driver/repository/archive.zip?sha=3ee4d2d3391e557c9496d7b0ae0026353f24997d",
-                "reference": "3ee4d2d3391e557c9496d7b0ae0026353f24997d",
+                "url": "https://gitlab.com/api/v4/projects/DMore%2Fchrome-mink-driver/repository/archive.zip?sha=436b203512864b96b90a2abb1ca796d860647163",
+                "reference": "436b203512864b96b90a2abb1ca796d860647163",
                 "shasum": ""
             },
             "require": {
@@ -8158,7 +8157,7 @@
                 }
             ],
             "description": "Mink driver for controlling chrome without selenium",
-            "time": "2017-10-15T09:00:55+00:00"
+            "time": "2017-09-08T15:03:36+00:00"
         },
         {
             "name": "drupal/drupal-driver",
