@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4638cd24d281b81d95a24461d5ea157e",
+    "content-hash": "e2dbd52c1551c110d7afbcbcc1fde590",
     "packages": [
         {
             "name": "acquia/blt",
@@ -4235,16 +4235,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v3.1.1",
+            "version": "v3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "a1e8e1a30e1352f118feff1a8481066ddc2f234a"
+                "reference": "08131e7ff29de6bb9f12275c7d35df71f25f4d89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/a1e8e1a30e1352f118feff1a8481066ddc2f234a",
-                "reference": "a1e8e1a30e1352f118feff1a8481066ddc2f234a",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/08131e7ff29de6bb9f12275c7d35df71f25f4d89",
+                "reference": "08131e7ff29de6bb9f12275c7d35df71f25f4d89",
                 "shasum": ""
             },
             "require": {
@@ -4282,7 +4282,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2017-09-02T17:10:46+00:00"
+            "time": "2017-11-04T11:48:34+00:00"
         },
         {
             "name": "oomphinc/composer-installers-extender",
@@ -5065,16 +5065,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.8.13",
+            "version": "v0.8.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "cdb5593c3684bab74e10fcfffe4a0c8d1c39695d"
+                "reference": "91e53c16560bdb8b9592544bb38429ae00d6baee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/cdb5593c3684bab74e10fcfffe4a0c8d1c39695d",
-                "reference": "cdb5593c3684bab74e10fcfffe4a0c8d1c39695d",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/91e53c16560bdb8b9592544bb38429ae00d6baee",
+                "reference": "91e53c16560bdb8b9592544bb38429ae00d6baee",
                 "shasum": ""
             },
             "require": {
@@ -5134,7 +5134,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2017-10-19T06:13:20+00:00"
+            "time": "2017-11-04T16:06:49+00:00"
         },
         {
             "name": "sebastian/comparator",
@@ -5641,12 +5641,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "e978b4aa21886a75d04077ac34c9a39dc3ae69b1"
+                "reference": "7b465faaa9ca1518eb22588ab2cc354b1b93b460"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/e978b4aa21886a75d04077ac34c9a39dc3ae69b1",
-                "reference": "e978b4aa21886a75d04077ac34c9a39dc3ae69b1",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/7b465faaa9ca1518eb22588ab2cc354b1b93b460",
+                "reference": "7b465faaa9ca1518eb22588ab2cc354b1b93b460",
                 "shasum": ""
             },
             "require": {
@@ -5661,20 +5661,20 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2017-10-31 23:07:12"
+            "time": "2017-11-03 23:07:22"
         },
         {
             "name": "su-sws/stanford_basic",
-            "version": "dev-8.x-1.x",
+            "version": "v2.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:SU-SWS/stanford_basic.git",
-                "reference": "3aa581fb2b5fe5afe0fd0a6d66e7f4e022515e0d"
+                "reference": "1f8208edc4f5320fa30a2786feb164f8997fef79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-SWS/stanford_basic/zipball/3aa581fb2b5fe5afe0fd0a6d66e7f4e022515e0d",
-                "reference": "3aa581fb2b5fe5afe0fd0a6d66e7f4e022515e0d",
+                "url": "https://api.github.com/repos/SU-SWS/stanford_basic/zipball/1f8208edc4f5320fa30a2786feb164f8997fef79",
+                "reference": "1f8208edc4f5320fa30a2786feb164f8997fef79",
                 "shasum": ""
             },
             "type": "stanford-theme",
@@ -5684,10 +5684,10 @@
             "description": "Stanford Basic Branding Theme.",
             "homepage": "https://github.com/SU-SWS/stanford_basic",
             "support": {
-                "source": "https://github.com/SU-SWS/stanford_basic/tree/8.x-1.x",
+                "source": "https://github.com/SU-SWS/stanford_basic/tree/v2.0",
                 "issues": "https://github.com/SU-SWS/stanford_basic/issues"
             },
-            "time": "2017-10-30 18:55:26"
+            "time": "2017-11-02 17:56:47"
         },
         {
             "name": "symfony-cmf/routing",
