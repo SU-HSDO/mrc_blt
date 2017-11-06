@@ -5669,12 +5669,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:SU-SWS/stanford_basic.git",
-                "reference": "1f8208edc4f5320fa30a2786feb164f8997fef79"
+                "reference": "cbdc6388198eae03034df4b4ab4eb196cde3b1ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-SWS/stanford_basic/zipball/1f8208edc4f5320fa30a2786feb164f8997fef79",
-                "reference": "1f8208edc4f5320fa30a2786feb164f8997fef79",
+                "url": "https://api.github.com/repos/SU-SWS/stanford_basic/zipball/cbdc6388198eae03034df4b4ab4eb196cde3b1ba",
+                "reference": "cbdc6388198eae03034df4b4ab4eb196cde3b1ba",
                 "shasum": ""
             },
             "type": "stanford-theme",
@@ -5687,7 +5687,7 @@
                 "source": "https://github.com/SU-SWS/stanford_basic/tree/v2.0",
                 "issues": "https://github.com/SU-SWS/stanford_basic/issues"
             },
-            "time": "2017-11-02 17:56:47"
+            "time": "2017-11-06 20:13:45"
         },
         {
             "name": "symfony-cmf/routing",
