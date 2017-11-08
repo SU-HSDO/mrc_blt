@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4638cd24d281b81d95a24461d5ea157e",
+    "content-hash": "8c3f87ae63c3ed5caf48bde4a3e7e67e",
     "packages": [
         {
             "name": "acquia/blt",
@@ -191,45 +191,6 @@
                 "twig"
             ],
             "time": "2016-07-25T21:02:13+00:00"
-        },
-        {
-            "name": "chi-teck/drupal-code-generator",
-            "version": "1.20.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Chi-teck/drupal-code-generator.git",
-                "reference": "492e511a8284607ed9c2321d30596c7bfdb28b93"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/492e511a8284607ed9c2321d30596c7bfdb28b93",
-                "reference": "492e511a8284607ed9c2321d30596c7bfdb28b93",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5.9",
-                "symfony/console": "~2.7|^3",
-                "symfony/filesystem": "~2.7|^3",
-                "twig/twig": "^1.23.1"
-            },
-            "bin": [
-                "bin/dcg"
-            ],
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/bootstrap.php"
-                ],
-                "psr-4": {
-                    "DrupalCodeGenerator\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL2"
-            ],
-            "description": "Drupal code generator",
-            "time": "2017-10-22T14:18:04+00:00"
         },
         {
             "name": "commerceguys/addressing",
@@ -2341,16 +2302,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.4.0",
+            "version": "8.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "d4be8e12d9e8b4db82ece760c632213247f56fa7"
+                "reference": "68d25c07b7306340900abc4020c38683a817f0eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/d4be8e12d9e8b4db82ece760c632213247f56fa7",
-                "reference": "d4be8e12d9e8b4db82ece760c632213247f56fa7",
+                "url": "https://api.github.com/repos/drupal/core/zipball/68d25c07b7306340900abc4020c38683a817f0eb",
+                "reference": "68d25c07b7306340900abc4020c38683a817f0eb",
                 "shasum": ""
             },
             "require": {
@@ -2413,6 +2374,7 @@
                 "drupal/core-annotation": "self.version",
                 "drupal/core-assertion": "self.version",
                 "drupal/core-bridge": "self.version",
+                "drupal/core-class-finder": "self.version",
                 "drupal/core-datetime": "self.version",
                 "drupal/core-dependency-injection": "self.version",
                 "drupal/core-diff": "self.version",
@@ -2529,7 +2491,7 @@
                 "GPL-2.0+"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2017-10-04T19:25:32+00:00"
+            "time": "2017-11-03T13:20:16+00:00"
         },
         {
             "name": "drupal/ctools",
@@ -3438,6 +3400,67 @@
             }
         },
         {
+            "name": "drupal/video_embed_field",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/video_embed_field",
+                "reference": "8.x-1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/video_embed_field-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "f54d470ef7f863604e51e6ae98cd40ef25de5f79"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "require-dev": {
+                "drupal/colorbox": "*",
+                "drupal/media_entity": "*",
+                "drupal/media_entity_embeddable_video": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x",
+                    "datestamp": "1493246342",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    },
+                    "package": "Field types"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Sam152",
+                    "homepage": "https://www.drupal.org/user/1485048"
+                },
+                {
+                    "name": "jec006",
+                    "homepage": "https://www.drupal.org/user/855980"
+                },
+                {
+                    "name": "plopesc",
+                    "homepage": "https://www.drupal.org/user/282415"
+                }
+            ],
+            "description": "A pluggable field type for storing videos from external video hosts such as Vimeo and YouTube.",
+            "homepage": "https://www.drupal.org/project/video_embed_field",
+            "support": {
+                "source": "http://cgit.drupalcode.org/video_embed_field"
+            }
+        },
+        {
             "name": "drupal/webform",
             "version": "5.0.0-beta18",
             "source": {
@@ -3520,59 +3543,62 @@
         },
         {
             "name": "drush/drush",
-            "version": "9.0.0-beta4",
+            "version": "8.1.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "69db709a4809a5ac55438c6164dfd07bb8113e97"
+                "reference": "f78b619806a9bc7c3d167fa425e8757eb046bb87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/69db709a4809a5ac55438c6164dfd07bb8113e97",
-                "reference": "69db709a4809a5ac55438c6164dfd07bb8113e97",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/f78b619806a9bc7c3d167fa425e8757eb046bb87",
+                "reference": "f78b619806a9bc7c3d167fa425e8757eb046bb87",
                 "shasum": ""
             },
             "require": {
-                "chi-teck/drupal-code-generator": "^1.17.3",
-                "consolidation/annotated-command": "^2.4.10",
-                "consolidation/output-formatters": "^3.1.11",
-                "consolidation/robo": "~1",
-                "ext-dom": "*",
-                "league/container": "~2",
+                "consolidation/annotated-command": "~2",
+                "consolidation/output-formatters": "~3",
                 "pear/console_table": "~1.3.0",
-                "php": ">=5.6.0",
+                "php": ">=5.4.5",
                 "phpdocumentor/reflection-docblock": "^2.0",
                 "psr/log": "~1.0",
                 "psy/psysh": "~0.6",
-                "sebastian/version": "~1",
-                "symfony/config": "~2.2|^3",
                 "symfony/console": "~2.7|^3",
                 "symfony/event-dispatcher": "~2.7|^3",
                 "symfony/finder": "~2.7|^3",
-                "symfony/process": "~2.7|^3",
                 "symfony/var-dumper": "~2.7|^3",
                 "symfony/yaml": "~2.3|^3",
-                "webflo/drupal-finder": "^1.0",
-                "webmozart/path-util": "^2.1.0"
+                "webmozart/path-util": "~2"
             },
             "require-dev": {
-                "lox/xhprof": "dev-master",
-                "phpunit/phpunit": "^4",
-                "squizlabs/php_codesniffer": "^2.7"
+                "phpunit/phpunit": "4.*",
+                "symfony/console": "~2.7",
+                "symfony/event-dispatcher": "~2.7",
+                "symfony/finder": "~2.7",
+                "symfony/process": "2.7.*",
+                "symfony/var-dumper": "~2.7",
+                "symfony/yaml": "~2.3"
+            },
+            "suggest": {
+                "drush/config-extra": "Provides configuration workflow commands, such as config-merge.",
+                "ext-pcntl": "*"
             },
             "bin": [
-                "drush"
+                "drush",
+                "drush.launcher",
+                "drush.php",
+                "drush.complete.sh"
             ],
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "9.0.x-dev"
+                    "dev-master": "8.0.x-dev"
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Drush\\": "src/",
-                    "Unish\\": "tests/"
+                "psr-0": {
+                    "Drush": "lib/",
+                    "Consolidation": "lib/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3587,6 +3613,14 @@
                 {
                     "name": "Owen Barton",
                     "email": "drupal@owenbarton.com"
+                },
+                {
+                    "name": "Mark Sonnabaum",
+                    "email": "marksonnabaum@gmail.com"
+                },
+                {
+                    "name": "Antoine Beaupré",
+                    "email": "anarcat@koumbit.org"
                 },
                 {
                     "name": "Greg Anderson",
@@ -3615,7 +3649,7 @@
             ],
             "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
             "homepage": "http://www.drush.org",
-            "time": "2017-08-26T18:11:03+00:00"
+            "time": "2017-10-10T02:05:46+00:00"
         },
         {
             "name": "easyrdf/easyrdf",
@@ -4291,16 +4325,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v3.1.1",
+            "version": "v3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "a1e8e1a30e1352f118feff1a8481066ddc2f234a"
+                "reference": "08131e7ff29de6bb9f12275c7d35df71f25f4d89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/a1e8e1a30e1352f118feff1a8481066ddc2f234a",
-                "reference": "a1e8e1a30e1352f118feff1a8481066ddc2f234a",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/08131e7ff29de6bb9f12275c7d35df71f25f4d89",
+                "reference": "08131e7ff29de6bb9f12275c7d35df71f25f4d89",
                 "shasum": ""
             },
             "require": {
@@ -4338,7 +4372,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2017-09-02T17:10:46+00:00"
+            "time": "2017-11-04T11:48:34+00:00"
         },
         {
             "name": "oomphinc/composer-installers-extender",
@@ -5121,16 +5155,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.8.13",
+            "version": "v0.8.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "cdb5593c3684bab74e10fcfffe4a0c8d1c39695d"
+                "reference": "91e53c16560bdb8b9592544bb38429ae00d6baee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/cdb5593c3684bab74e10fcfffe4a0c8d1c39695d",
-                "reference": "cdb5593c3684bab74e10fcfffe4a0c8d1c39695d",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/91e53c16560bdb8b9592544bb38429ae00d6baee",
+                "reference": "91e53c16560bdb8b9592544bb38429ae00d6baee",
                 "shasum": ""
             },
             "require": {
@@ -5190,7 +5224,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2017-10-19T06:13:20+00:00"
+            "time": "2017-11-04T16:06:49+00:00"
         },
         {
             "name": "sebastian/comparator",
@@ -5697,12 +5731,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "e978b4aa21886a75d04077ac34c9a39dc3ae69b1"
+                "reference": "4dd601692151cefbd7a53bf6f4a932966c8b2584"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/e978b4aa21886a75d04077ac34c9a39dc3ae69b1",
-                "reference": "e978b4aa21886a75d04077ac34c9a39dc3ae69b1",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/4dd601692151cefbd7a53bf6f4a932966c8b2584",
+                "reference": "4dd601692151cefbd7a53bf6f4a932966c8b2584",
                 "shasum": ""
             },
             "require": {
@@ -5717,7 +5751,7 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2017-10-31 23:07:12"
+            "time": "2017-11-06 19:52:59"
         },
         {
             "name": "su-sws/stanford_basic",
@@ -5725,12 +5759,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:SU-SWS/stanford_basic.git",
-                "reference": "3aa581fb2b5fe5afe0fd0a6d66e7f4e022515e0d"
+                "reference": "8ac1b994958163810ed03d07d6c65fe86c88129d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-SWS/stanford_basic/zipball/3aa581fb2b5fe5afe0fd0a6d66e7f4e022515e0d",
-                "reference": "3aa581fb2b5fe5afe0fd0a6d66e7f4e022515e0d",
+                "url": "https://api.github.com/repos/SU-SWS/stanford_basic/zipball/8ac1b994958163810ed03d07d6c65fe86c88129d",
+                "reference": "8ac1b994958163810ed03d07d6c65fe86c88129d",
                 "shasum": ""
             },
             "type": "stanford-theme",
@@ -5743,7 +5777,7 @@
                 "source": "https://github.com/SU-SWS/stanford_basic/tree/8.x-1.x",
                 "issues": "https://github.com/SU-SWS/stanford_basic/issues"
             },
-            "time": "2017-10-30 18:55:26"
+            "time": "2017-11-01 19:14:15"
         },
         {
             "name": "symfony-cmf/routing",
@@ -5859,62 +5893,6 @@
             "description": "Symfony ClassLoader Component",
             "homepage": "https://symfony.com",
             "time": "2017-06-01T21:00:24+00:00"
-        },
-        {
-            "name": "symfony/config",
-            "version": "v3.2.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/config.git",
-                "reference": "e5533fcc0b3dd377626153b2852707878f363728"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/e5533fcc0b3dd377626153b2852707878f363728",
-                "reference": "e5533fcc0b3dd377626153b2852707878f363728",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5.9",
-                "symfony/filesystem": "~2.8|~3.0"
-            },
-            "require-dev": {
-                "symfony/yaml": "~3.0"
-            },
-            "suggest": {
-                "symfony/yaml": "To use the yaml reference dumper"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.2-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\Config\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony Config Component",
-            "homepage": "https://symfony.com",
-            "time": "2017-04-12T14:13:17+00:00"
         },
         {
             "name": "symfony/console",
@@ -7144,43 +7122,6 @@
                 "templating"
             ],
             "time": "2017-09-27T18:06:46+00:00"
-        },
-        {
-            "name": "webflo/drupal-finder",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/webflo/drupal-finder.git",
-                "reference": "8a7886c575d6eaa67a425dceccc84e735c0b9637"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/webflo/drupal-finder/zipball/8a7886c575d6eaa67a425dceccc84e735c0b9637",
-                "reference": "8a7886c575d6eaa67a425dceccc84e735c0b9637",
-                "shasum": ""
-            },
-            "require-dev": {
-                "mikey179/vfsstream": "^1.6",
-                "phpunit/phpunit": "^4.8"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src/DrupalFinder.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Florian Weber",
-                    "email": "florian@webflo.org"
-                }
-            ],
-            "description": "Helper class to locate a Drupal installation from a given path.",
-            "time": "2017-10-24T08:12:11+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -8671,6 +8612,62 @@
             "description": "Symfony BrowserKit Component",
             "homepage": "https://symfony.com",
             "time": "2017-10-02T06:42:24+00:00"
+        },
+        {
+            "name": "symfony/config",
+            "version": "v3.2.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/config.git",
+                "reference": "e5533fcc0b3dd377626153b2852707878f363728"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/config/zipball/e5533fcc0b3dd377626153b2852707878f363728",
+                "reference": "e5533fcc0b3dd377626153b2852707878f363728",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "symfony/filesystem": "~2.8|~3.0"
+            },
+            "require-dev": {
+                "symfony/yaml": "~3.0"
+            },
+            "suggest": {
+                "symfony/yaml": "To use the yaml reference dumper"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Config\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Config Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-04-12T14:13:17+00:00"
         },
         {
             "name": "symfony/css-selector",
