@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f94c95f14f9974c47587b76344a8f9e4",
+    "content-hash": "4638cd24d281b81d95a24461d5ea157e",
     "packages": [
         {
             "name": "acquia/blt",
@@ -860,6 +860,50 @@
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
             "time": "2017-02-14T19:40:03+00:00"
+        },
+        {
+            "name": "cweagans/composer-patches",
+            "version": "1.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cweagans/composer-patches.git",
+                "reference": "014e968ca2ce4342476b3f2f6779b274fff8ae9e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/014e968ca2ce4342476b3f2f6779b274fff8ae9e",
+                "reference": "014e968ca2ce4342476b3f2f6779b274fff8ae9e",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "composer/composer": "~1.0",
+                "phpunit/phpunit": "~4.6"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "cweagans\\Composer\\Patches"
+            },
+            "autoload": {
+                "psr-4": {
+                    "cweagans\\Composer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Cameron Eagans",
+                    "email": "me@cweagans.net"
+                }
+            ],
+            "description": "Provides a way to patch Composer packages.",
+            "time": "2017-08-30T16:41:23+00:00"
         },
         {
             "name": "davidbarratt/custom-installer",
@@ -1837,7 +1881,7 @@
                     }
                 },
                 "patches_applied": {
-                    "https://www.drupal.org/node/2876280": "https://www.drupal.org/files/issues/auto_entitylabel-split_configs-2876280-4.patch"
+                    "https://www.drupal.org/node/2876280": "https://www.drupal.org/files/issues/auto_entitylabel-split_configs-2876280-5.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -2656,82 +2700,6 @@
                 "source": "http://cgit.drupalcode.org/devel",
                 "issues": "http://drupal.org/project/devel",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
-            }
-        },
-        {
-            "name": "drupal/eck",
-            "version": "1.0.0-alpha3",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/eck",
-                "reference": "8.x-1.0-alpha3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/eck-8.x-1.0-alpha3.zip",
-                "reference": "8.x-1.0-alpha3",
-                "shasum": "584f0867487608792ebcf46b2b79b27168be558f"
-            },
-            "require": {
-                "drupal/core": "^8"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0-alpha3",
-                    "datestamp": "1483437543",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "See contributors",
-                    "homepage": "https://www.drupal.org/node/1155832/committers"
-                },
-                {
-                    "name": "dpopdan",
-                    "homepage": "https://www.drupal.org/user/2759811"
-                },
-                {
-                    "name": "eric.napier",
-                    "homepage": "https://www.drupal.org/user/501688"
-                },
-                {
-                    "name": "fmizzell",
-                    "homepage": "https://www.drupal.org/user/1312210"
-                },
-                {
-                    "name": "legolasbo",
-                    "homepage": "https://www.drupal.org/user/2480548"
-                },
-                {
-                    "name": "mducharme",
-                    "homepage": "https://www.drupal.org/user/616996"
-                },
-                {
-                    "name": "mihai_brb",
-                    "homepage": "https://www.drupal.org/user/2065978"
-                },
-                {
-                    "name": "wjaspers",
-                    "homepage": "https://www.drupal.org/user/813890"
-                }
-            ],
-            "description": "ECK (Entity Contruction Kit) allows users to create and administer entity types, bundles and entities from the UI.",
-            "homepage": "https://www.drupal.org/project/eck",
-            "support": {
-                "source": "http://git.drupal.org/project/eck.git",
-                "issues": "https://www.drupal.org/project/issues/eck"
             }
         },
         {
@@ -5729,12 +5697,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "f6eb37ebf1a94df98c4b98164a59e060b3911c77"
+                "reference": "e978b4aa21886a75d04077ac34c9a39dc3ae69b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/f6eb37ebf1a94df98c4b98164a59e060b3911c77",
-                "reference": "f6eb37ebf1a94df98c4b98164a59e060b3911c77",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/e978b4aa21886a75d04077ac34c9a39dc3ae69b1",
+                "reference": "e978b4aa21886a75d04077ac34c9a39dc3ae69b1",
                 "shasum": ""
             },
             "require": {
@@ -5749,7 +5717,7 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2017-10-30T22:28:26+00:00"
+            "time": "2017-10-31 23:07:12"
         },
         {
             "name": "su-sws/stanford_basic",
@@ -5775,7 +5743,7 @@
                 "source": "https://github.com/SU-SWS/stanford_basic/tree/8.x-1.x",
                 "issues": "https://github.com/SU-SWS/stanford_basic/issues"
             },
-            "time": "2017-10-30T18:55:26+00:00"
+            "time": "2017-10-30 18:55:26"
         },
         {
             "name": "symfony-cmf/routing",
@@ -8154,50 +8122,6 @@
             "time": "2016-11-26T16:45:39+00:00"
         },
         {
-            "name": "cweagans/composer-patches",
-            "version": "1.6.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/cweagans/composer-patches.git",
-                "reference": "014e968ca2ce4342476b3f2f6779b274fff8ae9e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/014e968ca2ce4342476b3f2f6779b274fff8ae9e",
-                "reference": "014e968ca2ce4342476b3f2f6779b274fff8ae9e",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0",
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "composer/composer": "~1.0",
-                "phpunit/phpunit": "~4.6"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "cweagans\\Composer\\Patches"
-            },
-            "autoload": {
-                "psr-4": {
-                    "cweagans\\Composer\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-2-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Cameron Eagans",
-                    "email": "me@cweagans.net"
-                }
-            ],
-            "description": "Provides a way to patch Composer packages.",
-            "time": "2017-08-30T16:41:23+00:00"
-        },
-        {
             "name": "dmore/behat-chrome-extension",
             "version": "1.0.0",
             "source": {
@@ -8903,8 +8827,7 @@
         "su-sws/stanford_basic": 20,
         "su-hsdo/stanford_mrc": 20,
         "drupal/field_group": 5,
-        "drupal/auto_entitylabel": 20,
-        "drupal/eck": 15
+        "drupal/auto_entitylabel": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
