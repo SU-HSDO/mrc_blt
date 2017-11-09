@@ -13,9 +13,12 @@ git:
     - 'hsmrc@svn-23450.prod.hosting.acquia.com:hsmrc.git'
 drush:
   aliases:
-    remote: '${project.machine_name}.test'
+    remote: hsmrc.test
     local: self
     ci: self
+    dev: hsmrc.dev
+    stage: hsmrc.test
+    prod: hsmrc.prod
   default_alias: '${drush.aliases.local}'
 modules:
   local:
