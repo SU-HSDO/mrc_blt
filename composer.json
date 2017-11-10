@@ -136,7 +136,7 @@
     },
     "patches": {
       "drupal/auto_entitylabel": {
-        "https://www.drupal.org/node/2876280": "https://www.drupal.org/files/issues/auto_entitylabel-split_configs-2876280-5.patch"
+        "https://www.drupal.org/node/2876280": "https://www.drupal.org/files/issues/auto_entitylabel-split_configs-2876280-8.patch"
       }
     },
     "merge-plugin": {
