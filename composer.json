@@ -40,7 +40,7 @@
     "davidbarratt/custom-installer": "~1.0",
     "harvesthq/chosen": "^1.8",
     "su-sws/stanford_basic": "v2.0.x-dev",
-    "su-hsdo/stanford_mrc": "dev-jk-sandbox",
+    "su-hsdo/stanford_mrc": "dev-8.x-1.x",
     "drush/drush": "^8.1",
     "drupal-composer/drupal-scaffold": "^2.2",
     "drupal/core": "^8.4.0",
