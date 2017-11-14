@@ -1874,8 +1874,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/auto_entitylabel",
                 "issues": "https://www.drupal.org/project/issues/auto_entitylabel"
-            },
-            "time": "2017-11-13 10:50:28"
+            }
         },
         {
             "name": "drupal/chosen",
@@ -5948,12 +5947,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:SU-SWS/stanford_basic.git",
-                "reference": "42eaef6cd67ce8a1b8c6653a8ce5c74c07e53995"
+                "reference": "f3d7ce74e14da525a2d3ef57cb6e8ac93b010ef6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-SWS/stanford_basic/zipball/42eaef6cd67ce8a1b8c6653a8ce5c74c07e53995",
-                "reference": "42eaef6cd67ce8a1b8c6653a8ce5c74c07e53995",
+                "url": "https://api.github.com/repos/SU-SWS/stanford_basic/zipball/f3d7ce74e14da525a2d3ef57cb6e8ac93b010ef6",
+                "reference": "f3d7ce74e14da525a2d3ef57cb6e8ac93b010ef6",
                 "shasum": ""
             },
             "type": "stanford-theme",
@@ -5966,7 +5965,7 @@
                 "source": "https://github.com/SU-SWS/stanford_basic/tree/v2.0",
                 "issues": "https://github.com/SU-SWS/stanford_basic/issues"
             },
-            "time": "2017-11-10 16:53:50"
+            "time": "2017-11-14 22:32:07"
         },
         {
             "name": "symfony-cmf/routing",
@@ -6148,7 +6147,7 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v3.3.11",
+            "version": "v3.3.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
@@ -6327,7 +6326,7 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v3.3.11",
+            "version": "v3.3.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
@@ -6376,7 +6375,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v3.3.11",
+            "version": "v3.3.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -7078,7 +7077,7 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.3.11",
+            "version": "v3.3.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
@@ -8747,7 +8746,7 @@
         },
         {
             "name": "symfony/browser-kit",
-            "version": "v3.3.11",
+            "version": "v3.3.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/browser-kit.git",
@@ -8860,7 +8859,7 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v3.3.11",
+            "version": "v3.3.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
@@ -8913,7 +8912,7 @@
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v3.3.11",
+            "version": "v3.3.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
