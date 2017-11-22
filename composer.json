@@ -72,8 +72,7 @@
     "drupal/entity_browser": "2.x-dev",
     "drupal/embed": "^1.0",
     "drupal/entity_embed": "^1.0@beta",
-    "drupal/inline_entity_form": "^1.0@beta",
-    "drupal/file_browser": "^1.1"
+    "drupal/inline_entity_form": "^1.0@beta"
   },
   "require-dev": {
     "drupal/devel": "^1.2",
@@ -139,7 +138,7 @@
     },
     "patches": {
       "drupal/entity_embed": {
-        "https://www.drupal.org/project/entity_embed/issues/2640398": "https://www.drupal.org/files/issues/entity_embed-inline-widgets-2640398-17.patch"
+
       }
     },
     "merge-plugin": {
