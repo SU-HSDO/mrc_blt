@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9a47229e0e8e67fb0fd692e2a868caf0",
+    "content-hash": "546f6aa6a36e9ccb6839ede6d5dfa75f",
     "packages": [
         {
             "name": "acquia/blt",
@@ -974,84 +974,6 @@
             "time": "2017-09-18T07:49:36+00:00"
         },
         {
-            "name": "desandro/imagesloaded",
-            "version": "v4.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/desandro/imagesloaded.git",
-                "reference": "a8e0dd3a463903014bf8071efece15dcd570b1b9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/desandro/imagesloaded/zipball/a8e0dd3a463903014bf8071efece15dcd570b1b9",
-                "reference": "a8e0dd3a463903014bf8071efece15dcd570b1b9",
-                "shasum": ""
-            },
-            "type": "component",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "David DeSandro",
-                    "homepage": "http://desandro.com/",
-                    "role": "developer"
-                }
-            ],
-            "description": "JavaScript is all like _You images done yet or what?_",
-            "homepage": "http://imagesloaded.desandro.com",
-            "keywords": [
-                "dom",
-                "images",
-                "javascript",
-                "jquery-plugin",
-                "library",
-                "loaded",
-                "ui"
-            ],
-            "time": "2017-06-12T19:17:28+00:00"
-        },
-        {
-            "name": "desandro/masonry",
-            "version": "v4.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/desandro/masonry.git",
-                "reference": "dec5a382574eb62a2baf2867a0b0db4bd0b78ceb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/desandro/masonry/zipball/dec5a382574eb62a2baf2867a0b0db4bd0b78ceb",
-                "reference": "dec5a382574eb62a2baf2867a0b0db4bd0b78ceb",
-                "shasum": ""
-            },
-            "type": "component",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "David DeSandro",
-                    "homepage": "http://desandro.com/",
-                    "role": "developer"
-                }
-            ],
-            "description": "Cascading grid layout library",
-            "homepage": "http://masonry.desandro.com",
-            "keywords": [
-                "browser",
-                "dom",
-                "grid",
-                "javascript",
-                "layout",
-                "library",
-                "outlayer"
-            ],
-            "time": "2017-04-20T18:17:46+00:00"
-        },
-        {
             "name": "dflydev/dot-access-data",
             "version": "v1.1.0",
             "source": {
@@ -1729,17 +1651,17 @@
         },
         {
             "name": "drupal/address",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/address",
-                "reference": "8.x-1.2"
+                "reference": "8.x-1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/address-8.x-1.2.zip",
-                "reference": "8.x-1.2",
-                "shasum": "041445ac14087be943c0c1c562b9bf800d87f7e8"
+                "url": "https://ftp.drupal.org/files/projects/address-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "170551d6ecf4a08bac178f31b9869a626279d9eb"
             },
             "require": {
                 "commerceguys/addressing": "~1.0",
@@ -1752,8 +1674,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.2",
-                    "datestamp": "1505896144",
+                    "version": "8.x-1.3",
+                    "datestamp": "1511382784",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -1786,17 +1708,17 @@
         },
         {
             "name": "drupal/admin_toolbar",
-            "version": "1.20.0",
+            "version": "1.21.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/admin_toolbar",
-                "reference": "8.x-1.20"
+                "reference": "8.x-1.21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-8.x-1.20.zip",
-                "reference": "8.x-1.20",
-                "shasum": "ebeb6b630c0c614b36263ac4a024b269113b6a99"
+                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-8.x-1.21.zip",
+                "reference": "8.x-1.21",
+                "shasum": "af3213bd3f1c73a710e0c594ec2f97968d217dee"
             },
             "require": {
                 "drupal/core": "*"
@@ -1807,8 +1729,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.20",
-                    "datestamp": "1505199844",
+                    "version": "8.x-1.21",
+                    "datestamp": "1511191054",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2829,68 +2751,6 @@
             }
         },
         {
-            "name": "drupal/dropzonejs_eb_widget",
-            "version": "2.0.0-alpha2",
-            "require": {
-                "drupal/core": "*",
-                "drupal/dropzonejs": "self.version",
-                "drupal/entity_browser": "*"
-            },
-            "type": "metapackage",
-            "extra": {
-                "branch-alias": {
-                    "dev-2.x": "2.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-2.0-alpha2",
-                    "datestamp": "1509024243",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Drupal Media Team",
-                    "homepage": "https://www.drupal.org/user/3260690"
-                },
-                {
-                    "name": "Drupal media CI",
-                    "homepage": "https://www.drupal.org/user/3057985"
-                },
-                {
-                    "name": "Primsi",
-                    "homepage": "https://www.drupal.org/user/282629"
-                },
-                {
-                    "name": "chr.fritsch",
-                    "homepage": "https://www.drupal.org/user/2103716"
-                },
-                {
-                    "name": "slashrsm",
-                    "homepage": "https://www.drupal.org/user/744628"
-                },
-                {
-                    "name": "wouters_f",
-                    "homepage": "https://www.drupal.org/user/721548"
-                },
-                {
-                    "name": "zkday",
-                    "homepage": "https://www.drupal.org/user/888644"
-                }
-            ],
-            "description": "DropzoneJS Entity browser widget",
-            "homepage": "https://www.drupal.org/project/dropzonejs",
-            "support": {
-                "source": "http://cgit.drupalcode.org/dropzonejs"
-            }
-        },
-        {
             "name": "drupal/eck",
             "version": "1.0.0-alpha3",
             "source": {
@@ -3420,60 +3280,6 @@
             "homepage": "https://www.drupal.org/project/field_group",
             "support": {
                 "source": "http://cgit.drupalcode.org/field_group"
-            }
-        },
-        {
-            "name": "drupal/file_browser",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/file_browser",
-                "reference": "8.x-1.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/file_browser-8.x-1.1.zip",
-                "reference": "8.x-1.1",
-                "shasum": "1afdbfac4531e0d74838c7bbb63ebf42bbe0f655"
-            },
-            "require": {
-                "drupal/core": "*",
-                "drupal/dropzonejs": "*",
-                "drupal/dropzonejs_eb_widget": "*",
-                "drupal/entity_browser": "*",
-                "drupal/entity_embed": "*"
-            },
-            "require-dev": {
-                "drupal/ctools": "*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.1",
-                    "datestamp": "1493226843",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "samuel.mortenson",
-                    "homepage": "https://www.drupal.org/user/2582268"
-                }
-            ],
-            "description": "Provides a default Entity Browser for files, using Masonry and Imagesloaded.",
-            "homepage": "https://www.drupal.org/project/file_browser",
-            "support": {
-                "source": "http://cgit.drupalcode.org/file_browser"
             }
         },
         {
@@ -6466,22 +6272,22 @@
         },
         {
             "name": "stack/builder",
-            "version": "v1.0.4",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stackphp/builder.git",
-                "reference": "59fcc9b448a8ce5e338a04c4e2e4aca893e83425"
+                "reference": "fb3d136d04c6be41120ebf8c0cc71fe9507d750a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stackphp/builder/zipball/59fcc9b448a8ce5e338a04c4e2e4aca893e83425",
-                "reference": "59fcc9b448a8ce5e338a04c4e2e4aca893e83425",
+                "url": "https://api.github.com/repos/stackphp/builder/zipball/fb3d136d04c6be41120ebf8c0cc71fe9507d750a",
+                "reference": "fb3d136d04c6be41120ebf8c0cc71fe9507d750a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0",
-                "symfony/http-foundation": "~2.1|~3.0",
-                "symfony/http-kernel": "~2.1|~3.0"
+                "symfony/http-foundation": "~2.1|~3.0|~4.0",
+                "symfony/http-kernel": "~2.1|~3.0|~4.0"
             },
             "require-dev": {
                 "silex/silex": "~1.0"
@@ -6511,7 +6317,7 @@
             "keywords": [
                 "stack"
             ],
-            "time": "2016-06-02T06:58:42+00:00"
+            "time": "2017-11-18T14:57:29+00:00"
         },
         {
             "name": "su-hsdo/stanford_mrc",
@@ -6519,12 +6325,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "759d99a04406dd8c27ffe8f9d8fb9422edcf11e2"
+                "reference": "87f7879007969aa5ef0901f45d65bcf6cda38625"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/759d99a04406dd8c27ffe8f9d8fb9422edcf11e2",
-                "reference": "759d99a04406dd8c27ffe8f9d8fb9422edcf11e2",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/87f7879007969aa5ef0901f45d65bcf6cda38625",
+                "reference": "87f7879007969aa5ef0901f45d65bcf6cda38625",
                 "shasum": ""
             },
             "require": {
@@ -6539,7 +6345,7 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2017-11-09 21:39:34"
+            "time": "2017-11-20 21:18:04"
         },
         {
             "name": "su-sws/stanford_basic",
@@ -9046,16 +8852,16 @@
         },
         {
             "name": "drupal/drupal-driver",
-            "version": "v1.3.0",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jhedstrom/DrupalDriver.git",
-                "reference": "a85eaad2a60503e9b1a64db912e890dec767a3f4"
+                "reference": "a3940d6ee9a05de00e2ada9acaff48ce5542e7c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jhedstrom/DrupalDriver/zipball/a85eaad2a60503e9b1a64db912e890dec767a3f4",
-                "reference": "a85eaad2a60503e9b1a64db912e890dec767a3f4",
+                "url": "https://api.github.com/repos/jhedstrom/DrupalDriver/zipball/a3940d6ee9a05de00e2ada9acaff48ce5542e7c5",
+                "reference": "a3940d6ee9a05de00e2ada9acaff48ce5542e7c5",
                 "shasum": ""
             },
             "require": {
@@ -9100,7 +8906,7 @@
                 "test",
                 "web"
             ],
-            "time": "2017-11-17T21:02:43+00:00"
+            "time": "2017-11-20T18:44:48+00:00"
         },
         {
             "name": "drupal/drupal-extension",
@@ -9227,24 +9033,27 @@
         },
         {
             "name": "fabpot/goutte",
-            "version": "v3.2.1",
+            "version": "v3.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/Goutte.git",
-                "reference": "db5c28f4a010b4161d507d5304e28a7ebf211638"
+                "reference": "395f61d7c2e15a813839769553a4de16fa3b3c96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/Goutte/zipball/db5c28f4a010b4161d507d5304e28a7ebf211638",
-                "reference": "db5c28f4a010b4161d507d5304e28a7ebf211638",
+                "url": "https://api.github.com/repos/FriendsOfPHP/Goutte/zipball/395f61d7c2e15a813839769553a4de16fa3b3c96",
+                "reference": "395f61d7c2e15a813839769553a4de16fa3b3c96",
                 "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.0",
                 "php": ">=5.5.0",
-                "symfony/browser-kit": "~2.1|~3.0",
-                "symfony/css-selector": "~2.1|~3.0",
-                "symfony/dom-crawler": "~2.1|~3.0"
+                "symfony/browser-kit": "~2.1|~3.0|~4.0",
+                "symfony/css-selector": "~2.1|~3.0|~4.0",
+                "symfony/dom-crawler": "~2.1|~3.0|~4.0"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^3.3 || ^4"
             },
             "type": "application",
             "extra": {
@@ -9255,7 +9064,10 @@
             "autoload": {
                 "psr-4": {
                     "Goutte\\": "Goutte"
-                }
+                },
+                "exclude-from-classmap": [
+                    "Goutte/Tests"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -9272,7 +9084,7 @@
             "keywords": [
                 "scraper"
             ],
-            "time": "2017-01-03T13:21:43+00:00"
+            "time": "2017-11-19T08:45:40+00:00"
         },
         {
             "name": "instaclick/php-webdriver",
@@ -9781,6 +9593,7 @@
         "drupal/entity_browser": 20,
         "drupal/entity_embed": 10,
         "drupal/inline_entity_form": 10,
+        "drupal/dropzonejs": 15,
         "drupal/devel_debug_log": 10
     },
     "prefer-stable": true,
