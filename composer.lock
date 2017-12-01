@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e97a55f4c4a665b1aec72e6b290a2802",
+    "content-hash": "ac4471da9bfb972fe44c8f00c4889ed8",
     "packages": [
         {
             "name": "acquia/blt",
@@ -518,29 +518,29 @@
         },
         {
             "name": "consolidation/annotated-command",
-            "version": "2.8.1",
+            "version": "2.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/annotated-command.git",
-                "reference": "7f94009d732922d61408536f9228aca8f22e9135"
+                "reference": "e97c38717eae23a2bafcf3f09438290eee6ebeb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/7f94009d732922d61408536f9228aca8f22e9135",
-                "reference": "7f94009d732922d61408536f9228aca8f22e9135",
+                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/e97c38717eae23a2bafcf3f09438290eee6ebeb4",
+                "reference": "e97c38717eae23a2bafcf3f09438290eee6ebeb4",
                 "shasum": ""
             },
             "require": {
                 "consolidation/output-formatters": "^3.1.12",
                 "php": ">=5.4.0",
                 "psr/log": "^1",
-                "symfony/console": "^2.8|~3",
-                "symfony/event-dispatcher": "^2.5|^3",
-                "symfony/finder": "^2.5|^3"
+                "symfony/console": "^2.8|^3|^4",
+                "symfony/event-dispatcher": "^2.5|^3|^4",
+                "symfony/finder": "^2.5|^3|^4"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.8",
-                "satooshi/php-coveralls": "^1.0",
+                "satooshi/php-coveralls": "^1.0.2 | dev-master",
                 "squizlabs/php_codesniffer": "^2.7"
             },
             "type": "library",
@@ -565,7 +565,7 @@
                 }
             ],
             "description": "Initialize Symfony Console commands from annotated command class methods.",
-            "time": "2017-10-17T01:48:51+00:00"
+            "time": "2017-11-29T16:23:23+00:00"
         },
         {
             "name": "consolidation/config",
@@ -618,25 +618,26 @@
         },
         {
             "name": "consolidation/log",
-            "version": "1.0.3",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/log.git",
-                "reference": "74ba81b4edc585616747cc5c5309ce56fec41254"
+                "reference": "dbc7c535f319a4a2d5a5077738f8eb7c10df8821"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/log/zipball/74ba81b4edc585616747cc5c5309ce56fec41254",
-                "reference": "74ba81b4edc585616747cc5c5309ce56fec41254",
+                "url": "https://api.github.com/repos/consolidation/log/zipball/dbc7c535f319a4a2d5a5077738f8eb7c10df8821",
+                "reference": "dbc7c535f319a4a2d5a5077738f8eb7c10df8821",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.0",
                 "psr/log": "~1.0",
-                "symfony/console": "~2.5|~3.0"
+                "symfony/console": "^2.8|^3|^4"
             },
             "require-dev": {
                 "phpunit/phpunit": "4.*",
+                "satooshi/php-coveralls": "dev-master",
                 "squizlabs/php_codesniffer": "2.*"
             },
             "type": "library",
@@ -661,30 +662,30 @@
                 }
             ],
             "description": "Improved Psr-3 / Psr\\Log logger based on Symfony Console components.",
-            "time": "2016-03-23T23:46:42+00:00"
+            "time": "2017-11-29T01:44:16+00:00"
         },
         {
             "name": "consolidation/output-formatters",
-            "version": "3.1.12",
+            "version": "3.1.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/output-formatters.git",
-                "reference": "88ef346a1cefb92aab8b57a3214a6d5fc63f5d2a"
+                "reference": "3188461e965b32148c8fb85261833b2b72d34b8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/output-formatters/zipball/88ef346a1cefb92aab8b57a3214a6d5fc63f5d2a",
-                "reference": "88ef346a1cefb92aab8b57a3214a6d5fc63f5d2a",
+                "url": "https://api.github.com/repos/consolidation/output-formatters/zipball/3188461e965b32148c8fb85261833b2b72d34b8c",
+                "reference": "3188461e965b32148c8fb85261833b2b72d34b8c",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0",
-                "symfony/console": "^2.8|~3",
-                "symfony/finder": "~2.5|~3.0"
+                "symfony/console": "^2.8|^3|^4",
+                "symfony/finder": "^2.5|^3|^4"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.8",
-                "satooshi/php-coveralls": "^1.0",
+                "satooshi/php-coveralls": "^1.0.2 | dev-master",
                 "squizlabs/php_codesniffer": "^2.7",
                 "victorjonsson/markdowndocs": "^1.3"
             },
@@ -710,7 +711,7 @@
                 }
             ],
             "description": "Format text by applying transformations provided by plug-in formatters.",
-            "time": "2017-10-12T19:38:03+00:00"
+            "time": "2017-11-29T15:25:38+00:00"
         },
         {
             "name": "consolidation/robo",
@@ -824,16 +825,16 @@
         },
         {
             "name": "cweagans/composer-patches",
-            "version": "1.6.2",
+            "version": "1.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cweagans/composer-patches.git",
-                "reference": "014e968ca2ce4342476b3f2f6779b274fff8ae9e"
+                "reference": "730f0f620845974764a91482ac936cc6f39da184"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/014e968ca2ce4342476b3f2f6779b274fff8ae9e",
-                "reference": "014e968ca2ce4342476b3f2f6779b274fff8ae9e",
+                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/730f0f620845974764a91482ac936cc6f39da184",
+                "reference": "730f0f620845974764a91482ac936cc6f39da184",
                 "shasum": ""
             },
             "require": {
@@ -864,7 +865,7 @@
                 }
             ],
             "description": "Provides a way to patch Composer packages.",
-            "time": "2017-08-30T16:41:23+00:00"
+            "time": "2017-11-22T20:18:27+00:00"
         },
         {
             "name": "davidbarratt/custom-installer",
@@ -1565,17 +1566,17 @@
         },
         {
             "name": "drupal/acquia_connector",
-            "version": "1.13.0",
+            "version": "1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/acquia_connector",
-                "reference": "8.x-1.13"
+                "reference": "8.x-1.14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/acquia_connector-8.x-1.13.zip",
-                "reference": "8.x-1.13",
-                "shasum": "e1d1b4b7c9cb270370800ed4f883d5f505ceb268"
+                "url": "https://ftp.drupal.org/files/projects/acquia_connector-8.x-1.14.zip",
+                "reference": "8.x-1.14",
+                "shasum": "cb9020388624a74cc0fb6516c6c96987f328392e"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -1589,8 +1590,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.13",
-                    "datestamp": "1502799051",
+                    "version": "8.x-1.14",
+                    "datestamp": "1511982786",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -1878,7 +1879,7 @@
                 "source": "http://cgit.drupalcode.org/auto_entitylabel",
                 "issues": "https://www.drupal.org/project/issues/auto_entitylabel"
             },
-            "time": "2017-11-13 10:50:28"
+            "time": "2017-11-13T10:50:28+00:00"
         },
         {
             "name": "drupal/chosen",
@@ -2042,6 +2043,12 @@
                 "url": "https://git.drupal.org/project/coder.git",
                 "reference": "984c54a7b1e8f27ff1c32348df69712afd86b17f"
             },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/klausi/coder/zipball/984c54a7b1e8f27ff1c32348df69712afd86b17f",
+                "reference": "984c54a7b1e8f27ff1c32348df69712afd86b17f",
+                "shasum": ""
+            },
             "require": {
                 "ext-mbstring": "*",
                 "php": ">=5.4.0",
@@ -2183,21 +2190,21 @@
         },
         {
             "name": "drupal/config_split",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/config_split",
-                "reference": "8.x-1.2"
+                "reference": "8.x-1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/config_split-8.x-1.2.zip",
-                "reference": "8.x-1.2",
-                "shasum": "f3683737bae3927073b511c1313a047668d0eab1"
+                "url": "https://ftp.drupal.org/files/projects/config_split-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "2b98b26027a55a895468f11d2cea07546cdf3491"
             },
             "require": {
                 "drupal/config_filter": "*",
-                "drupal/core": "*"
+                "drupal/core": "~8.0"
             },
             "type": "drupal-module",
             "extra": {
@@ -2205,11 +2212,16 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.2",
-                    "datestamp": "1506875344",
+                    "version": "8.x-1.3",
+                    "datestamp": "1511810585",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
                     }
                 }
             },
@@ -2967,7 +2979,7 @@
                 "issues": "http://drupal.org/project/issues/entity_browser",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
             },
-            "time": "2017-10-11 09:02:34"
+            "time": "2017-10-11T09:02:34+00:00"
         },
         {
             "name": "drupal/entity_embed",
@@ -3145,7 +3157,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/extlink"
             },
-            "time": "2017-11-12 09:13:19"
+            "time": "2017-11-12T09:13:19+00:00"
         },
         {
             "name": "drupal/features",
@@ -4100,6 +4112,53 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/webform",
                 "issues": "https://drupal.org/project/issues/webform"
+            }
+        },
+        {
+            "name": "drupal/yearonly",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/yearonly",
+                "reference": "8.x-1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/yearonly-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "5d376c66b6c998a7befb65ae19b9ee7baf795316"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.3",
+                    "datestamp": "1508824145",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "sharma.amitt16",
+                    "homepage": "https://www.drupal.org/user/2629679"
+                }
+            ],
+            "description": "Provide field to collect year only.",
+            "homepage": "https://www.drupal.org/project/yearonly",
+            "support": {
+                "source": "http://cgit.drupalcode.org/yearonly"
             }
         },
         {
@@ -6348,7 +6407,7 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2017-11-27 18:56:08"
+            "time": "2017-11-27T18:56:08+00:00"
         },
         {
             "name": "su-sws/stanford_basic",
@@ -6374,7 +6433,7 @@
                 "source": "https://github.com/SU-SWS/stanford_basic/tree/v2.0",
                 "issues": "https://github.com/SU-SWS/stanford_basic/issues"
             },
-            "time": "2017-11-22 21:52:19"
+            "time": "2017-11-22T21:52:19+00:00"
         },
         {
             "name": "symfony-cmf/routing",
@@ -8855,16 +8914,16 @@
         },
         {
             "name": "drupal/drupal-driver",
-            "version": "v1.3.1",
+            "version": "v1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jhedstrom/DrupalDriver.git",
-                "reference": "a3940d6ee9a05de00e2ada9acaff48ce5542e7c5"
+                "reference": "aa1f32b207939dfc0c96919be47b952d3c1b900b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jhedstrom/DrupalDriver/zipball/a3940d6ee9a05de00e2ada9acaff48ce5542e7c5",
-                "reference": "a3940d6ee9a05de00e2ada9acaff48ce5542e7c5",
+                "url": "https://api.github.com/repos/jhedstrom/DrupalDriver/zipball/aa1f32b207939dfc0c96919be47b952d3c1b900b",
+                "reference": "aa1f32b207939dfc0c96919be47b952d3c1b900b",
                 "shasum": ""
             },
             "require": {
@@ -8909,7 +8968,7 @@
                 "test",
                 "web"
             ],
-            "time": "2017-11-20T18:44:48+00:00"
+            "time": "2017-11-28T21:51:43+00:00"
         },
         {
             "name": "drupal/drupal-extension",
@@ -9032,6 +9091,53 @@
             "homepage": "https://www.drupal.org/project/devel",
             "support": {
                 "source": "http://cgit.drupalcode.org/devel"
+            }
+        },
+        {
+            "name": "drupal/search_kint",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/search_kint",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/search_kint-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "b9ce4cc38a84837d9969748127fe79755e0ea738"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1461628928",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "dahousecat",
+                    "homepage": "https://www.drupal.org/user/1410992"
+                }
+            ],
+            "description": "Allows searching through the kint dump",
+            "homepage": "https://www.drupal.org/project/search_kint",
+            "support": {
+                "source": "http://cgit.drupalcode.org/search_kint"
             }
         },
         {
