@@ -71,7 +71,8 @@
     "drupal/embed": "^1.0",
     "drupal/entity_embed": "^1.0@beta",
     "drupal/inline_entity_form": "^1.0@beta",
-    "drupal/dropzonejs": "^2.0@alpha"
+    "drupal/dropzonejs": "^2.0@alpha",
+    "drupal/entity_usage": "^1.0@alpha"
   },
   "require-dev": {
     "drupal/devel": "^1.2",
@@ -136,9 +137,7 @@
       ]
     },
     "patches": {
-      "drupal/entity_embed": {
-
-      }
+      "drupal/entity_embed": {}
     },
     "merge-plugin": {
       "require": [
