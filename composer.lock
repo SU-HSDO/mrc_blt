@@ -1731,7 +1731,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.21",
-                    "datestamp": "1511191054",
+                    "datestamp": "1511283695",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3045,8 +3045,8 @@
                     "dev-8.x-1.x": "8.1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.0-alpha1+3-dev",
-                    "datestamp": "1512031386",
+                    "version": "8.x-2.0-alpha1+5-dev",
+                    "datestamp": "1512047885",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -6690,12 +6690,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "d632b16c84b0159b73a0d2b194139e4a394ec52a"
+                "reference": "1dad634cd5c62a5c932a720e3fc86519d1f93cc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/d632b16c84b0159b73a0d2b194139e4a394ec52a",
-                "reference": "d632b16c84b0159b73a0d2b194139e4a394ec52a",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/1dad634cd5c62a5c932a720e3fc86519d1f93cc7",
+                "reference": "1dad634cd5c62a5c932a720e3fc86519d1f93cc7",
                 "shasum": ""
             },
             "require": {
@@ -6710,7 +6710,7 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2017-12-05 00:57:04"
+            "time": "2017-12-06 04:36:34"
         },
         {
             "name": "su-sws/stanford_basic",
