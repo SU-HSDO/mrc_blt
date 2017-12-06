@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d33af0417ac3b4f64069a2ca06d44944",
+    "content-hash": "25147ffc359d304a9d6553a1c710f036",
     "packages": [
         {
             "name": "acquia/blt",
@@ -908,16 +908,16 @@
         },
         {
             "name": "dealerdirect/phpcodesniffer-composer-installer",
-            "version": "v0.4.3",
+            "version": "v0.4.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/DealerDirect/phpcodesniffer-composer-installer.git",
-                "reference": "63c0ec0ac286d31651d3c70e5bf76ad87db3ba23"
+                "url": "https://github.com/Dealerdirect/phpcodesniffer-composer-installer.git",
+                "reference": "2e41850d5f7797cbb1af7b030d245b3b24e63a08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DealerDirect/phpcodesniffer-composer-installer/zipball/63c0ec0ac286d31651d3c70e5bf76ad87db3ba23",
-                "reference": "63c0ec0ac286d31651d3c70e5bf76ad87db3ba23",
+                "url": "https://api.github.com/repos/Dealerdirect/phpcodesniffer-composer-installer/zipball/2e41850d5f7797cbb1af7b030d245b3b24e63a08",
+                "reference": "2e41850d5f7797cbb1af7b030d245b3b24e63a08",
                 "shasum": ""
             },
             "require": {
@@ -972,7 +972,7 @@
                 "stylecheck",
                 "tests"
             ],
-            "time": "2017-09-18T07:49:36+00:00"
+            "time": "2017-12-06T16:27:17+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -2307,17 +2307,17 @@
         },
         {
             "name": "drupal/config_update",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/config_update",
-                "reference": "8.x-1.4"
+                "reference": "8.x-1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/config_update-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "0de82ba4aa7caf054711ab16ad038765215a489d"
+                "url": "https://ftp.drupal.org/files/projects/config_update-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "2f7ae5f90b1c0ab8edf84680d2651e81fab6a126"
             },
             "require": {
                 "drupal/core": "*"
@@ -2328,8 +2328,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1505755744",
+                    "version": "8.x-1.5",
+                    "datestamp": "1512587912",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2523,7 +2523,8 @@
             "type": "drupal-core",
             "extra": {
                 "patches_applied": {
-                    "Clear Twig caches on deploys": "https://www.drupal.org/files/issues/2752961-90.patch"
+                    "Clear Twig caches on deploys": "https://www.drupal.org/files/issues/2752961-90.patch",
+                    "https://github.com/SU-HSDO/stanford_mrc/pull/16": "https://www.drupal.org/files/issues/the_views_integration-2786577-229.patch"
                 }
             },
             "autoload": {
@@ -3132,8 +3133,7 @@
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
                     }
-                },
-                "patches_applied": []
+                }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
@@ -6690,12 +6690,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "d632b16c84b0159b73a0d2b194139e4a394ec52a"
+                "reference": "0ba13340a134730489cfbdd54155f1959ea4dc8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/d632b16c84b0159b73a0d2b194139e4a394ec52a",
-                "reference": "d632b16c84b0159b73a0d2b194139e4a394ec52a",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/0ba13340a134730489cfbdd54155f1959ea4dc8d",
+                "reference": "0ba13340a134730489cfbdd54155f1959ea4dc8d",
                 "shasum": ""
             },
             "require": {
@@ -6710,7 +6710,7 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2017-12-05 00:57:04"
+            "time": "2017-12-06 20:06:52"
         },
         {
             "name": "su-sws/stanford_basic",
