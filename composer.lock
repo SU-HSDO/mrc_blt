@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d33af0417ac3b4f64069a2ca06d44944",
+    "content-hash": "471a603d5eef0c74b14436b7a90a5fb3",
     "packages": [
         {
             "name": "acquia/blt",
@@ -908,16 +908,16 @@
         },
         {
             "name": "dealerdirect/phpcodesniffer-composer-installer",
-            "version": "v0.4.3",
+            "version": "v0.4.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/DealerDirect/phpcodesniffer-composer-installer.git",
-                "reference": "63c0ec0ac286d31651d3c70e5bf76ad87db3ba23"
+                "url": "https://github.com/Dealerdirect/phpcodesniffer-composer-installer.git",
+                "reference": "2e41850d5f7797cbb1af7b030d245b3b24e63a08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DealerDirect/phpcodesniffer-composer-installer/zipball/63c0ec0ac286d31651d3c70e5bf76ad87db3ba23",
-                "reference": "63c0ec0ac286d31651d3c70e5bf76ad87db3ba23",
+                "url": "https://api.github.com/repos/Dealerdirect/phpcodesniffer-composer-installer/zipball/2e41850d5f7797cbb1af7b030d245b3b24e63a08",
+                "reference": "2e41850d5f7797cbb1af7b030d245b3b24e63a08",
                 "shasum": ""
             },
             "require": {
@@ -972,7 +972,7 @@
                 "stylecheck",
                 "tests"
             ],
-            "time": "2017-09-18T07:49:36+00:00"
+            "time": "2017-12-06T16:27:17+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -1879,7 +1879,7 @@
                 "source": "http://cgit.drupalcode.org/auto_entitylabel",
                 "issues": "https://www.drupal.org/project/issues/auto_entitylabel"
             },
-            "time": "2017-11-13T10:50:28+00:00"
+            "time": "2017-11-13 10:50:28"
         },
         {
             "name": "drupal/chosen",
@@ -2042,12 +2042,6 @@
                 "type": "git",
                 "url": "https://git.drupal.org/project/coder.git",
                 "reference": "984c54a7b1e8f27ff1c32348df69712afd86b17f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/klausi/coder/zipball/984c54a7b1e8f27ff1c32348df69712afd86b17f",
-                "reference": "984c54a7b1e8f27ff1c32348df69712afd86b17f",
-                "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
@@ -2313,17 +2307,17 @@
         },
         {
             "name": "drupal/config_update",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/config_update",
-                "reference": "8.x-1.4"
+                "reference": "8.x-1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/config_update-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "0de82ba4aa7caf054711ab16ad038765215a489d"
+                "url": "https://ftp.drupal.org/files/projects/config_update-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "2f7ae5f90b1c0ab8edf84680d2651e81fab6a126"
             },
             "require": {
                 "drupal/core": "*"
@@ -2334,8 +2328,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1505755744",
+                    "version": "8.x-1.5",
+                    "datestamp": "1512587912",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3335,7 +3329,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/extlink"
             },
-            "time": "2017-11-12T09:13:19+00:00"
+            "time": "2017-11-12 09:13:19"
         },
         {
             "name": "drupal/features",
@@ -6743,12 +6737,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "1dad634cd5c62a5c932a720e3fc86519d1f93cc7"
+                "reference": "0ba13340a134730489cfbdd54155f1959ea4dc8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/1dad634cd5c62a5c932a720e3fc86519d1f93cc7",
-                "reference": "1dad634cd5c62a5c932a720e3fc86519d1f93cc7",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/0ba13340a134730489cfbdd54155f1959ea4dc8d",
+                "reference": "0ba13340a134730489cfbdd54155f1959ea4dc8d",
                 "shasum": ""
             },
             "require": {
@@ -6763,7 +6757,7 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2017-12-06 04:36:34"
+            "time": "2017-12-06 20:06:52"
         },
         {
             "name": "su-sws/stanford_basic",
@@ -6789,7 +6783,7 @@
                 "source": "https://github.com/SU-SWS/stanford_basic/tree/v2.0",
                 "issues": "https://github.com/SU-SWS/stanford_basic/issues"
             },
-            "time": "2017-11-22T21:52:19+00:00"
+            "time": "2017-11-22 21:52:19"
         },
         {
             "name": "symfony-cmf/routing",
