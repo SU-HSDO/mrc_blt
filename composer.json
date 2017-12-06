@@ -75,7 +75,8 @@
     "drupal/entity_usage": "^1.0@alpha",
     "drupal/ui_patterns": "^1.0@RC",
     "drupal/components": "^1.0",
-    "drupal/ds": "^3.1"
+    "drupal/ds": "^3.1",
+    "drupal/rabbit_hole": "^1.0@beta"
   },
   "require-dev": {
     "drupal/devel": "^1.2",
