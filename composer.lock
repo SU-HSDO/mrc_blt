@@ -6737,12 +6737,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "0ba13340a134730489cfbdd54155f1959ea4dc8d"
+                "reference": "64dddde5004a6c918407676c8addd317b1356b7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/0ba13340a134730489cfbdd54155f1959ea4dc8d",
-                "reference": "0ba13340a134730489cfbdd54155f1959ea4dc8d",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/64dddde5004a6c918407676c8addd317b1356b7c",
+                "reference": "64dddde5004a6c918407676c8addd317b1356b7c",
                 "shasum": ""
             },
             "require": {
@@ -6757,7 +6757,7 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2017-12-06 20:06:52"
+            "time": "2017-12-06 22:33:20"
         },
         {
             "name": "su-sws/stanford_basic",
