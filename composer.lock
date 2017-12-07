@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "471a603d5eef0c74b14436b7a90a5fb3",
+    "content-hash": "a3b547fd7b0b61217f8164c528f2bf95",
     "packages": [
         {
             "name": "acquia/blt",
@@ -825,16 +825,16 @@
         },
         {
             "name": "cweagans/composer-patches",
-            "version": "1.6.3",
+            "version": "1.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cweagans/composer-patches.git",
-                "reference": "730f0f620845974764a91482ac936cc6f39da184"
+                "reference": "462e65061606dc6149349535d4322241515d1b16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/730f0f620845974764a91482ac936cc6f39da184",
-                "reference": "730f0f620845974764a91482ac936cc6f39da184",
+                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/462e65061606dc6149349535d4322241515d1b16",
+                "reference": "462e65061606dc6149349535d4322241515d1b16",
                 "shasum": ""
             },
             "require": {
@@ -865,7 +865,7 @@
                 }
             ],
             "description": "Provides a way to patch Composer packages.",
-            "time": "2017-11-22T20:18:27+00:00"
+            "time": "2017-12-07T16:16:31+00:00"
         },
         {
             "name": "davidbarratt/custom-installer",
@@ -2358,16 +2358,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.4.2",
+            "version": "8.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "68d25c07b7306340900abc4020c38683a817f0eb"
+                "reference": "793cb14c54624b4be160b78f742af44a01cc7b4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/68d25c07b7306340900abc4020c38683a817f0eb",
-                "reference": "68d25c07b7306340900abc4020c38683a817f0eb",
+                "url": "https://api.github.com/repos/drupal/core/zipball/793cb14c54624b4be160b78f742af44a01cc7b4e",
+                "reference": "793cb14c54624b4be160b78f742af44a01cc7b4e",
                 "shasum": ""
             },
             "require": {
@@ -2547,7 +2547,7 @@
                 "GPL-2.0+"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2017-11-03T13:20:16+00:00"
+            "time": "2017-12-06T22:45:30+00:00"
         },
         {
             "name": "drupal/ctools",
@@ -3132,8 +3132,7 @@
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
                     }
-                },
-                "patches_applied": []
+                }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
@@ -6737,12 +6736,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "4f3a3e9cbf9e188975be4c12bfdc2ccf2df3d0be"
+                "reference": "be15ff0c6b73bbc93de69e738e6cd75dfdc6eb7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/4f3a3e9cbf9e188975be4c12bfdc2ccf2df3d0be",
-                "reference": "4f3a3e9cbf9e188975be4c12bfdc2ccf2df3d0be",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/be15ff0c6b73bbc93de69e738e6cd75dfdc6eb7e",
+                "reference": "be15ff0c6b73bbc93de69e738e6cd75dfdc6eb7e",
                 "shasum": ""
             },
             "require": {
@@ -6754,10 +6753,10 @@
             ],
             "description": "Installation Profile for the Stanford MRC.",
             "support": {
-                "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.0.2",
+                "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2017-12-06 23:57:52"
+            "time": "2017-12-07 00:29:09"
         },
         {
             "name": "su-sws/stanford_basic",
