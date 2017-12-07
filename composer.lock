@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "667b1eb4973140a8754dfd91fa957f4e",
+    "content-hash": "471a603d5eef0c74b14436b7a90a5fb3",
     "packages": [
         {
             "name": "acquia/blt",
@@ -6733,7 +6733,7 @@
         },
         {
             "name": "su-hsdo/stanford_mrc",
-            "version": "8.0.2",
+            "version": "dev-8.x-1.x",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
@@ -6757,7 +6757,7 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.0.2",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2017-12-06T23:57:52+00:00"
+            "time": "2017-12-06 23:57:52"
         },
         {
             "name": "su-sws/stanford_basic",
@@ -10045,6 +10045,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "su-sws/stanford_basic": 20,
+        "su-hsdo/stanford_mrc": 20,
         "drupal/field_group": 5,
         "drupal/auto_entitylabel": 20,
         "drupal/eck": 15,
