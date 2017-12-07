@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "471a603d5eef0c74b14436b7a90a5fb3",
+    "content-hash": "667b1eb4973140a8754dfd91fa957f4e",
     "packages": [
         {
             "name": "acquia/blt",
@@ -1731,7 +1731,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.21",
-                    "datestamp": "1511283695",
+                    "datestamp": "1511191054",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3045,8 +3045,8 @@
                     "dev-8.x-1.x": "8.1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.0-alpha1+5-dev",
-                    "datestamp": "1512047885",
+                    "version": "8.x-2.0-alpha1+3-dev",
+                    "datestamp": "1512031386",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -6733,16 +6733,16 @@
         },
         {
             "name": "su-hsdo/stanford_mrc",
-            "version": "dev-8.x-1.x",
+            "version": "8.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "64dddde5004a6c918407676c8addd317b1356b7c"
+                "reference": "4f3a3e9cbf9e188975be4c12bfdc2ccf2df3d0be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/64dddde5004a6c918407676c8addd317b1356b7c",
-                "reference": "64dddde5004a6c918407676c8addd317b1356b7c",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/4f3a3e9cbf9e188975be4c12bfdc2ccf2df3d0be",
+                "reference": "4f3a3e9cbf9e188975be4c12bfdc2ccf2df3d0be",
                 "shasum": ""
             },
             "require": {
@@ -6754,10 +6754,10 @@
             ],
             "description": "Installation Profile for the Stanford MRC.",
             "support": {
-                "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
+                "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.0.2",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2017-12-06 22:33:20"
+            "time": "2017-12-06T23:57:52+00:00"
         },
         {
             "name": "su-sws/stanford_basic",
@@ -10045,7 +10045,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "su-sws/stanford_basic": 20,
-        "su-hsdo/stanford_mrc": 20,
         "drupal/field_group": 5,
         "drupal/auto_entitylabel": 20,
         "drupal/eck": 15,
