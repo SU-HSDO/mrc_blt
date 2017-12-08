@@ -1,0 +1,28 @@
+--- a/.htaccess	2017-10-15 10:08:40.000000000 -0700
++++ b/.htaccess	2017-10-15 09:52:03.000000000 -0700
+@@ -69,6 +69,16 @@
+ <IfModule mod_rewrite.c>
+   RewriteEngine on
+ 
++  # Redirect HTTP to HTTPS on cloud
++  RewriteCond %{HTTPS} off
++  RewriteCond %{HTTP:X-Forwarded-Proto} !https
++  #RewriteCond %{ENV:AH_SITE_ENVIRONMENT} prod [NC,OR]
++  #RewriteCond %{ENV:AH_SITE_ENVIRONMENT} stage [NC,OR]
++  #RewriteCond %{ENV:AH_SITE_ENVIRONMENT} dev [NC]
++  RewriteCond %{HTTP_HOST} acquia-sites [NC]
++  RewriteCond %{HTTP_HOST} !hsmrcode [NC]
++  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [NE,L,R=301]
++
+   # Set "protossl" to "s" if we were accessed via https://.  This is used later
+   # if you enable "www." stripping or enforcement, in order to ensure that
+   # you don't bounce between http and https.
+@@ -150,6 +158,8 @@
+   # Copy and adapt this rule to directly execute PHP files in contributed or
+   # custom modules or to run another PHP application in the same directory.
+   RewriteCond %{REQUEST_URI} !/core/modules/statistics/statistics.php$
++  # Allow access to simplesaml paths.
++  RewriteCond %{REQUEST_URI} !^/simplesaml
+   # Deny access to any other PHP files that do not match the rules above.
+   # Specifically, disallow autoload.php from being served directly.
+   RewriteRule "^(.+/.*|autoload)\.php($|/)" - [F]
