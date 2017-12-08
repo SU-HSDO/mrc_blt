@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6ee4d636fdb0bc3b39ba481ffecc8e1b",
+    "content-hash": "ef434efcc4f09804af9f682cbac63af9",
     "packages": [
         {
             "name": "acquia/blt",
@@ -1525,20 +1525,21 @@
         },
         {
             "name": "drupal-composer/drupal-scaffold",
-            "version": "2.3.0",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal-composer/drupal-scaffold.git",
-                "reference": "1374e1031b98beb502abea3854f361304965c628"
+                "reference": "745f0a2d4141fc83d3b42222beff43d66afb3dc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal-composer/drupal-scaffold/zipball/1374e1031b98beb502abea3854f361304965c628",
-                "reference": "1374e1031b98beb502abea3854f361304965c628",
+                "url": "https://api.github.com/repos/drupal-composer/drupal-scaffold/zipball/745f0a2d4141fc83d3b42222beff43d66afb3dc6",
+                "reference": "745f0a2d4141fc83d3b42222beff43d66afb3dc6",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1.0.0",
+                "composer/semver": "^1.4",
                 "php": ">=5.4.5"
             },
             "require-dev": {
@@ -1562,7 +1563,7 @@
                 "GPL-2.0+"
             ],
             "description": "Composer Plugin for updating the Drupal scaffold files when using drupal/core",
-            "time": "2017-05-05T21:26:28+00:00"
+            "time": "2017-12-08T22:53:11+00:00"
         },
         {
             "name": "drupal/acquia_connector",
@@ -7014,16 +7015,16 @@
         },
         {
             "name": "su-hsdo/stanford_mrc",
-            "version": "dev-MRCD8-36-saml",
+            "version": "dev-8.x-1.x",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "b0ce93dc25ddecbeb906dfea3cdfbdc2f9dbf0a2"
+                "reference": "9f3594287bbefc5174fa94a5e44664522a211723"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/b0ce93dc25ddecbeb906dfea3cdfbdc2f9dbf0a2",
-                "reference": "b0ce93dc25ddecbeb906dfea3cdfbdc2f9dbf0a2",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/9f3594287bbefc5174fa94a5e44664522a211723",
+                "reference": "9f3594287bbefc5174fa94a5e44664522a211723",
                 "shasum": ""
             },
             "require": {
@@ -7035,10 +7036,10 @@
             ],
             "description": "Installation Profile for the Stanford MRC.",
             "support": {
-                "source": "https://github.com/SU-HSDO/stanford_mrc/tree/MRCD8-36-saml",
+                "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2017-12-08 18:58:24"
+            "time": "2017-12-08 23:01:12"
         },
         {
             "name": "su-sws/nobots",
