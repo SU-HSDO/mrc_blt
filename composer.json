@@ -40,8 +40,9 @@
     "davidbarratt/custom-installer": "~1.0",
     "harvesthq/chosen": "^1.8",
     "enyo/dropzone": "^5.1",
+    "su-sws/nobots": "dev-8.x-1.x",
     "su-sws/stanford_basic": "v2.0.x-dev",
-    "su-hsdo/stanford_mrc": "dev-8.x-1.x",
+    "su-hsdo/stanford_mrc": "dev-MRCD8-36-saml",
     "drush/drush": "^8.1",
     "drupal-composer/drupal-scaffold": "^2.2",
     "drupal/core": "~8.4.0",
@@ -77,7 +78,8 @@
     "drupal/ui_patterns": "~1.0@RC",
     "drupal/components": "~1.0",
     "drupal/ds": "~3.1",
-    "drupal/rabbit_hole": "~1.0@beta"
+    "drupal/rabbit_hole": "~1.0@beta",
+    "drupal/simplesamlphp_auth": "^3.0@RC"
   },
   "require-dev": {
     "drupal/devel": "^1.2",
