@@ -165,7 +165,7 @@
       "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
     ],
     "post-drupal-scaffold-cmd": [
-      "scripts/composer/apply-scaffold-patches.sh>/dev/null"
+      "scripts/composer/apply-patches.sh > /dev/null"
     ]
   }
 }
