@@ -163,6 +163,9 @@
   "scripts": {
     "drupal-scaffold": [
       "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
+    ],
+    "post-drupal-scaffold-cmd": [
+      "scripts/composer/apply-scaffold-patches.sh>/dev/null"
     ]
   }
 }
