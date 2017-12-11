@@ -79,7 +79,7 @@
     "drupal/components": "~1.0",
     "drupal/ds": "~3.1",
     "drupal/rabbit_hole": "~1.0@beta",
-    "drupal/simplesamlphp_auth": "^3.0@RC"
+    "drupal/simplesamlphp_auth": "^3.0"
   },
   "require-dev": {
     "drupal/devel": "^1.2",
@@ -165,7 +165,9 @@
       "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
     ],
     "post-drupal-scaffold-cmd": [
-      "scripts/composer/apply-patches.sh > /dev/null"
+      "scripts/composer/apply-patches.sh > /dev/null",
+      "blt simplesamlphp:init",
+      "blt simplesamlphp:build:config"
     ]
   }
 }

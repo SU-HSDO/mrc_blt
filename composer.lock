@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ef434efcc4f09804af9f682cbac63af9",
+    "content-hash": "1d9d6bbc7e761224ac8781ab0eba7dd8",
     "packages": [
         {
             "name": "acquia/blt",
@@ -10409,7 +10409,6 @@
         "drupal/entity_usage": 15,
         "drupal/ui_patterns": 5,
         "drupal/rabbit_hole": 10,
-        "drupal/simplesamlphp_auth": 5,
         "drupal/devel_debug_log": 10
     },
     "prefer-stable": true,
