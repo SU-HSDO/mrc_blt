@@ -8,17 +8,13 @@
  */
 
 /*
- * Guest IdP. allows users to sign up and register. Great for testing!
+ * Stanford University idp
  */
-$metadata['https://openidp.feide.no'] = array(
-	'name' => array(
-		'en' => 'Feide OpenIdP - guest users',
-		'no' => 'Feide Gjestebrukere',
-	),
-	'description'          => 'Here you can login with your account on Feide RnD OpenID. If you do not already have an account on this identity provider, you can create a new one by following the create new account link and follow the instructions.',
-
-	'SingleSignOnService'  => 'https://openidp.feide.no/simplesaml/saml2/idp/SSOService.php',
-	'SingleLogoutService'  => 'https://openidp.feide.no/simplesaml/saml2/idp/SingleLogoutService.php',
-	'certFingerprint'      => 'c9ed4dfb07caf13fc21e0fec1572047eb8a7a4cb'
+$metadata['https://idp.stanford.edu/'] = array(
+  'name' => array(
+    'en' => 'Stanford University WebLogin',
+  ),
+  'description'         => 'Stanford University WebLogin',
+  'SingleSignOnService' => 'https://idp.stanford.edu/idp/profile/SAML2/Redirect/SSO',
+  'certFingerprint'     => '2B:41:A2:66:6A:4E:3F:40:C6:30:55:6A:1F:EC:C3:E3:0B:CE:EE:8F'
 );
-
