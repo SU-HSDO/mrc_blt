@@ -40,6 +40,7 @@
     "davidbarratt/custom-installer": "~1.0",
     "harvesthq/chosen": "^1.8",
     "enyo/dropzone": "^5.1",
+    "su-sws/nobots": "dev-8.x-1.x",
     "su-sws/stanford_basic": "v2.0.x-dev",
     "su-hsdo/stanford_mrc": "dev-8.x-1.x",
     "drush/drush": "^8.1",
@@ -77,7 +78,8 @@
     "drupal/ui_patterns": "~1.0@RC",
     "drupal/components": "~1.0",
     "drupal/ds": "~3.1",
-    "drupal/rabbit_hole": "~1.0@beta"
+    "drupal/rabbit_hole": "~1.0@beta",
+    "drupal/simplesamlphp_auth": "^3.0@RC"
   },
   "require-dev": {
     "drupal/devel": "^1.2",
@@ -164,6 +166,9 @@
   "scripts": {
     "drupal-scaffold": [
       "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
+    ],
+    "post-drupal-scaffold-cmd": [
+      "scripts/composer/apply-patches.sh > /dev/null"
     ]
   }
 }
