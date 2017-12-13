@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ef434efcc4f09804af9f682cbac63af9",
+    "content-hash": "e27d2f4bf97c64c9aa620cea250b687c",
     "packages": [
         {
             "name": "acquia/blt",
@@ -2524,7 +2524,8 @@
             "type": "drupal-core",
             "extra": {
                 "patches_applied": {
-                    "Clear Twig caches on deploys": "https://www.drupal.org/files/issues/2752961-90.patch"
+                    "Clear Twig caches on deploys": "https://www.drupal.org/files/issues/2752961-90.patch",
+                    "https://github.com/SU-HSDO/stanford_mrc/pull/16": "https://www.drupal.org/files/issues/the_views_integration-2786577-229.patch"
                 }
             },
             "autoload": {

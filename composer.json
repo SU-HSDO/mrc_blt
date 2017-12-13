@@ -145,6 +145,9 @@
       ]
     },
     "patches": {
+      "drupal/core": {
+        "https://github.com/SU-HSDO/stanford_mrc/pull/16": "https://www.drupal.org/files/issues/the_views_integration-2786577-229.patch"
+      }
     },
     "merge-plugin": {
       "require": [
