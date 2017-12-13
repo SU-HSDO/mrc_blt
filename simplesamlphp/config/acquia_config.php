@@ -33,6 +33,8 @@ $ah_options = [
 $config['technicalcontact_name'] = "Mike Decker";
 $config['technicalcontact_email'] = "pookmish@stanford.edu";
 
+$config['certdir'] = '/home/hsmrc/saml/';
+
 // Change these for your installation.
 $config['secretsalt'] = 'y0h9d13pki9qdhfm3l5nws4jjn55j6hj';
 $config['auth.adminpassword'] = 'mysupersecret';
