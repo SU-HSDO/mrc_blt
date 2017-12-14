@@ -4,17 +4,10 @@
  *
  * Remember to remove the IdPs you don't use from this file.
  *
- * See: https://simplesamlphp.org/docs/stable/simplesamlphp-reference-idp-remote 
+ * See: https://simplesamlphp.org/docs/stable/simplesamlphp-reference-idp-remote
  */
 
-/*
- * Stanford University idp
- */
-$metadata['https://idp.stanford.edu/'] = array(
-  'name' => array(
-    'en' => 'Stanford University WebLogin',
-  ),
-  'description'         => 'Stanford University WebLogin',
-  'SingleSignOnService' => 'https://idp.stanford.edu/idp/profile/SAML2/Redirect/SSO',
-  'certFingerprint'     => '2B:41:A2:66:6A:4E:3F:40:C6:30:55:6A:1F:EC:C3:E3:0B:CE:EE:8F'
-);
+// Load file on acquia server.
+if (file_exists('/home/hsmrc/saml/saml20-idp-remote.php')) {
+  include_once '/home/hsmrc/saml/saml20-idp-remote.php';
+}
