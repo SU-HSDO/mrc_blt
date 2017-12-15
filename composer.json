@@ -45,7 +45,7 @@
     "su-hsdo/stanford_mrc": "dev-8.x-1.x",
     "drush/drush": "^8.1",
     "drupal-composer/drupal-scaffold": "^2.2",
-    "drupal/core": "~8.4.0",
+    "drupal/core": "^8.4.3",
     "drupal/pathauto": "~1.0",
     "drupal/admin_toolbar": "~1.20",
     "drupal/paragraphs": "~1.2",
@@ -79,7 +79,7 @@
     "drupal/components": "~1.0",
     "drupal/ds": "~3.1",
     "drupal/rabbit_hole": "~1.0@beta",
-    "drupal/simplesamlphp_auth": "^3.0@RC"
+    "drupal/simplesamlphp_auth": "^3.0"
   },
   "require-dev": {
     "drupal/devel": "^1.2",
@@ -146,7 +146,7 @@
     },
     "patches": {
       "drupal/core": {
-        "https://github.com/SU-HSDO/stanford_mrc/pull/16": "https://www.drupal.org/files/issues/the_views_integration-2786577-229.patch"
+        "https://www.drupal.org/project/drupal/issues/2786577": "https://www.drupal.org/files/issues/the_views_integration-2786577-250.patch"
       }
     },
     "merge-plugin": {
@@ -168,7 +168,9 @@
       "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
     ],
     "post-drupal-scaffold-cmd": [
-      "scripts/composer/apply-patches.sh > /dev/null"
+      "scripts/composer/apply-patches.sh > /dev/null",
+      "blt simplesamlphp:init",
+      "blt simplesamlphp:build:config"
     ]
   }
 }

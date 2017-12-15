@@ -3,7 +3,22 @@
 @@ -69,6 +69,29 @@
  <IfModule mod_rewrite.c>
    RewriteEngine on
- 
+
++  # Production URL (add url when its available)
++  RewriteCond %{ENV:AH_SITE_ENVIRONMENT} prod [NC]
++  RewriteCond %{HTTP_HOST} !hs-mrc-prod\.stanford\.edu [NC]
++  RewriteRule ^(.*)$ https://hs-mrc-prod.stanford.edu/$1 [R=301,L]
++
++  # Staging URL (add url when its available)
++  RewriteCond %{ENV:AH_SITE_ENVIRONMENT} test [NC]
++  RewriteCond %{HTTP_HOST} !hs-mrc-stage\.stanford\.edu [NC]
++  RewriteRule ^(.*)$ https://hs-mrc-stage.stanford.edu/$1 [R=301,L]
++
++  # Development URL (add url when its available)
++  RewriteCond %{ENV:AH_SITE_ENVIRONMENT} dev [NC]
++  RewriteCond %{HTTP_HOST} !hs-mrc-dev\.stanford\.edu [NC]
++  RewriteRule ^(.*)$ https://hs-mrc-dev.stanford.edu/$1 [R=301,L]
++
 +  # Redirect HTTP to HTTPS on cloud
 +  RewriteCond %{HTTPS} off
 +  RewriteCond %{HTTP:X-Forwarded-Proto} !https
@@ -11,21 +26,6 @@
 +  RewriteCond %{ENV:AH_SITE_ENVIRONMENT} test [NC,OR]
 +  RewriteCond %{ENV:AH_SITE_ENVIRONMENT} dev [NC]
 +  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [NE,L,R=301]
-+
-+  # Production URL (add url when its available)
-+  #RewriteCond %{ENV:AH_SITE_ENVIRONMENT} prod [NC]
-+  #RewriteCond %{HTTP_HOST} !hs-mrc-prod.stanford.edu [NC]
-+  #RewriteRule ^(.*)$ https://hs-mrc-prod.stanford.edu/$1 [R=301,L]
-+
-+  # Staging URL (add url when its available)
-+  #RewriteCond %{ENV:AH_SITE_ENVIRONMENT} test [NC]
-+  #RewriteCond %{HTTP_HOST} !hs-mrc-stage.stanford.edu [NC]
-+  #RewriteRule ^(.*)$ https://hs-mrc-stage.stanford.edu/$1 [R=301,L]
-+
-+  # Development URL (add url when its available)
-+  #RewriteCond %{ENV:AH_SITE_ENVIRONMENT} dev [NC]
-+  #RewriteCond %{HTTP_HOST} !hs-mrc-dev.stanford.edu [NC]
-+  #RewriteRule ^(.*)$ https://hs-mrc-dev.stanford.edu/$1 [R=301,L]
 +
    # Set "protossl" to "s" if we were accessed via https://.  This is used later
    # if you enable "www." stripping or enforcement, in order to ensure that

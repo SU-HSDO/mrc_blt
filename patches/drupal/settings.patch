@@ -1,0 +1,20 @@
+diff --git a/settings.php b/settings.php
+index ad0ba78..21d2a99 100644
+--- a/settings.php
++++ b/settings.php
+@@ -784,3 +784,15 @@ $settings['entity_update_batch_size'] = 50;
+ #   include $app_root . '/' . $site_path . '/settings.local.php';
+ # }
+ require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
++
++// SimpleSAMLphp configuration
++// Provide universal absolute path to the installation.
++if (isset($_ENV['AH_SITE_NAME']) && is_dir('/var/www/html/' . $_ENV['AH_SITE_NAME'] . '/simplesamlphp')) {
++  $settings['simplesamlphp_dir'] = '/var/www/html/' . $_ENV['AH_SITE_NAME'] . '/simplesamlphp';
++}
++else {
++  // Local SAML path.
++  if (is_dir(DRUPAL_ROOT . '/../simplesamlphp')) {
++    $settings['simplesamlphp_dir'] = DRUPAL_ROOT . '/../simplesamlphp';
++  }
++}

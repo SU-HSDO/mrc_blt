@@ -36,3 +36,4 @@ modules:
   prod:
     enable: [acquia_connector, shield]
     uninstall: [devel, views_ui]
+simplesamlphp: 'TRUE'
