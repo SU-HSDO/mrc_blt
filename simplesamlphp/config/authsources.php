@@ -18,7 +18,7 @@ $config = [
 
     // The entity ID of this SP.
     // Can be NULL/unset, in which case an entity ID is generated based on the metadata URL.
-    'entityID' => NULL,
+    'entityID' => 'https://hs-mrc-prod.stanford.edu',
 
     'authproc' => [
       20 => 'saml:NameIDAttribute',
