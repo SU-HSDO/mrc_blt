@@ -148,7 +148,7 @@
     },
     "patches": {
       "drupal/core": {
-        "https://www.drupal.org/project/drupal/issues/2786577": "https://www.drupal.org/files/issues/the_views_integration-2786577-250.patch"
+        "https://www.drupal.org/project/drupal/issues/2786577": "https://www.drupal.org/files/issues/2786577-8.4.4.patch"
       }
     },
     "merge-plugin": {
