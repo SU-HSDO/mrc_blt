@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2cb15c008b6f9ed49ce0476aec610bef",
+    "content-hash": "d5cc09591e5b127f56509a0ebd19dbcb",
     "packages": [
         {
             "name": "acquia/blt",
@@ -3088,7 +3088,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/entity_browser",
-                "reference": "89bd50e62711d281e262772ccb951098eaa956f4"
+                "reference": "c7fa4e992f996ea3a69e17b39b38b55886ca3c27"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -3158,7 +3158,7 @@
                 "issues": "http://drupal.org/project/issues/entity_browser",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
             },
-            "time": "2017-11-30 13:17:24"
+            "time": "2018-01-09 17:56:47"
         },
         {
             "name": "drupal/entity_embed",
@@ -7236,12 +7236,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "c64aea4c4bb26af2090bd15d4a001e6ec2ef8f07"
+                "reference": "a475dd2fe75359eac18c0a39dfba5d2b83a11b9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/c64aea4c4bb26af2090bd15d4a001e6ec2ef8f07",
-                "reference": "c64aea4c4bb26af2090bd15d4a001e6ec2ef8f07",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/a475dd2fe75359eac18c0a39dfba5d2b83a11b9e",
+                "reference": "a475dd2fe75359eac18c0a39dfba5d2b83a11b9e",
                 "shasum": ""
             },
             "require": {
@@ -7256,7 +7256,7 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2018-01-08 18:03:28"
+            "time": "2018-01-09 21:14:35"
         },
         {
             "name": "su-sws/nobots",
@@ -7285,16 +7285,16 @@
         },
         {
             "name": "su-sws/stanford_basic",
-            "version": "v2.0.x-dev",
+            "version": "dev-8.x-2.x",
             "source": {
                 "type": "git",
-                "url": "git@github.com:SU-SWS/stanford_basic.git",
-                "reference": "8489615ab84d8fbe57c86a81ec5bf85b3d53ca0c"
+                "url": "https://github.com/SU-SWS/stanford_basic.git",
+                "reference": "806fbde84e30ed145bc0e07f5d2e815a370eab2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-SWS/stanford_basic/zipball/8489615ab84d8fbe57c86a81ec5bf85b3d53ca0c",
-                "reference": "8489615ab84d8fbe57c86a81ec5bf85b3d53ca0c",
+                "url": "https://api.github.com/repos/SU-SWS/stanford_basic/zipball/806fbde84e30ed145bc0e07f5d2e815a370eab2a",
+                "reference": "806fbde84e30ed145bc0e07f5d2e815a370eab2a",
                 "shasum": ""
             },
             "type": "stanford-theme",
@@ -7304,10 +7304,10 @@
             "description": "Stanford Basic Branding Theme.",
             "homepage": "https://github.com/SU-SWS/stanford_basic",
             "support": {
-                "source": "https://github.com/SU-SWS/stanford_basic/tree/v2.0",
+                "source": "https://github.com/SU-SWS/stanford_basic/tree/8.x-2.x",
                 "issues": "https://github.com/SU-SWS/stanford_basic/issues"
             },
-            "time": "2017-12-19 19:38:05"
+            "time": "2018-01-08 19:26:55"
         },
         {
             "name": "symfony-cmf/routing",
