@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8123e38d128dc1c64540f44aabca5ed0",
+    "content-hash": "31681042365b828f13bcd99cb878410b",
     "packages": [
         {
             "name": "acquia/blt",
@@ -2642,7 +2642,8 @@
             "extra": {
                 "patches_applied": {
                     "Clear Twig caches on deploys": "https://www.drupal.org/files/issues/2752961-90.patch",
-                    "https://www.drupal.org/project/drupal/issues/2786577": "https://www.drupal.org/files/issues/2786577-8.4.4.patch"
+                    "https://www.drupal.org/project/drupal/issues/2786577": "https://www.drupal.org/files/issues/2786577-8.4.4.patch",
+                    "https://www.drupal.org/project/drupal/issues/2926932#comment-12385480": "https://www.drupal.org/files/issues/update_ckeditor_library_to_4.8.0-2926932-4.patch"
                 }
             },
             "autoload": {
