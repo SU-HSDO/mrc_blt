@@ -56,7 +56,6 @@
     "harvesthq/chosen": "^1.8",
     "enyo/dropzone": "^5.1",
     "su-sws/nobots": "dev-8.x-1.x",
-    "su-sws/stanford_basic": "dev-8.x-2.x",
     "su-hsdo/stanford_mrc": "dev-8.x-1.x",
     "drush/drush": "^8.1",
     "drupal-composer/drupal-scaffold": "^2.2",
@@ -101,7 +100,8 @@
     "drupal/viewfield": "^3.0@alpha",
     "drupal/menu_block": "^1.4",
     "drupal/slick_paragraphs": "^1.0@RC",
-    "kenwheeler/slick": "^1.8"
+    "kenwheeler/slick": "^1.8",
+    "drupal/editor_advanced_link": "^1.4"
   },
   "require-dev": {
     "drupal/devel": "^1.2",
