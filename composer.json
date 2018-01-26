@@ -170,6 +170,9 @@
       "drupal/core": {
         "https://www.drupal.org/project/drupal/issues/2786577": "https://www.drupal.org/files/issues/2786577-8.4.4.patch",
         "https://www.drupal.org/project/drupal/issues/2926932#comment-12385480": "https://www.drupal.org/files/issues/update_ckeditor_library_to_4.8.0-2926932-4.patch"
+      },
+      "drupal/menu_block": {
+        "https://www.drupal.org/project/menu_block/issues/2756675": "https://www.drupal.org/files/issues/menu_block-follow-2756675-41.patch"
       }
     },
     "merge-plugin": {
