@@ -101,7 +101,9 @@
     "drupal/menu_block": "^1.4",
     "drupal/slick_paragraphs": "^1.0@RC",
     "kenwheeler/slick": "^1.8",
-    "drupal/editor_advanced_link": "^1.4"
+    "drupal/editor_advanced_link": "^1.4",
+    "drupal/role_delegation": "^1.0@alpha",
+    "drupal/menu_admin_per_menu": "^1.0"
   },
   "require-dev": {
     "drupal/devel": "^1.2",
