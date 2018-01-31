@@ -103,7 +103,8 @@
     "kenwheeler/slick": "^1.8",
     "drupal/editor_advanced_link": "^1.4",
     "drupal/role_delegation": "^1.0@alpha",
-    "drupal/menu_admin_per_menu": "^1.0"
+    "drupal/menu_admin_per_menu": "^1.0",
+    "drupal/block_field": "^1.0@alpha"
   },
   "require-dev": {
     "drupal/devel": "^1.2",
