@@ -182,6 +182,9 @@
       },
       "drupal/views_taxonomy_term_name_depth": {
         "https://www.drupal.org/project/views_taxonomy_term_name_depth/issues/2877249": "https://www.drupal.org/files/issues/views_taxonomy_term_name_depth-allow_multiple-7.patch"
+      },
+      "drupal/ui_patterns": {
+        "patches": "patches/contrib/ui_patterns_views-preview.patch"
       }
     },
     "merge-plugin": {
