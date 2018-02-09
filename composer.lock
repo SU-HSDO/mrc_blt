@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0aaf91d884c86e15966c442cd431edd1",
+    "content-hash": "7efc00abf0670029c6026ee4e018f455",
     "packages": [
         {
             "name": "acquia/blt",
@@ -1886,7 +1886,7 @@
                 "source": "http://cgit.drupalcode.org/auto_entitylabel",
                 "issues": "https://www.drupal.org/project/issues/auto_entitylabel"
             },
-            "time": "2017-11-13 10:50:28"
+            "time": "2017-11-13T10:50:28+00:00"
         },
         {
             "name": "drupal/blazy",
@@ -2052,7 +2052,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/bricks"
             },
-            "time": "2017-06-27 09:09:53"
+            "time": "2017-06-27T09:09:53+00:00"
         },
         {
             "name": "drupal/chosen",
@@ -2215,6 +2215,12 @@
                 "type": "git",
                 "url": "https://git.drupal.org/project/coder.git",
                 "reference": "984c54a7b1e8f27ff1c32348df69712afd86b17f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/klausi/coder/zipball/984c54a7b1e8f27ff1c32348df69712afd86b17f",
+                "reference": "984c54a7b1e8f27ff1c32348df69712afd86b17f",
+                "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
@@ -3375,7 +3381,7 @@
                 "issues": "http://drupal.org/project/issues/entity_browser",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
             },
-            "time": "2018-01-09 17:56:47"
+            "time": "2018-01-09T17:56:47+00:00"
         },
         {
             "name": "drupal/entity_embed",
@@ -3661,7 +3667,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/extlink"
             },
-            "time": "2017-11-12 09:13:19"
+            "time": "2017-11-12T09:13:19+00:00"
         },
         {
             "name": "drupal/features",
@@ -4179,7 +4185,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.4",
-                    "datestamp": "1513888384",
+                    "datestamp": "1513959187",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5019,6 +5025,9 @@
                     "build/core": [
                         "type:drupal-core"
                     ]
+                },
+                "patches_applied": {
+                    "patches": "patches/contrib/ui_patterns_views-preview.patch"
                 }
             },
             "autoload": {
@@ -5280,6 +5289,10 @@
                 {
                     "name": "Liam Morland",
                     "homepage": "https://www.drupal.org/user/493050"
+                },
+                {
+                    "name": "bucefal91",
+                    "homepage": "https://www.drupal.org/user/504128"
                 },
                 {
                     "name": "fenstrat",
@@ -7916,12 +7929,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "ae1ce5ccb43c565b05bb7b894c366e213e4a65df"
+                "reference": "7e681172fe9c0264d1b8a769295bad7a1406ec29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/ae1ce5ccb43c565b05bb7b894c366e213e4a65df",
-                "reference": "ae1ce5ccb43c565b05bb7b894c366e213e4a65df",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/7e681172fe9c0264d1b8a769295bad7a1406ec29",
+                "reference": "7e681172fe9c0264d1b8a769295bad7a1406ec29",
                 "shasum": ""
             },
             "require": {
@@ -7936,7 +7949,7 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2018-02-08 21:39:23"
+            "time": "2018-02-09T19:02:27+00:00"
         },
         {
             "name": "su-sws/nobots",
@@ -7961,7 +7974,7 @@
                 "GPL-2.0+"
             ],
             "description": "This module blocks (well-behaved) search engine robots from crawling, indexing, or archiving your site by setting a \"X-Robots-Tag: noindex,nofollow,noarchive\" HTTP header.",
-            "time": "2017-10-30 19:28:52"
+            "time": "2017-10-30T19:28:52+00:00"
         },
         {
             "name": "symfony-cmf/routing",
@@ -10409,7 +10422,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.1-alpha3",
-                    "datestamp": "1512866585",
+                    "datestamp": "1509575285",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
