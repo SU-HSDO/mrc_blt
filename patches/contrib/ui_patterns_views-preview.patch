@@ -1,0 +1,30 @@
+diff --git a/modules/ui_patterns_views/ui_patterns_views.module b/modules/ui_patterns_views/ui_patterns_views.module
+index 84323d8..2d02906 100644
+--- a/modules/ui_patterns_views/ui_patterns_views.module
++++ b/modules/ui_patterns_views/ui_patterns_views.module
+@@ -46,11 +46,11 @@ function template_preprocess_pattern_views_row(array &$variables) {
+   }
+ 
+   $variables['pattern'] = [];
+-  if ($view->preview) {
+-    drupal_set_message(t("Pattern Views row plugin does not support preview."), 'warning');
+-    $variables['pattern'] = ['#type' => 'status_messages'];
+-  }
+-  elseif (!empty($fields)) {
++  //if ($view->preview) {
++  //  drupal_set_message(t("Pattern Views row plugin does not support preview."), 'warning');
++  //  $variables['pattern'] = ['#type' => 'status_messages'];
++  //}
++  //elseif (!empty($fields)) {
+     $variables['pattern'] = [
+       '#type' => 'pattern',
+       '#id' => $options['pattern'],
+@@ -63,7 +63,7 @@ function template_preprocess_pattern_views_row(array &$variables) {
+     $variables['pattern']['#context']['view_name'] = $view->storage->id();
+     $variables['pattern']['#context']['display'] = $view->current_display;
+     $variables['pattern']['#context']['view'] = $view;
+-  }
++  //}
+ }
+ 
+ /**
