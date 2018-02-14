@@ -2618,17 +2618,17 @@
         },
         {
             "name": "drupal/contribute",
-            "version": "1.0.0-beta6",
+            "version": "1.0.0-beta7",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/contribute",
-                "reference": "8.x-1.0-beta6"
+                "reference": "8.x-1.0-beta7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/contribute-8.x-1.0-beta6.zip",
-                "reference": "8.x-1.0-beta6",
-                "shasum": "1df2000ef934ead4224d9614f2be40573470b132"
+                "url": "https://ftp.drupal.org/files/projects/contribute-8.x-1.0-beta7.zip",
+                "reference": "8.x-1.0-beta7",
+                "shasum": "f31aaf1294b9504b0057f59ef131d5936f413ede"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -2639,8 +2639,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-beta6",
-                    "datestamp": "1518459480",
+                    "version": "8.x-1.0-beta7",
+                    "datestamp": "1518634080",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -4268,7 +4268,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.4",
-                    "datestamp": "1513959187",
+                    "datestamp": "1513888384",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5372,10 +5372,6 @@
                 {
                     "name": "Liam Morland",
                     "homepage": "https://www.drupal.org/user/493050"
-                },
-                {
-                    "name": "bucefal91",
-                    "homepage": "https://www.drupal.org/user/504128"
                 },
                 {
                     "name": "fenstrat",
@@ -8012,12 +8008,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "35713a55b53d3613eeebcf6b91da00e97b7dbf3a"
+                "reference": "622254c0daaf0720a752cdd6f1c4e7dbd503d929"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/35713a55b53d3613eeebcf6b91da00e97b7dbf3a",
-                "reference": "35713a55b53d3613eeebcf6b91da00e97b7dbf3a",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/622254c0daaf0720a752cdd6f1c4e7dbd503d929",
+                "reference": "622254c0daaf0720a752cdd6f1c4e7dbd503d929",
                 "shasum": ""
             },
             "require": {
@@ -8032,7 +8028,7 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2018-02-10 00:06:51"
+            "time": "2018-02-14 23:31:37"
         },
         {
             "name": "su-sws/nobots",
@@ -10505,7 +10501,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.1-alpha3",
-                    "datestamp": "1509575285",
+                    "datestamp": "1512866585",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
