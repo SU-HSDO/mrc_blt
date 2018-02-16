@@ -106,12 +106,13 @@
     "drupal/menu_admin_per_menu": "^1.0",
     "drupal/block_field": "^1.0@alpha",
     "drupal/views_taxonomy_term_name_depth": "^3.3",
-    "drupal/block_class": "^1.0@alpha"
+    "drupal/block_class": "^1.0@alpha",
+    "drupal/field_permissions": "^1.0@beta"
   },
   "require-dev": {
     "drupal/devel": "^1.2",
     "drupal/devel_debug_log": "^1.0@beta",
-    "drupal/asset_injector": "2.1-alpha3",
+    "drupal/asset_injector": "2.x-dev",
     "drupal/search_kint": "1.0"
   },
   "extra": {
