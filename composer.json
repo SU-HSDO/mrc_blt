@@ -187,6 +187,9 @@
       },
       "drupal/ui_patterns": {
         "patches": "patches/contrib/ui_patterns_views-preview.patch"
+      },
+      "drupal/block_class": {
+        "https://www.drupal.org/project/block_class/issues/2917683": "https://www.drupal.org/files/issues/call_to_a_member_function_on_null-2917683.patch"
       }
     },
     "merge-plugin": {
