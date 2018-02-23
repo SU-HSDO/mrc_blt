@@ -108,7 +108,8 @@
     "drupal/views_taxonomy_term_name_depth": "^3.3",
     "drupal/block_class": "^1.0@alpha",
     "drupal/field_permissions": "^1.0@beta",
-    "drupal/focal_point": "^1.0@beta"
+    "drupal/focal_point": "^1.0@beta",
+    "drupal/environment_indicator": "^3.3"
   },
   "require-dev": {
     "drupal/devel": "^1.2",
