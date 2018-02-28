@@ -8213,12 +8213,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "166233a30fef85f6fda830f860c532fa834f64ba"
+                "reference": "2d3159139507f5862559124e91d04b6c5cc34531"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/166233a30fef85f6fda830f860c532fa834f64ba",
-                "reference": "166233a30fef85f6fda830f860c532fa834f64ba",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/2d3159139507f5862559124e91d04b6c5cc34531",
+                "reference": "2d3159139507f5862559124e91d04b6c5cc34531",
                 "shasum": ""
             },
             "require": {
@@ -8233,7 +8233,7 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2018-02-28 22:40:24"
+            "time": "2018-02-28 22:56:42"
         },
         {
             "name": "su-sws/nobots",
@@ -8266,15 +8266,15 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-SWS/stanford_basic.git",
-                "reference": "fc6e221d55a75b878cb2bf9d82698eb98bcd7e53"
+                "reference": "5f2ccfc978b7aea0c9325f8f8eb9edee59bf26ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-SWS/stanford_basic/zipball/fc6e221d55a75b878cb2bf9d82698eb98bcd7e53",
-                "reference": "fc6e221d55a75b878cb2bf9d82698eb98bcd7e53",
+                "url": "https://api.github.com/repos/SU-SWS/stanford_basic/zipball/5f2ccfc978b7aea0c9325f8f8eb9edee59bf26ad",
+                "reference": "5f2ccfc978b7aea0c9325f8f8eb9edee59bf26ad",
                 "shasum": ""
             },
-            "type": "stanford-theme",
+            "type": "drupal-custom-theme",
             "license": [
                 "GPL-2.0+"
             ],
@@ -8284,7 +8284,7 @@
                 "source": "https://github.com/SU-SWS/stanford_basic/tree/8.x-2.x",
                 "issues": "https://github.com/SU-SWS/stanford_basic/issues"
             },
-            "time": "2018-02-26 23:22:12"
+            "time": "2018-02-28 22:54:31"
         },
         {
             "name": "symfony-cmf/routing",
@@ -10752,7 +10752,8 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/asset_injector",
                 "issues": "https://www.drupal.org/project/issues/asset_injector"
-            }
+            },
+            "time": "2018-02-28 19:58:03"
         },
         {
             "name": "drupal/devel_debug_log",
