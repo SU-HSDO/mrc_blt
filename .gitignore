@@ -47,6 +47,7 @@ box/local.config.yml
 project.local.yml
 blt/project.local.yml
 blt/src/Commands/*Local*
+.lando.yml
 
 # Ignore paths that contain user-generated content.
 docroot/sites/*/files
