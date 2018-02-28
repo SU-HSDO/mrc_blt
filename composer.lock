@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e13ac1253bb3b78288458163c9478f1b",
+    "content-hash": "721412f9ea26c3a10f5609ce602969f4",
     "packages": [
         {
             "name": "acquia/blt",
@@ -1001,6 +1001,20 @@
                 "notation"
             ],
             "time": "2017-01-20T21:14:22+00:00"
+        },
+        {
+            "name": "dinbror/blazy",
+            "version": "1.8.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/dinbror/blazy/archive/1.8.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.2.0"
+            },
+            "type": "drupal-library"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -8199,12 +8213,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "e1c0fc3a2ef25fe6d69a54baa85b1468e4d322c6"
+                "reference": "c93207ff84aee1d94294355a0c8b9c52c694bcd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/e1c0fc3a2ef25fe6d69a54baa85b1468e4d322c6",
-                "reference": "e1c0fc3a2ef25fe6d69a54baa85b1468e4d322c6",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/c93207ff84aee1d94294355a0c8b9c52c694bcd9",
+                "reference": "c93207ff84aee1d94294355a0c8b9c52c694bcd9",
                 "shasum": ""
             },
             "require": {
@@ -8219,7 +8233,7 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2018-02-28 19:01:09"
+            "time": "2018-02-28 21:28:21"
         },
         {
             "name": "su-sws/nobots",
@@ -10713,7 +10727,7 @@
                 "source": "http://cgit.drupalcode.org/asset_injector",
                 "issues": "https://www.drupal.org/project/issues/asset_injector"
             },
-            "time": "2018-02-06 19:06:04"
+            "time": "2018-02-06T19:06:04+00:00"
         },
         {
             "name": "drupal/devel_debug_log",

@@ -46,6 +46,21 @@
           "composer/installers": "^1.2.0"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "dinbror/blazy",
+        "version": "1.8.2",
+        "type": "drupal-library",
+        "dist": {
+          "url": "https://github.com/dinbror/blazy/archive/1.8.2.zip",
+          "type": "zip"
+        },
+        "require": {
+          "composer/installers": "^1.2.0"
+        }
+      }
     }
   ],
   "require": {
@@ -109,7 +124,8 @@
     "drupal/block_class": "^1.0@alpha",
     "drupal/field_permissions": "^1.0@beta",
     "drupal/focal_point": "^1.0@beta",
-    "drupal/environment_indicator": "^3.3"
+    "drupal/environment_indicator": "^3.3",
+    "dinbror/blazy": "^1.8"
   },
   "require-dev": {
     "drupal/devel": "^1.2",
