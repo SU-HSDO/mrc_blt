@@ -126,7 +126,8 @@
     "drupal/field_permissions": "^1.0@beta",
     "drupal/focal_point": "^1.0@beta",
     "drupal/environment_indicator": "^3.3",
-    "dinbror/blazy": "^1.8"
+    "dinbror/blazy": "^1.8",
+    "drupal/taxonomy_menu_ui": "^1.0@beta"
   },
   "require-dev": {
     "drupal/devel": "^1.2",
@@ -209,6 +210,9 @@
       },
       "drupal/block_class": {
         "https://www.drupal.org/project/block_class/issues/2917683": "https://www.drupal.org/files/issues/call_to_a_member_function_on_null-2917683.patch"
+      },
+      "drupal/taxonomy_menu_ui": {
+        "https://www.drupal.org/project/taxonomy_menu_ui/issues/2949553": "https://www.drupal.org/files/issues/taxonomy_menu_ui-link__uri-2949553-3.patch"
       }
     },
     "merge-plugin": {
