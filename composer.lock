@@ -8263,12 +8263,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "9e8a995f41b8bac9188caf59b79fe2f54cf75eef"
+                "reference": "30e05b4acb1f3126ef734bd182e5993950b2f2a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/9e8a995f41b8bac9188caf59b79fe2f54cf75eef",
-                "reference": "9e8a995f41b8bac9188caf59b79fe2f54cf75eef",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/30e05b4acb1f3126ef734bd182e5993950b2f2a0",
+                "reference": "30e05b4acb1f3126ef734bd182e5993950b2f2a0",
                 "shasum": ""
             },
             "require": {
@@ -8283,7 +8283,7 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2018-03-01 23:07:16"
+            "time": "2018-03-05 23:57:43"
         },
         {
             "name": "su-sws/nobots",
@@ -8316,12 +8316,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-SWS/stanford_basic.git",
-                "reference": "47f526cb2ad755101807bb13817258eb660edb0f"
+                "reference": "6ec69c25cb41caf006c428aa56b93063fe6f667d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-SWS/stanford_basic/zipball/47f526cb2ad755101807bb13817258eb660edb0f",
-                "reference": "47f526cb2ad755101807bb13817258eb660edb0f",
+                "url": "https://api.github.com/repos/SU-SWS/stanford_basic/zipball/6ec69c25cb41caf006c428aa56b93063fe6f667d",
+                "reference": "6ec69c25cb41caf006c428aa56b93063fe6f667d",
                 "shasum": ""
             },
             "type": "drupal-custom-theme",
@@ -8334,7 +8334,7 @@
                 "source": "https://github.com/SU-SWS/stanford_basic/tree/8.x-2.x",
                 "issues": "https://github.com/SU-SWS/stanford_basic/issues"
             },
-            "time": "2018-03-02 20:41:29"
+            "time": "2018-03-05 23:51:14"
         },
         {
             "name": "symfony-cmf/routing",
