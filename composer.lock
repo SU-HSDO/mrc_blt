@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a48686615267c632a2ec00f8e790eb53",
+    "content-hash": "3be193760a2dad57b92d77f505ebdef0",
     "packages": [
         {
             "name": "acquia/blt",
@@ -4435,6 +4435,57 @@
             }
         },
         {
+            "name": "drupal/menu_position",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/menu_position",
+                "reference": "d134276b4bbd08b3c9678943d0225fbef7dd05b5"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1508240944",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "BarisW",
+                    "homepage": "https://www.drupal.org/user/107229"
+                },
+                {
+                    "name": "JohnAlbin",
+                    "homepage": "https://www.drupal.org/user/32095"
+                },
+                {
+                    "name": "lbainbridge",
+                    "homepage": "https://www.drupal.org/user/2406996"
+                }
+            ],
+            "description": "This module allows for the creation of rules that will dynamically add the current page into the menu system at the requested spots.",
+            "homepage": "https://www.drupal.org/project/menu_position",
+            "support": {
+                "source": "http://cgit.drupalcode.org/menu_position",
+                "issues": "https://www.drupal.org/project/issues/menu_position"
+            },
+            "time": "2017-10-17 11:48:32"
+        },
+        {
             "name": "drupal/metatag",
             "version": "1.4.0",
             "source": {
@@ -8263,12 +8314,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "30e05b4acb1f3126ef734bd182e5993950b2f2a0"
+                "reference": "9aa8e41beeb01875c48799549339d2ed2697dd59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/30e05b4acb1f3126ef734bd182e5993950b2f2a0",
-                "reference": "30e05b4acb1f3126ef734bd182e5993950b2f2a0",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/9aa8e41beeb01875c48799549339d2ed2697dd59",
+                "reference": "9aa8e41beeb01875c48799549339d2ed2697dd59",
                 "shasum": ""
             },
             "require": {
@@ -8283,7 +8334,7 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2018-03-05 23:57:43"
+            "time": "2018-03-06 00:55:25"
         },
         {
             "name": "su-sws/nobots",
@@ -11666,6 +11717,7 @@
         "drupal/field_permissions": 10,
         "drupal/focal_point": 10,
         "drupal/taxonomy_menu_ui": 10,
+        "drupal/menu_position": 20,
         "drupal/devel_debug_log": 10,
         "drupal/asset_injector": 20
     },
