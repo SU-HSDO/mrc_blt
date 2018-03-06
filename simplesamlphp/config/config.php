@@ -846,12 +846,7 @@ $config = array(
      * Example:
      *   'trusted.url.domains' => array('sp.example.com', 'app.example.com'),
      */
-    'trusted.url.domains' => array(
-      'hs-mrc-dev.stanford.edu',
-      'hs-mrc-stage.stanford.edu',
-      'hs-mrc-prod.stanford.edu',
-      'mrc.stanford.edu',
-    ),
+    'trusted.url.domains' => array(),
 
 );
 include 'acquia_config.php';

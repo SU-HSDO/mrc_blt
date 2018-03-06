@@ -29,7 +29,6 @@ $ah_options = [
 $config['admin.protectindexpage'] = true;
 $config['admin.protectmetadata'] = true;
 ```
-* Tell SAML where the cert files are. `$config['certdir'] = '/home/{site}/saml/';`
 * Prevent varnish from caching. Add the snippet to acquia_config.php
 ```
 // Prevent Varnish from interfering with SimpleSAMLphp.
@@ -53,14 +52,20 @@ $config['authproc.sp'] = array(
   90 => 'core:LanguageAdaptor',
 );
 ```
-
+* Tell saml about the authorized domains
+```
+$config['trusted.url.domains'] = [
+    'my-site-dev.stanford.edu',
+    'my-site-prod.stanford.edu',
+];
+```
 ## Authsources
 * Set the entityID ot the production url `'entityID' => 'https://{site-prod}.stanford.edu',`
 * Set the ipd in the `default-sp` array. `'idp' => 'https://idp.stanford.edu/',`
 * Tell the default-sp to use the certs. in the `default-sp` array add
 ```
-'privatekey' => 'saml.pem',
-'certificate' => 'saml.crt'
+'privatekey' => '/home/{site}/saml/saml.pem',
+'certificate' => '/home/{site}/saml/saml.crt'
 ```
 
 # Move configs to acquia.
