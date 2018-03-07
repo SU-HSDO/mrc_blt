@@ -73,9 +73,15 @@ $config['trusted.url.domains'] = [
 * Replace all contents in the acquia_config.php with the snippet below
 ```
 if (file_exists('/home/{site}/saml/acquia_configs.php')) {
-  include_once '/home/{site}/saml/acquia_configs.php';
+  include '/home/{site}/saml/acquia_configs.php';
 }
 ```
+
+#Split config and functions. (Needed for simplesamlphp 1.15+)
+* With the new acquia_configs.php file on acquia server we need to split the configuration changes and the functions
+* Create a new file `/home/{site}/saml/acquia_functions.php`
+* Move all function from `/home/{site}/saml/acquia_configs.php` into the new file.
+* Include that file with `include_once('acquia_functions.php');` at the top of the acquia_configs.php file.
 
 # Meta Data
 * After configs are placed on acquia server, do a blt deploy.
