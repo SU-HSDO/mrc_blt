@@ -76,7 +76,7 @@
     "su-sws/stanford_basic": "dev-8.x-2.x",
     "drush/drush": "^8.1",
     "drupal-composer/drupal-scaffold": "^2.2",
-    "drupal/core": "^8.4.3",
+    "drupal/core": "^8.5.0",
     "drupal/pathauto": "~1.0",
     "drupal/admin_toolbar": "~1.20",
     "drupal/paragraphs": "~1.2",
@@ -195,9 +195,8 @@
     },
     "patches": {
       "drupal/core": {
-        "https://www.drupal.org/project/drupal/issues/2926932#comment-12385480": "https://www.drupal.org/files/issues/update_ckeditor_library_to_4.8.0-2926932-4.patch",
         "https://www.drupal.org/project/drupal/issues/564106": "https://www.drupal.org/files/issues/views-more-link-564106-154.patch",
-        "https://www.drupal.org/project/drupal/issues/2786577": "https://www.drupal.org/files/issues/2786577-8.4.4.patch"
+        "https://www.drupal.org/project/drupal/issues/2786577": "https://www.drupal.org/files/issues/2786577-270_0.patch"
       },
       "drupal/menu_block": {
         "https://www.drupal.org/project/menu_block/issues/2756675": "https://www.drupal.org/files/issues/menu_block-follow-2756675-41.patch",
@@ -214,6 +213,9 @@
       },
       "drupal/taxonomy_menu_ui": {
         "https://www.drupal.org/project/taxonomy_menu_ui/issues/2949553": "https://www.drupal.org/files/issues/taxonomy_menu_ui-link__uri-2949553-7.patch"
+      },
+      "drupal/migrate_plus": {
+        "https://www.drupal.org/project/migrate_plus/issues/2951003": "https://www.drupal.org/files/issues/migrate_plus-entity_generate_no_lookup-2951003-2.patch"
       }
     },
     "merge-plugin": {
