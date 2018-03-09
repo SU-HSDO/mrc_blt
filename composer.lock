@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7aef04b012e72f5c664aa1769c078ba1",
+    "content-hash": "92434ea0433caf86ff88ced945325767",
     "packages": [
         {
             "name": "acquia/blt",
@@ -8534,16 +8534,16 @@
         },
         {
             "name": "su-hsdo/stanford_mrc",
-            "version": "8.0.7-alpha1",
+            "version": "dev-8.x-1.x",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "af5ba00d1402fc296917f0c5b2bbc5f129b2b8bf"
+                "reference": "c81fbb8a70eee3cff88f1700baf1659a9b31fab7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/af5ba00d1402fc296917f0c5b2bbc5f129b2b8bf",
-                "reference": "af5ba00d1402fc296917f0c5b2bbc5f129b2b8bf",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/c81fbb8a70eee3cff88f1700baf1659a9b31fab7",
+                "reference": "c81fbb8a70eee3cff88f1700baf1659a9b31fab7",
                 "shasum": ""
             },
             "require": {
@@ -8555,10 +8555,10 @@
             ],
             "description": "Installation Profile for the Stanford MRC.",
             "support": {
-                "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.0.7-alpha1",
+                "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2018-03-09T00:50:45+00:00"
+            "time": "2018-03-09 19:37:11"
         },
         {
             "name": "su-sws/nobots",
@@ -12085,6 +12085,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "su-sws/nobots": 20,
+        "su-hsdo/stanford_mrc": 20,
         "su-sws/stanford_basic": 20,
         "drupal/field_group": 5,
         "drupal/auto_entitylabel": 20,
