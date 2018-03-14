@@ -1,12 +1,13 @@
 --- a/.htaccess	2017-10-15 10:08:40.000000000 -0700
 +++ b/.htaccess	2017-10-15 09:52:03.000000000 -0700
-@@ -69,6 +69,29 @@
+@@ -69,6 +69,30 @@
  <IfModule mod_rewrite.c>
    RewriteEngine on
 
 +  # Production URL (add url when its available)
 +  RewriteCond %{ENV:AH_SITE_ENVIRONMENT} prod [NC]
 +  RewriteCond %{HTTP_HOST} !hs-mrc-prod\.stanford\.edu [NC]
++  RewriteCond %{HTTP_HOST} !mrc\.stanford\.edu [NC]
 +  RewriteRule ^(.*)$ https://hs-mrc-prod.stanford.edu/$1 [R=301,L]
 +
 +  # Staging URL (add url when its available)
