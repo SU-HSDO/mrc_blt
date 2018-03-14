@@ -72,7 +72,7 @@
     "kenwheeler/slick": "^1.8",
     "enyo/dropzone": "^5.1",
     "su-sws/nobots": "dev-8.x-1.x",
-    "su-hsdo/stanford_mrc": "dev-8.x-1.x",
+    "su-hsdo/stanford_mrc": "8.0.7",
     "su-sws/stanford_basic": "dev-8.x-2.x",
     "drush/drush": "^8.1",
     "drupal-composer/drupal-scaffold": "^2.2",

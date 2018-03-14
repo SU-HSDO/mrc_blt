@@ -6,7 +6,7 @@
 
 +  # Production URL (add url when its available)
 +  RewriteCond %{ENV:AH_SITE_ENVIRONMENT} prod [NC]
-+  RewriteCond %{HTTP_HOST} !hs-mrc-prod\.stanford\.edu [NC]
++  RewriteCond %{HTTP_HOST} !hs-mrc-prod\.stanford\.edu [NC,OR]
 +  RewriteCond %{HTTP_HOST} !mrc\.stanford\.edu [NC]
 +  RewriteRule ^(.*)$ https://hs-mrc-prod.stanford.edu/$1 [R=301,L]
 +
