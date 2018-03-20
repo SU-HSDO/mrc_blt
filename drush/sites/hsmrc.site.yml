@@ -1,0 +1,20 @@
+dev:
+  root: /var/www/html/hsmrc.dev/docroot
+  uri: hsmrcdev.prod.acquia-sites.com
+  host: staging-25390.prod.hosting.acquia.com
+  user: hsmrc.dev
+prod:
+  root: /var/www/html/hsmrc.prod/docroot
+  uri: hsmrc.prod.acquia-sites.com
+  host: web-25384.prod.hosting.acquia.com
+  user: hsmrc.prod
+ra:
+  root: /var/www/html/hsmrc.ra/docroot
+  uri: hsmrcra.prod.acquia-sites.com
+  host: staging-17808.prod.hosting.acquia.com
+  user: hsmrc.ra
+test:
+  root: /var/www/html/hsmrc.test/docroot
+  uri: hsmrcstg.prod.acquia-sites.com
+  host: staging-25390.prod.hosting.acquia.com
+  user: hsmrc.test

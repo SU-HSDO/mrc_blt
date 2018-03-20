@@ -10,7 +10,7 @@ use Acquia\Blt\Robo\BltTasks;
 class MRCCommand extends BltTasks {
 
   /**
-   * Overrides BLT function to sync to specific environment.
+   * Copies remote db to local db for default site.
    *
    * @param string $environment
    *   The environment as defined in project.yml or project.local.yml.
@@ -18,11 +18,11 @@ class MRCCommand extends BltTasks {
    * @return object
    *   The Robo/Result object.
    *
-   * @command sync:db
-   * @description Copies remote db to local db for default site.
+   * @command drupal:sync:default:db
+   *
+   * @aliases dsb drupal:sync:db sync:db
    */
   public function syncDbDefault($environment = 'remote') {
-
 
     $this->invokeCommand('setup:settings');
 
@@ -34,23 +34,20 @@ class MRCCommand extends BltTasks {
       ->drush('cache-clear drush')
       ->drush('sql-drop')
       ->drush('sql-sync')
-      ->arg($remote_alias)
+      ->arg("@$remote_alias")
       ->arg($local_alias)
+      // @see https://github.com/drush-ops/drush/releases/tag/9.2.1
+      // @see https://github.com/acquia/blt/issues/2641
+      ->option('--source-dump', sys_get_temp_dir() . '/tmp.sql')
       ->option('structure-tables-key', 'lightweight')
-      ->option('create-db')
-      ->assume(TRUE);
+      ->option('create-db');
 
     if ($this->getConfigValue('drush.sanitize')) {
-      $drush_version = $this->getInspector()->getDrushMajorVersion();
-      if ($drush_version == 8) {
-        $task->option('sanitize');
-      }
-      else {
-        $task->drush('sql-sanitize');
-      }
+      $task->drush('sql-sanitize');
     }
 
-    $task->drush('cache-clear drush');
+    $task->drush('cr');
+    $task->drush('sqlq "TRUNCATE cache_entity"');
 
     $result = $task->run();
 
@@ -75,10 +72,9 @@ class MRCCommand extends BltTasks {
 
     $task = $this->taskDrush()
       ->alias('')
-      ->assume('')
       ->uri('')
       ->drush('rsync')
-      ->arg($remote_alias . ':%files/')
+      ->arg("@$remote_alias" . ':%files/')
       ->arg($this->getConfigValue('docroot') . "/sites/$site_dir/files")
       ->option('exclude-paths', implode(':', $this->getConfigValue('sync.exclude-paths')));
 
@@ -96,14 +92,15 @@ class MRCCommand extends BltTasks {
    * @return string
    *   Drush alias name.
    */
-  private function getRemoteAlias($environment = 'remote') {
+  protected function getRemoteAlias($environment = 'remote') {
+
     // For ODE environments, just get the remote and replace with the ode name.
     if (strpos($environment, 'ode') !== FALSE) {
-      $alias = '@' . $this->getConfigValue('drush.aliases.remote');
+      $alias = $this->getConfigValue('drush.aliases.remote');
       return str_replace('.test', ".$environment", $alias);
     }
 
-    return '@' . $this->getConfigValue("drush.aliases.$environment");
+    return $this->getConfigValue("drush.aliases.$environment");
   }
 
 }
