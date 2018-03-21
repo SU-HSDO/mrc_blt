@@ -10,6 +10,84 @@ use Acquia\Blt\Robo\BltTasks;
 class MRCCommand extends BltTasks {
 
   /**
+   * Set up local environment.
+   *
+   * @command local:setup
+   */
+  public function localSetup() {
+    $this->invokeCommand('setup:settings');
+
+    $multisites = $this->getConfigValue('multisites');
+    $initial_site = $this->getConfigValue('site');
+    $current_site = $initial_site;
+
+    foreach ($multisites as $multisite) {
+      if ($current_site != $multisite) {
+        $this->switchSiteContext($multisite);
+        $current_site = $multisite;
+      }
+
+      // Generate settings.php.
+      $multisite_dir = $this->getConfigValue('docroot') . "/sites/$multisite";
+      $project_local_settings_file = "$multisite_dir/settings/local.settings.php";
+      $settings_contents = file_get_contents($project_local_settings_file);
+      if (strpos($settings_contents, "'database' => 'drupal',") !== FALSE) {
+        $database_name = $this->getDatabaseName($multisite);
+
+        if ($multisite == 'default') {
+          $database_user_name = $this->ask('What is the database user name?');
+          $database_password = $this->ask('What is the database password?');
+        }
+        else {
+          $database_user_name = $this->ask("What is the database user name for $multisite site?");
+          $database_password = $this->ask("What is the database password for $multisite site?");
+        }
+
+        $settings_contents = str_replace("'database' => 'drupal',", "'database' => '$database_name',", $settings_contents);
+        $settings_contents = str_replace("'username' => 'drupal',", "'username' => '$database_user_name',", $settings_contents);
+        $settings_contents = str_replace("'password' => 'drupal',", "'password' => '$database_password',", $settings_contents);
+        file_put_contents($project_local_settings_file, $settings_contents);
+      }
+
+      $status = $this->getInspector()->getStatus();
+      $connection = @mysqli_connect(
+        $status['db-hostname'],
+        $status['db-username'],
+        $status['db-password'],
+        '',
+        $status['db-port']
+      );
+
+      $connection->query('CREATE DATABASE IF NOT EXISTS ' . $status['db-name']);
+    }
+    $this->syncDbDefault('prod');
+    $this->syncFiles('prod');
+  }
+
+  /**
+   * @param string $multisite
+   *
+   * @return string
+   */
+  protected function getDatabaseName($multisite = 'default') {
+    $database_name = '';
+    $count = 0;
+    while (!preg_match("/^[a-z0-9_]+$/", $database_name)) {
+
+      if (!$count) {
+        $this->say('<info>Only lower case alphanumeric characters and underscores are allowed in the database name.</info>');
+      }
+      $question = "What is the database name for $multisite site?";
+      if ($multisite == 'default') {
+        $question = 'What is the database name?';
+      }
+      $database_name = $this->ask($question);
+      $count++;
+    }
+    return $database_name;
+  }
+
+  /**
    * Copies remote db to local db for default site.
    *
    * @param string $environment
