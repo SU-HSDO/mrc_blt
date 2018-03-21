@@ -34,19 +34,23 @@ class MRCCommand extends BltTasks {
       $settings_contents = file_get_contents($project_local_settings_file);
 
       $database_name = $this->getDatabaseName($multisite, $status['db-name']);
+      $database_host = $this->askDefault('Database Host', $status['db-hostname']);
+      $database_port = $this->askDefault('Database Port', $status['db-port']);
 
       if ($multisite == 'default') {
-        $database_user_name = $this->askDefault('What is the database user name?', $status['db-username']);
-        $database_password = $this->askDefault('What is the database password?', $status['db-password']);
+        $database_user_name = $this->askDefault('Database user name?', $status['db-username']);
+        $database_password = $this->askDefault('Database password?', $status['db-password']);
       }
       else {
-        $database_user_name = $this->askDefault("What is the database user name for $multisite site?", $status['db-username']);
-        $database_password = $this->askDefault("What is the database password for $multisite site?", $status['db-password']);
+        $database_user_name = $this->askDefault("Database user name for $multisite site?", $status['db-username']);
+        $database_password = $this->askDefault("Database password for $multisite site?", $status['db-password']);
       }
 
       $settings_contents = str_replace("'database' => 'drupal',", "'database' => '$database_name',", $settings_contents);
       $settings_contents = str_replace("'username' => 'drupal',", "'username' => '$database_user_name',", $settings_contents);
       $settings_contents = str_replace("'password' => 'drupal',", "'password' => '$database_password',", $settings_contents);
+      $settings_contents = str_replace("'host' => 'drupal',", "'host' => '$database_host',", $settings_contents);
+      $settings_contents = str_replace("'port' => 'drupal',", "'port' => '$database_port',", $settings_contents);
       file_put_contents($project_local_settings_file, $settings_contents);
 
       $status = $this->getInspector()->getStatus();
@@ -77,9 +81,9 @@ class MRCCommand extends BltTasks {
       if (!$count) {
         $this->say('<info>Only lower case alphanumeric characters and underscores are allowed in the database name.</info>');
       }
-      $question = "What is the database name for $multisite site?";
+      $question = "Database name for $multisite site?";
       if ($multisite == 'default') {
-        $question = 'What is the database name?';
+        $question = 'Database name?';
       }
       $database_name = $this->askDefault($question, '');
       $count++;
