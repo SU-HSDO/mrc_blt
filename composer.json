@@ -64,7 +64,7 @@
     }
   ],
   "require": {
-    "acquia/blt": "^8.9",
+    "acquia/blt": "^9.0.5",
     "cweagans/composer-patches": "^1.6",
     "composer/installers": "^1.4",
     "davidbarratt/custom-installer": "~1.0",
@@ -74,7 +74,7 @@
     "su-sws/nobots": "dev-8.x-1.x",
     "su-hsdo/stanford_mrc": "dev-8.x-1.x",
     "su-sws/stanford_basic": "dev-8.x-2.x",
-    "drush/drush": "^8.1",
+    "drush/drush": "^9.2",
     "drupal-composer/drupal-scaffold": "^2.2",
     "drupal/core": "^8.5.0",
     "drupal/pathauto": "~1.0",
@@ -128,7 +128,8 @@
     "drupal/environment_indicator": "^3.3",
     "dinbror/blazy": "^1.8",
     "drupal/taxonomy_menu_ui": "^1.0@beta",
-    "drupal/menu_position": "1.x-dev"
+    "drupal/menu_position": "1.x-dev",
+    "drupal/porterstemmer": "^1.0"
   },
   "require-dev": {
     "drupal/devel": "^1.2",
@@ -161,7 +162,7 @@
       "docroot/themes/contrib/{$name}": [
         "type:drupal-theme"
       ],
-      "docroot/themes/custom/{$name}": [
+      "docroot/themes/stanford/{$name}": [
         "type:drupal-custom-theme"
       ],
       "docroot/libraries/{$name}": [
@@ -189,7 +190,7 @@
       "vendor/{$vendor}/{$name}/": [
         "type:library"
       ],
-      "docroot/profiles/{$name}/": [
+      "docroot/profiles/stanford/{$name}/": [
         "type:stanford-profile"
       ]
     },
@@ -220,10 +221,7 @@
     },
     "merge-plugin": {
       "require": [
-        "vendor/acquia/blt/composer.required.json"
-      ],
-      "include": [
-        "blt/composer.overrides.json"
+        "blt/composer.required.json"
       ],
       "merge-extra": true,
       "merge-extra-deep": true,
