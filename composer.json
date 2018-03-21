@@ -129,7 +129,7 @@
     "dinbror/blazy": "^1.8",
     "drupal/taxonomy_menu_ui": "^1.0@beta",
     "drupal/menu_position": "1.x-dev",
-    "drupal/porterstemmer": "^1.0",
+    "drupal/porterstemmer": "^1.0"
   },
   "require-dev": {
     "drupal/devel": "^1.2",
