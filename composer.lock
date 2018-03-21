@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf6c33915b484eaf4422a501bf9847cd",
+    "content-hash": "e63e19401c27b430ac4933ed9e03d037",
     "packages": [
         {
             "name": "acquia/blt",
@@ -1931,7 +1931,7 @@
                 "source": "http://cgit.drupalcode.org/auto_entitylabel",
                 "issues": "https://www.drupal.org/project/issues/auto_entitylabel"
             },
-            "time": "2017-11-13T10:50:28+00:00"
+            "time": "2017-11-13 10:50:28"
         },
         {
             "name": "drupal/blazy",
@@ -2187,7 +2187,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/bricks"
             },
-            "time": "2018-03-19T20:22:44+00:00"
+            "time": "2018-03-19 20:22:44"
         },
         {
             "name": "drupal/chosen",
@@ -3489,7 +3489,7 @@
                 "issues": "http://drupal.org/project/issues/entity_browser",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
             },
-            "time": "2018-03-01T13:56:09+00:00"
+            "time": "2018-03-01 13:56:09"
         },
         {
             "name": "drupal/entity_embed",
@@ -3830,7 +3830,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/extlink"
             },
-            "time": "2017-11-12T09:13:19+00:00"
+            "time": "2017-11-12 09:13:19"
         },
         {
             "name": "drupal/field_group",
@@ -4404,7 +4404,7 @@
                 "source": "http://cgit.drupalcode.org/menu_position",
                 "issues": "https://www.drupal.org/project/issues/menu_position"
             },
-            "time": "2018-03-07T10:25:38+00:00"
+            "time": "2018-03-07 10:25:38"
         },
         {
             "name": "drupal/metatag",
@@ -4960,6 +4960,61 @@
             "homepage": "https://www.drupal.org/project/role_delegation",
             "support": {
                 "source": "http://cgit.drupalcode.org/role_delegation"
+            }
+        },
+        {
+            "name": "drupal/seckit",
+            "version": "1.0.0-alpha2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/seckit",
+                "reference": "8.x-1.0-alpha2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/seckit-8.x-1.0-alpha2.zip",
+                "reference": "8.x-1.0-alpha2",
+                "shasum": "c873327ac8135e8939c09c8a45046f2dc5d79fbe"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha2",
+                    "datestamp": "1470853439",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "badjava",
+                    "homepage": "https://www.drupal.org/user/83372"
+                },
+                {
+                    "name": "jweowu",
+                    "homepage": "https://www.drupal.org/user/152788"
+                },
+                {
+                    "name": "p0deje",
+                    "homepage": "https://www.drupal.org/user/529960"
+                }
+            ],
+            "description": "Enhance security of your Drupal website.",
+            "homepage": "https://www.drupal.org/project/seckit",
+            "support": {
+                "source": "http://cgit.drupalcode.org/seckit"
             }
         },
         {
@@ -8471,7 +8526,7 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2018-03-21T02:57:59+00:00"
+            "time": "2018-03-21 02:57:59"
         },
         {
             "name": "su-sws/nobots",
@@ -8496,7 +8551,7 @@
                 "GPL-2.0+"
             ],
             "description": "This module blocks (well-behaved) search engine robots from crawling, indexing, or archiving your site by setting a \"X-Robots-Tag: noindex,nofollow,noarchive\" HTTP header.",
-            "time": "2017-10-30T19:28:52+00:00"
+            "time": "2017-10-30 19:28:52"
         },
         {
             "name": "su-sws/stanford_basic",
@@ -8522,7 +8577,7 @@
                 "source": "https://github.com/SU-SWS/stanford_basic/tree/8.x-2.x",
                 "issues": "https://github.com/SU-SWS/stanford_basic/issues"
             },
-            "time": "2018-03-05T23:51:14+00:00"
+            "time": "2018-03-05 23:51:14"
         },
         {
             "name": "symfony-cmf/routing",
@@ -11384,7 +11439,7 @@
                 "source": "http://cgit.drupalcode.org/asset_injector",
                 "issues": "https://www.drupal.org/project/issues/asset_injector"
             },
-            "time": "2018-02-28T19:58:03+00:00"
+            "time": "2018-02-28 19:58:03"
         },
         {
             "name": "drupal/devel",
@@ -12592,6 +12647,7 @@
         "drupal/focal_point": 10,
         "drupal/taxonomy_menu_ui": 10,
         "drupal/menu_position": 20,
+        "drupal/seckit": 15,
         "drupal/devel_debug_log": 10,
         "drupal/asset_injector": 20,
         "sensiolabs-de/deprecation-detector": 20
