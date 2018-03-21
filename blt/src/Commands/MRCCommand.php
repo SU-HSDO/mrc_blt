@@ -26,28 +26,28 @@ class MRCCommand extends BltTasks {
         $this->switchSiteContext($multisite);
         $current_site = $multisite;
       }
+      $status = $this->getInspector()->getStatus();
 
       // Generate settings.php.
       $multisite_dir = $this->getConfigValue('docroot') . "/sites/$multisite";
       $project_local_settings_file = "$multisite_dir/settings/local.settings.php";
       $settings_contents = file_get_contents($project_local_settings_file);
-      if (strpos($settings_contents, "'database' => 'drupal',") !== FALSE) {
-        $database_name = $this->getDatabaseName($multisite);
 
-        if ($multisite == 'default') {
-          $database_user_name = $this->ask('What is the database user name?');
-          $database_password = $this->ask('What is the database password?');
-        }
-        else {
-          $database_user_name = $this->ask("What is the database user name for $multisite site?");
-          $database_password = $this->ask("What is the database password for $multisite site?");
-        }
+      $database_name = $this->getDatabaseName($multisite, $status['db-name']);
 
-        $settings_contents = str_replace("'database' => 'drupal',", "'database' => '$database_name',", $settings_contents);
-        $settings_contents = str_replace("'username' => 'drupal',", "'username' => '$database_user_name',", $settings_contents);
-        $settings_contents = str_replace("'password' => 'drupal',", "'password' => '$database_password',", $settings_contents);
-        file_put_contents($project_local_settings_file, $settings_contents);
+      if ($multisite == 'default') {
+        $database_user_name = $this->askDefault('What is the database user name?', $status['db-username']);
+        $database_password = $this->askDefault('What is the database password?', $status['db-password']);
       }
+      else {
+        $database_user_name = $this->askDefault("What is the database user name for $multisite site?", $status['db-username']);
+        $database_password = $this->askDefault("What is the database password for $multisite site?", $status['db-password']);
+      }
+
+      $settings_contents = str_replace("'database' => 'drupal',", "'database' => '$database_name',", $settings_contents);
+      $settings_contents = str_replace("'username' => 'drupal',", "'username' => '$database_user_name',", $settings_contents);
+      $settings_contents = str_replace("'password' => 'drupal',", "'password' => '$database_password',", $settings_contents);
+      file_put_contents($project_local_settings_file, $settings_contents);
 
       $status = $this->getInspector()->getStatus();
       $connection = @mysqli_connect(
@@ -69,7 +69,7 @@ class MRCCommand extends BltTasks {
    *
    * @return string
    */
-  protected function getDatabaseName($multisite = 'default') {
+  protected function getDatabaseName($multisite = 'default', $default = 'drupal') {
     $database_name = '';
     $count = 0;
     while (!preg_match("/^[a-z0-9_]+$/", $database_name)) {
@@ -81,7 +81,7 @@ class MRCCommand extends BltTasks {
       if ($multisite == 'default') {
         $question = 'What is the database name?';
       }
-      $database_name = $this->ask($question);
+      $database_name = $this->askDefault($question, '');
       $count++;
     }
     return $database_name;
