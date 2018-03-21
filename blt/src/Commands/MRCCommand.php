@@ -3,6 +3,7 @@
 namespace Acquia\Blt\Custom\Commands;
 
 use Acquia\Blt\Robo\BltTasks;
+use Acquia\Blt\Robo\Exceptions\BltException;
 
 /**
  * Defines commands in the "custom" namespace.
@@ -34,23 +35,25 @@ class MRCCommand extends BltTasks {
       $settings_contents = file_get_contents($project_local_settings_file);
 
       $database_name = $this->getDatabaseName($multisite, $status['db-name']);
-      $database_host = $this->askDefault('Database Host', $status['db-hostname']);
-      $database_port = $this->askDefault('Database Port', $status['db-port']);
+
+      $database_host = $this->askQuestion('Database Host', $status['db-hostname'], TRUE);
+      $database_port = $this->askQuestion('Database Port', $status['db-port']);
 
       if ($multisite == 'default') {
-        $database_user_name = $this->askDefault('Database user name?', $status['db-username']);
-        $database_password = $this->askDefault('Database password?', $status['db-password']);
+        $database_user_name = $this->askQuestion('Database user name?', $status['db-username'], TRUE);
+        $database_password = $this->askQuestion('Database password?', $status['db-password'], TRUE);
       }
       else {
-        $database_user_name = $this->askDefault("Database user name for $multisite site?", $status['db-username']);
-        $database_password = $this->askDefault("Database password for $multisite site?", $status['db-password']);
+        $database_user_name = $this->askQuestion("Database user name for $multisite site?", $status['db-username'], TRUE);
+        $database_password = $this->askQuestion("Database password for $multisite site?", $status['db-password'], TRUE);
       }
 
-      $settings_contents = str_replace("'database' => 'drupal',", "'database' => '$database_name',", $settings_contents);
-      $settings_contents = str_replace("'username' => 'drupal',", "'username' => '$database_user_name',", $settings_contents);
-      $settings_contents = str_replace("'password' => 'drupal',", "'password' => '$database_password',", $settings_contents);
-      $settings_contents = str_replace("'host' => 'drupal',", "'host' => '$database_host',", $settings_contents);
-      $settings_contents = str_replace("'port' => 'drupal',", "'port' => '$database_port',", $settings_contents);
+      $settings_contents = preg_replace("/'database' => '.*?',/", "'database' => '$database_name',", $settings_contents);
+      $settings_contents = preg_replace("/'username' => '.*?',/", "'username' => '$database_user_name',", $settings_contents);
+      $settings_contents = preg_replace("/'password' => '.*?',/", "'password' => '$database_password',", $settings_contents);
+      $settings_contents = preg_replace("/'host' => '.*?',/", "'host' => '$database_host',", $settings_contents);
+      $settings_contents = preg_replace("/'port' => '.*?',/", "'port' => '$database_port',", $settings_contents);
+
       file_put_contents($project_local_settings_file, $settings_contents);
 
       $status = $this->getInspector()->getStatus();
@@ -62,10 +65,33 @@ class MRCCommand extends BltTasks {
         $status['db-port']
       );
 
+      if (!$connection) {
+        throw new BltException("Unable to connect to database.");
+      }
       $connection->query('CREATE DATABASE IF NOT EXISTS ' . $status['db-name']);
     }
     $this->syncDbDefault('prod');
     $this->syncFiles('prod');
+  }
+
+  /**
+   * @param $question
+   * @param string $default
+   * @param bool $required
+   *
+   * @return string
+   */
+  protected function askQuestion($question, $default = '', $required = FALSE) {
+    if ($default) {
+      $response = $this->askDefault($question, $default);
+    }
+    else {
+      $response = $this->ask($question);
+    }
+    if ($required && !$response) {
+      return $this->askQuestion($question, $default, $required);
+    }
+    return $response;
   }
 
   /**
@@ -85,7 +111,7 @@ class MRCCommand extends BltTasks {
       if ($multisite == 'default') {
         $question = 'Database name?';
       }
-      $database_name = $this->askDefault($question, '');
+      $database_name = $this->askDefault($question, $default);
       $count++;
     }
     return $database_name;
