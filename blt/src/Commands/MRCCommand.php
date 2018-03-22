@@ -11,6 +11,29 @@ use Acquia\Blt\Robo\Exceptions\BltException;
 class MRCCommand extends BltTasks {
 
   /**
+   * Synchronize local env from remote (remote --> local).
+   *
+   * Copies remote db to local db, re-imports config, and executes db updates
+   * for each multisite.
+   *
+   * @command drupal:sync:default:site
+   * @aliases ds drupal:sync drupal:sync:default sync sync:refresh
+   * @executeInVm
+   */
+  public function sync($options = [
+    'sync-files' => FALSE,
+  ]) {
+
+    $commands = $this->getConfigValue('sync.commands');
+    if ($options['sync-files'] || $this->getConfigValue('sync.files')) {
+      $commands[] = 'drupal:sync:files';
+    }
+    $this->invokeCommands($commands);
+
+    return $this->taskDrush()->drush('updb -y')->run();
+  }
+
+  /**
    * Set up local environment.
    *
    * @command local:setup
@@ -72,6 +95,15 @@ class MRCCommand extends BltTasks {
     }
     $this->syncDbDefault('prod');
     $this->syncFiles('prod');
+  }
+
+  /**
+   * Set up local Lando environment.
+   *
+   * @command local:setup:lando
+   */
+  public function localLandoSetup() {
+    return $this->getConfigValue('multisites');
   }
 
   /**
