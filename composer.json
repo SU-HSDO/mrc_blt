@@ -135,7 +135,8 @@
     "drupal/devel": "^1.2",
     "drupal/devel_debug_log": "^1.0@beta",
     "drupal/asset_injector": "2.x-dev",
-    "drupal/search_kint": "1.0"
+    "drupal/search_kint": "1.0",
+    "drupal/seckit": "^1.0@alpha"
   },
   "extra": {
     "enable-patching": true,
