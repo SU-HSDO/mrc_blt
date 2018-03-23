@@ -163,9 +163,6 @@ class MRCCommand extends BltTasks {
    * @aliases dsb drupal:sync:db sync:db
    */
   public function syncDbDefault($environment = 'remote') {
-
-    $this->invokeCommand('setup:settings');
-
     $local_alias = '@' . $this->getConfigValue('drush.aliases.local');
     $remote_alias = $this->getRemoteAlias($environment);
 
