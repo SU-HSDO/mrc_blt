@@ -74,6 +74,7 @@
     "su-sws/nobots": "dev-8.x-1.x",
     "su-hsdo/stanford_mrc": "dev-8.x-1.x",
     "su-sws/stanford_basic": "dev-8.x-2.x",
+    "su-sws/stanford_media": "dev-8.x-1.x",
     "drush/drush": "^9.2",
     "drupal-composer/drupal-scaffold": "^2.2",
     "drupal/core": "^8.5.0",
@@ -151,7 +152,7 @@
       "docroot/modules/contrib/{$name}": [
         "type:drupal-module"
       ],
-      "docroot/modules/custom/{$name}": [
+      "docroot/modules/stanford/{$name}": [
         "type:drupal-custom-module"
       ],
       "docroot/profiles/contrib/{$name}": [
