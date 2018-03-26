@@ -235,11 +235,6 @@
   "scripts": {
     "drupal-scaffold": [
       "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
-    ],
-    "post-drupal-scaffold-cmd": [
-      "scripts/composer/apply-patches.sh > /dev/null",
-      "blt simplesamlphp:init",
-      "blt simplesamlphp:build:config"
     ]
   }
 }
