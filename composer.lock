@@ -8451,12 +8451,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "7d43b547b0ac7fe6745c9c06884544d0e475694a"
+                "reference": "25d4f05ec929aa4d45533a253937ae198c25c754"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/7d43b547b0ac7fe6745c9c06884544d0e475694a",
-                "reference": "7d43b547b0ac7fe6745c9c06884544d0e475694a",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/25d4f05ec929aa4d45533a253937ae198c25c754",
+                "reference": "25d4f05ec929aa4d45533a253937ae198c25c754",
                 "shasum": ""
             },
             "require": {
@@ -8471,7 +8471,7 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2018-03-26T23:40:18+00:00"
+            "time": "2018-03-27T18:21:34+00:00"
         },
         {
             "name": "su-sws/nobots",
