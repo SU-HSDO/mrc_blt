@@ -8504,12 +8504,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-SWS/stanford_basic.git",
-                "reference": "6ec69c25cb41caf006c428aa56b93063fe6f667d"
+                "reference": "9c48b45de9e4cb089507b5e7f3dcda67591bcb6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-SWS/stanford_basic/zipball/6ec69c25cb41caf006c428aa56b93063fe6f667d",
-                "reference": "6ec69c25cb41caf006c428aa56b93063fe6f667d",
+                "url": "https://api.github.com/repos/SU-SWS/stanford_basic/zipball/9c48b45de9e4cb089507b5e7f3dcda67591bcb6f",
+                "reference": "9c48b45de9e4cb089507b5e7f3dcda67591bcb6f",
                 "shasum": ""
             },
             "type": "drupal-custom-theme",
@@ -8522,7 +8522,7 @@
                 "source": "https://github.com/SU-SWS/stanford_basic/tree/8.x-2.x",
                 "issues": "https://github.com/SU-SWS/stanford_basic/issues"
             },
-            "time": "2018-03-05T23:51:14+00:00"
+            "time": "2018-03-28T17:13:48+00:00"
         },
         {
             "name": "su-sws/stanford_media",
@@ -8530,12 +8530,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-SWS/stanford_media.git",
-                "reference": "1b1b795ed39bffede3f4c9d12c2a9de537645448"
+                "reference": "f44b009696b3111055ae8e51d47122199138b623"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-SWS/stanford_media/zipball/1b1b795ed39bffede3f4c9d12c2a9de537645448",
-                "reference": "1b1b795ed39bffede3f4c9d12c2a9de537645448",
+                "url": "https://api.github.com/repos/SU-SWS/stanford_media/zipball/f44b009696b3111055ae8e51d47122199138b623",
+                "reference": "f44b009696b3111055ae8e51d47122199138b623",
                 "shasum": ""
             },
             "require": {
@@ -8557,7 +8557,7 @@
             ],
             "description": "Stanford Media module for Drupal 8 Media management",
             "homepage": "https://github.com/SU-SWS/stanford_media",
-            "time": "2018-03-23T22:03:44+00:00"
+            "time": "2018-03-27T21:20:02+00:00"
         },
         {
             "name": "symfony-cmf/routing",
