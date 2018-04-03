@@ -72,7 +72,7 @@
     "kenwheeler/slick": "^1.8",
     "enyo/dropzone": "^5.1",
     "su-sws/nobots": "dev-8.x-1.x",
-    "su-hsdo/stanford_mrc": "8.0.8",
+    "su-hsdo/stanford_mrc": "dev-8.x-1.x",
     "su-sws/stanford_basic": "dev-8.x-2.x",
     "su-sws/stanford_media": "dev-8.x-1.x",
     "drush/drush": "^9.2",
@@ -215,9 +215,6 @@
       },
       "drupal/block_class": {
         "https://www.drupal.org/project/block_class/issues/2917683": "https://www.drupal.org/files/issues/call_to_a_member_function_on_null-2917683.patch"
-      },
-      "drupal/taxonomy_menu_ui": {
-        "https://www.drupal.org/project/taxonomy_menu_ui/issues/2949553": "https://www.drupal.org/files/issues/taxonomy_menu_ui-link__uri-2949553-7.patch"
       },
       "drupal/migrate_plus": {
         "https://www.drupal.org/project/migrate_plus/issues/2951003": "https://www.drupal.org/files/issues/migrate_plus-entity_generate_no_lookup-2951003-2.patch"
