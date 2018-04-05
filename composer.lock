@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c51147fa539518335b594540d029ba6c",
+    "content-hash": "87dfd896a99f59a782875285a336cc21",
     "packages": [
         {
             "name": "acquia/blt",
@@ -8444,16 +8444,16 @@
         },
         {
             "name": "su-hsdo/stanford_mrc",
-            "version": "dev-8.x-1.x",
+            "version": "8.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "4ad9d6c01747acd5b845295c9f723dd933d2cf19"
+                "reference": "1d8139dec89b23009cd6c45eb8f3b50a3b94ccc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/4ad9d6c01747acd5b845295c9f723dd933d2cf19",
-                "reference": "4ad9d6c01747acd5b845295c9f723dd933d2cf19",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/1d8139dec89b23009cd6c45eb8f3b50a3b94ccc6",
+                "reference": "1d8139dec89b23009cd6c45eb8f3b50a3b94ccc6",
                 "shasum": ""
             },
             "type": "stanford-profile",
@@ -8462,10 +8462,10 @@
             ],
             "description": "Installation Profile for the Stanford MRC.",
             "support": {
-                "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
+                "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.0.9",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2018-04-05T18:22:27+00:00"
+            "time": "2018-04-05T18:35:35+00:00"
         },
         {
             "name": "su-sws/nobots",
@@ -12769,7 +12769,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "su-sws/nobots": 20,
-        "su-hsdo/stanford_mrc": 20,
         "su-sws/stanford_basic": 20,
         "su-sws/stanford_media": 20,
         "drupal/field_group": 5,
