@@ -2474,17 +2474,17 @@
         },
         {
             "name": "drupal/config_filter",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/config_filter",
-                "reference": "8.x-1.1"
+                "reference": "8.x-1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/config_filter-8.x-1.1.zip",
-                "reference": "8.x-1.1",
-                "shasum": "4fffc62f2e1214bc58e7318c780eec04c5cd1d4c"
+                "url": "https://ftp.drupal.org/files/projects/config_filter-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "ba3d76dc6bb1eb8644ce8997ca2890496a50ae0e"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -2498,8 +2498,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.1",
-                    "datestamp": "1511779985",
+                    "version": "8.x-1.2",
+                    "datestamp": "1522943885",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -6871,16 +6871,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.11",
+            "version": "v2.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "5da4d3c796c275c55f057af5a643ae297d96b4d8"
+                "reference": "258c89a6b97de7dfaf5b8c7607d0478e236b04fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/5da4d3c796c275c55f057af5a643ae297d96b4d8",
-                "reference": "5da4d3c796c275c55f057af5a643ae297d96b4d8",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/258c89a6b97de7dfaf5b8c7607d0478e236b04fb",
+                "reference": "258c89a6b97de7dfaf5b8c7607d0478e236b04fb",
                 "shasum": ""
             },
             "require": {
@@ -6915,7 +6915,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2017-09-27T21:40:39+00:00"
+            "time": "2018-04-04T21:24:14+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -8448,12 +8448,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "2c88b9987aebc1853830ecb50148b13a6ba61c34"
+                "reference": "4ad9d6c01747acd5b845295c9f723dd933d2cf19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/2c88b9987aebc1853830ecb50148b13a6ba61c34",
-                "reference": "2c88b9987aebc1853830ecb50148b13a6ba61c34",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/4ad9d6c01747acd5b845295c9f723dd933d2cf19",
+                "reference": "4ad9d6c01747acd5b845295c9f723dd933d2cf19",
                 "shasum": ""
             },
             "type": "stanford-profile",
@@ -8465,7 +8465,7 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2018-04-03T17:59:36+00:00"
+            "time": "2018-04-05T18:22:27+00:00"
         },
         {
             "name": "su-sws/nobots",
@@ -8524,12 +8524,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-SWS/stanford_media.git",
-                "reference": "a1f39d81f9c843d3d5d130deb22372f47611fdc1"
+                "reference": "4819467490d95af230a6648653de44985fb15f18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-SWS/stanford_media/zipball/a1f39d81f9c843d3d5d130deb22372f47611fdc1",
-                "reference": "a1f39d81f9c843d3d5d130deb22372f47611fdc1",
+                "url": "https://api.github.com/repos/SU-SWS/stanford_media/zipball/4819467490d95af230a6648653de44985fb15f18",
+                "reference": "4819467490d95af230a6648653de44985fb15f18",
                 "shasum": ""
             },
             "require": {
@@ -8542,7 +8542,8 @@
                 "drupal/focal_point": "^1.0@beta",
                 "drupal/inline_entity_form": "~1.0@beta",
                 "drupal/linkit": "~5.0-beta6",
-                "drupal/video_embed_field": "~2.0-alpha1"
+                "drupal/video_embed_field": "~2.0-alpha1",
+                "enyo/dropzone": "^5.1"
             },
             "type": "drupal-custom-module",
             "notification-url": "https://packagist.org/downloads/",
@@ -8551,7 +8552,7 @@
             ],
             "description": "Stanford Media module for Drupal 8 Media management",
             "homepage": "https://github.com/SU-SWS/stanford_media",
-            "time": "2018-03-30T21:35:38+00:00"
+            "time": "2018-04-04T18:05:42+00:00"
         },
         {
             "name": "symfony-cmf/routing",

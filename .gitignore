@@ -15,6 +15,7 @@ docroot/core
 
 # Ignore paths that contain user-generated content.
 docroot/sites/*/files
+docroot/sites/simpletest
 /files-private
 docroot/sites/*/private
 
