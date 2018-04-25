@@ -81,7 +81,7 @@ AddEncoding gzip svgz
 
   # Development URL (add url when its available)
   RewriteCond %{ENV:AH_SITE_ENVIRONMENT} dev [NC]
-  RewriteCond %{HTTP_HOST} !mrc-dev\.stanford\.edu [NC]
+  RewriteCond %{HTTP_HOST} !^mrc-dev\.stanford\.edu [NC]
   RewriteRule ^(.*)$ https://mrc-dev.stanford.edu/$1 [R=301,L]
 
   # Redirect HTTP to HTTPS on cloud
