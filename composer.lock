@@ -2668,16 +2668,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.5.2",
+            "version": "8.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "bc21760d4be4ad117851809183c8d18880ab275a"
+                "reference": "b012f0ae51504880e920f2c6efdbdf03b6fe2129"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/bc21760d4be4ad117851809183c8d18880ab275a",
-                "reference": "bc21760d4be4ad117851809183c8d18880ab275a",
+                "url": "https://api.github.com/repos/drupal/core/zipball/b012f0ae51504880e920f2c6efdbdf03b6fe2129",
+                "reference": "b012f0ae51504880e920f2c6efdbdf03b6fe2129",
                 "shasum": ""
             },
             "require": {
@@ -2904,7 +2904,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2018-04-18T17:00:56+00:00"
+            "time": "2018-04-25T15:39:01+00:00"
         },
         {
             "name": "drupal/crop",
@@ -8450,12 +8450,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-HSDO/stanford_mrc.git",
-                "reference": "d3a15e1d3d1c21bc7455ad4119a346fab14e8e2a"
+                "reference": "fd59b98991f198214796fd1e8de0804cf334d15f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/d3a15e1d3d1c21bc7455ad4119a346fab14e8e2a",
-                "reference": "d3a15e1d3d1c21bc7455ad4119a346fab14e8e2a",
+                "url": "https://api.github.com/repos/SU-HSDO/stanford_mrc/zipball/fd59b98991f198214796fd1e8de0804cf334d15f",
+                "reference": "fd59b98991f198214796fd1e8de0804cf334d15f",
                 "shasum": ""
             },
             "type": "stanford-profile",
@@ -8467,7 +8467,7 @@
                 "source": "https://github.com/SU-HSDO/stanford_mrc/tree/8.x-1.x",
                 "issues": "https://github.com/SU-HSDO/stanford_mrc/issues"
             },
-            "time": "2018-04-24T23:06:52+00:00"
+            "time": "2018-04-25T17:13:39+00:00"
         },
         {
             "name": "su-sws/nobots",

@@ -6,18 +6,18 @@
 
 +  # Production URL (add url when its available)
 +  RewriteCond %{ENV:AH_SITE_ENVIRONMENT} prod [NC]
-+  RewriteCond %{HTTP_HOST} !hs-mrc-prod\.stanford\.edu [NC]
-+  RewriteRule ^(.*)$ https://hs-mrc-prod.stanford.edu/$1 [R=301,L]
++  RewriteCond %{HTTP_HOST} !mrc\.stanford\.edu [NC]
++  RewriteRule ^(.*)$ https://mrc.stanford.edu/$1 [R=301,L]
 +
 +  # Staging URL (add url when its available)
 +  RewriteCond %{ENV:AH_SITE_ENVIRONMENT} test [NC]
-+  RewriteCond %{HTTP_HOST} !hs-mrc-stage\.stanford\.edu [NC]
-+  RewriteRule ^(.*)$ https://hs-mrc-stage.stanford.edu/$1 [R=301,L]
++  RewriteCond %{HTTP_HOST} !mrc-stage\.stanford\.edu [NC]
++  RewriteRule ^(.*)$ https://mrc-stage.stanford.edu/$1 [R=301,L]
 +
 +  # Development URL (add url when its available)
 +  RewriteCond %{ENV:AH_SITE_ENVIRONMENT} dev [NC]
-+  RewriteCond %{HTTP_HOST} !hs-mrc-dev\.stanford\.edu [NC]
-+  RewriteRule ^(.*)$ https://hs-mrc-dev.stanford.edu/$1 [R=301,L]
++  RewriteCond %{HTTP_HOST} !mrc-dev\.stanford\.edu [NC]
++  RewriteRule ^(.*)$ https://mrc-dev.stanford.edu/$1 [R=301,L]
 +
 +  # Redirect HTTP to HTTPS on cloud
 +  RewriteCond %{HTTPS} off
