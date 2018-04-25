@@ -76,7 +76,7 @@ AddEncoding gzip svgz
 
   # Staging URL (add url when its available)
   RewriteCond %{ENV:AH_SITE_ENVIRONMENT} test [NC]
-  RewriteCond %{HTTP_HOST} !mrc-stage\.stanford\.edu [NC]
+  RewriteCond %{HTTP_HOST} !^mrc-stage\.stanford\.edu [NC]
   RewriteRule ^(.*)$ https://mrc-stage.stanford.edu/$1 [R=301,L]
 
   # Development URL (add url when its available)
