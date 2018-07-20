@@ -64,7 +64,7 @@
     }
   ],
   "require": {
-    "acquia/blt": "^9.0.5",
+    "acquia/blt": "9.x-dev",
     "cweagans/composer-patches": "^1.6",
     "composer/installers": "^1.4",
     "davidbarratt/custom-installer": "~1.0",
@@ -173,7 +173,14 @@
         "type:bower-asset",
         "type:npm-asset"
       ],
-      "drush/contrib/{$name}": [
+      "docroot/modules/custom/{$name}": [
+        "type:drupal-custom-module"
+      ],
+      "docroot/themes/custom/{$name}": [
+        "type:drupal-custom-theme"
+      ],
+      "drush/Commands/{$name}": [
+        "type:drupal-drush",
         "type:drupal-drush"
       ]
     },
@@ -231,5 +238,8 @@
     "drupal-scaffold": [
       "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
     ]
+  },
+  "config": {
+    "sort-packages": true
   }
 }

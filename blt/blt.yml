@@ -37,3 +37,5 @@ modules:
     enable: [acquia_connector, shield]
     uninstall: [devel, views_ui]
 simplesamlphp: 'TRUE'
+sites:
+  - default
