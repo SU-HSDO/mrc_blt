@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9529e53cea43978311a23fe513e8ede3",
+    "content-hash": "4a34311503f4d395b26cb982bf0f1f5b",
     "packages": [
         {
             "name": "acquia/blt",
@@ -8737,12 +8737,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-SWS/stanford_basic.git",
-                "reference": "4699af7212597b149c0d2497fdd024c523571da0"
+                "reference": "f31d712912e8ba960f5a8ba5fabb30c228f15872"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-SWS/stanford_basic/zipball/4699af7212597b149c0d2497fdd024c523571da0",
-                "reference": "4699af7212597b149c0d2497fdd024c523571da0",
+                "url": "https://api.github.com/repos/SU-SWS/stanford_basic/zipball/f31d712912e8ba960f5a8ba5fabb30c228f15872",
+                "reference": "f31d712912e8ba960f5a8ba5fabb30c228f15872",
                 "shasum": ""
             },
             "type": "drupal-custom-theme",
@@ -8755,7 +8755,7 @@
                 "source": "https://github.com/SU-SWS/stanford_basic/tree/8.x-2.x",
                 "issues": "https://github.com/SU-SWS/stanford_basic/issues"
             },
-            "time": "2018-07-27T17:44:57+00:00"
+            "time": "2018-05-23T22:52:25+00:00"
         },
         {
             "name": "su-sws/stanford_media",
